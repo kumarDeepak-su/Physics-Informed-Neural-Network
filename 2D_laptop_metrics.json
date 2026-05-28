@@ -1,0 +1,65 @@
+[
+  {
+    "method": "Initial",
+    "data": "-",
+    "snr_db": 29.255351630655923,
+    "rmse": 364.3043389487607,
+    "mae": 208.75465581845276
+  },
+  {
+    "method": "Reweighted L1 ADMM",
+    "data": "clean",
+    "snr_db": 40.50571425609665,
+    "rmse": 99.75765061368486,
+    "mae": 62.86960789182091
+  },
+  {
+    "method": "Hybrid ResCNN",
+    "data": "clean",
+    "snr_db": 40.848733648006686,
+    "rmse": 95.89484090098648,
+    "mae": 57.83139784321405
+  },
+  {
+    "method": "Physics-informed 2D U-Net",
+    "data": "clean",
+    "snr_db": 40.78846692885611,
+    "rmse": 96.56251729949412,
+    "mae": 58.723380717221
+  },
+  {
+    "method": "Attention ResUNet",
+    "data": "clean",
+    "snr_db": 40.64678856052432,
+    "rmse": 98.15049570477825,
+    "mae": 60.21223415891273
+  },
+  {
+    "method": "Reweighted L1 ADMM",
+    "data": "noisy",
+    "snr_db": 33.45384926223275,
+    "rmse": 224.6670910848842,
+    "mae": 142.21082196893462
+  },
+  {
+    "method": "Hybrid ResCNN",
+    "data": "noisy",
+    "snr_db": 38.04089737414015,
+    "rmse": 132.49120702888243,
+    "mae": 75.90440471610707
+  },
+  {
+    "method": "Physics-informed 2D U-Net",
+    "data": "noisy",
+    "snr_db": 38.629702027505274,
+    "rmse": 123.8074628952867,
+    "mae": 70.28665522004867
+  },
+  {
+    "method": "Attention ResUNet",
+    "data": "noisy",
+    "snr_db": 37.73949573721934,
+    "rmse": 137.16936826455688,
+    "mae": 81.13081559960995
+  }
+]
