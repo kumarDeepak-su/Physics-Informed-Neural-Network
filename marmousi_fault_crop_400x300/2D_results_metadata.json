@@ -8,7 +8,7 @@
     "tolerance": 1e-06
   },
   "benchmark": "marmousi-crop",
-  "command": "/Users/deepakkumar/Desktop/IGF_WORK/MARMOUSI/Reweighted_L1_Sparse/manuscript_V2/code/02_2D_Laptop_ADMM_PINN_ResCNN_Attention.py --benchmark marmousi-crop --run-tag marmousi_fault_crop_400x300 --epochs 80 --device cpu",
+  "command": "python marmousi_fault_crop_400x300/2D_ADMM_PINN_ResCNN_Attention.py --benchmark marmousi-crop --run-tag marmousi_fault_crop_400x300 --epochs 80 --device cpu",
   "description": "Reproducibility metadata for the ADMM-guided physics-informed 2D acoustic-impedance benchmark.",
   "device": {
     "cuda_available": false,

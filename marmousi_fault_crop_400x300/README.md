@@ -4,7 +4,7 @@ This folder contains the reproducibility files for the cropped Marmousi transfer
 
 Files:
 
-- `02_2D_Laptop_ADMM_PINN_ResCNN_Attention.py`: the executed Python script.
+- `2D_ADMM_PINN_ResCNN_Attention.py`: the executed Python script.
 - `2D_results.npz`: saved numerical arrays for the benchmark.
 - `2D_results_metadata.json`: run metadata, crop coordinates, software versions, parameters, metrics, timings, and output-file records.
 
@@ -17,7 +17,7 @@ Benchmark crop:
 Command used:
 
 ```bash
-python 02_2D_Laptop_ADMM_PINN_ResCNN_Attention.py \
+python 2D_ADMM_PINN_ResCNN_Attention.py \
   --benchmark marmousi-crop \
   --run-tag marmousi_fault_crop_400x300 \
   --epochs 80 \
