@@ -10,7 +10,7 @@ Files:
 
 - Main 2D synthetic acoustic impedance inversion code. It compares reweighted L1 ADMM, ResCNN, physics-informed 2D U-Net, and Attention ResUNet.
 
-The manuscript package, PDFs, result images, and metadata are intentionally not included here.
+The manuscript package,  and PDFs are intentionally not included here.
 
 Basic usage
 
