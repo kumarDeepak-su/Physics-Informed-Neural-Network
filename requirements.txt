@@ -1,0 +1,13 @@
+# Python environment used for the published results (seismic-ml, Python 3.11.15)
+# Pin loosely; the code is not sensitive to exact patch versions.
+numpy>=1.24
+scipy>=1.10
+torch>=2.0
+matplotlib>=3.7
+
+# Exact versions used to produce the manuscript results:
+#   python   3.11.15
+#   numpy    2.4.6
+#   scipy    1.17.1
+#   torch    2.10.0
+#   matplotlib 3.10.9
