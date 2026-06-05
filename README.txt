@@ -50,29 +50,7 @@ sweep, wavelet mismatch) and a five-seed confidence-interval analysis.
 ├── run_wavelet_mismatch.py            # wrong-wavelet robustness (freq + phase error)
 ├── run_multiseed_ci.py                # 5-seed confidence intervals (scratch + transfer)
 ├── generate_*.py                      # helper scripts for derivation/architecture figures
-│
-├── ADDM_PINN_RESULTS/                 # per-crop saved data, checkpoints, base figures
-│   ├── marmousi_fault_crop_400x300/   #   fault-zone crop (lateral ~8100, sample ~1500)
-│   └── marmousi_crop_400x300/         #   second crop (lateral 4500–4900, depth 1000–1300)
-│        ├── 2D_results.npz            #   Z_true, Z_init, S_clean, wavelet, dt, predictions
-│        ├── 2D_UNet_*_pretrain.pt     #   trained U-Net checkpoints (clean / noisy)
-│        ├── 2D_ResCNN_*_pretrain.pt   #   trained ResCNN checkpoints (clean / noisy)
-│        └── 2D_Fig*.png               #   manuscript figures for this crop
-│
-├── 2D_TV_BASELINE_RESULTS/            # outputs of run_2d_tv_baseline.py
-├── NOISE_SWEEP_RESULTS/               # outputs of run_noise_sweep.py
-├── NOISE_SWEEP_MATCHED_RESULTS/       # outputs of run_noise_sweep_matched.py
-├── WAVELET_MISMATCH_RESULTS/          # outputs of run_wavelet_mismatch.py
-├── MULTISEED_CI_RESULTS/              # outputs of run_multiseed_ci.py
-│
-└── manuscript/
-    ├── MANUSCRIPT_CORRECTED.tex       # LaTeX source
-    ├── MANUSCRIPT_CORRECTED.pdf       # compiled manuscript (32 pp)
-    └── IMAGES_MANUSCRIPT_ADMM_PINN/   # all figures referenced by the .tex
 ```
-
-Each `*_RESULTS/<crop>/` directory holds a `*.json` with the numeric metrics and
-a `*.png` of the corresponding figure.
 
 ---
 
