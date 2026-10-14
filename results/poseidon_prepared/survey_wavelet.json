@@ -1,0 +1,45 @@
+{
+  "survey_wavelet": "wavelets/survey_unit_peak.npy",
+  "rule": "mean of the five tied blocks' zero-phase statistical wavelets (v05), unit peak; seismic only",
+  "peak_hz": 44.189453125,
+  "band_hz": [
+    12.0849609375,
+    58.28857421875
+  ],
+  "sigma_op": 1.5104972132140895,
+  "sigma_op_f_hz": 44.650000000000006,
+  "sigma_ref_paper": 1.4531151851635615,
+  "s_n": 1.0805373274747496,
+  "ties_zero_phase_negated": {
+    "Kronos 1": {
+      "r0": 0.021199900867971584,
+      "r_best": 0.48667531704347194,
+      "lag_best_ms": 8.0,
+      "gain": 442165.5010690681
+    },
+    "Pharos 1": {
+      "r0": 0.4212273126085572,
+      "r_best": 0.47930802687061064,
+      "lag_best_ms": 4.0,
+      "gain": 358390.8763283611
+    },
+    "Poseidon 2": {
+      "r0": 0.24532616194984364,
+      "r_best": 0.3148318729076349,
+      "lag_best_ms": -4.0,
+      "gain": 412116.1814656871
+    },
+    "Proteus 1": {
+      "r0": 0.713628322557334,
+      "r_best": 0.713628322557334,
+      "lag_best_ms": 0.0,
+      "gain": 517114.91847545205
+    },
+    "Torosa 1": {
+      "r0": -0.3233635474433539,
+      "r_best": 0.8270440614304699,
+      "lag_best_ms": 12.0,
+      "gain": 286263.6901278986
+    }
+  }
+}

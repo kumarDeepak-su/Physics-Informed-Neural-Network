@@ -1,0 +1,225 @@
+{
+  "admm": {
+    "alpha": 5e-05,
+    "chunk": 64,
+    "epsilon": 0.0001,
+    "iterations": {
+      "clean": {
+        "at_limit": 0,
+        "max": 67,
+        "mean": 23.43
+      },
+      "noisy": {
+        "at_limit": 0,
+        "max": 94,
+        "mean": 50.48
+      }
+    },
+    "lambda_": 0.0001,
+    "max_iter": 200,
+    "mu": 5e-06,
+    "n_jobs": 32,
+    "tol": 1e-06
+  },
+  "command": "/net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/code/run_marmousi_full.py prepare --out /net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/runs/crop_fault_e4_check --marmousi-dir /net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/data/marmousi2 --trace-range 8100:8500 --sample-range 1500:1800 --epsilon 1e-4 --n-jobs 32",
+  "dt": 0.00125,
+  "f0": 30.0,
+  "inputs": {
+    "density.segy": {
+      "path": "/net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/data/marmousi2/density.segy",
+      "sha256": "5677ba1f2199d06440164da557966f2c25e2d1a572f3cfb8c37e2a40c16ba29e"
+    },
+    "vp.segy": {
+      "path": "/net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/data/marmousi2/vp.segy",
+      "sha256": "64a6bc60c5074e64a5ecf16e471077aaf47c3ad6c8be50aeb230800235dc82d3"
+    }
+  },
+  "local_snr_ratio": {
+    "centre": 8.850195263227269,
+    "crop_fault": 9.043400228340202,
+    "deep": 12.563238629857056,
+    "left": 9.155799907028863,
+    "middle": 8.570541508746688,
+    "right": 9.12167902226926,
+    "shallow": 3.7833323169547657,
+    "whole": 9.043400228340202
+  },
+  "metrics": {
+    "admm_clean": {
+      "centre": {
+        "rmse": 137.84164874529168,
+        "samples": 39900,
+        "snr_db": 35.812190033373014
+      },
+      "crop_fault": {
+        "rmse": 165.74127176638623,
+        "samples": 120000,
+        "snr_db": 33.50912604977975
+      },
+      "deep": {
+        "rmse": 158.68419425050678,
+        "samples": 40000,
+        "snr_db": 35.04101901391146
+      },
+      "left": {
+        "rmse": 161.5169150987842,
+        "samples": 39900,
+        "snr_db": 33.709074308756485
+      },
+      "middle": {
+        "rmse": 110.56237545793708,
+        "samples": 40000,
+        "snr_db": 37.352055794671045
+      },
+      "right": {
+        "rmse": 192.99986748467768,
+        "samples": 40200,
+        "snr_db": 31.38466570464523
+      },
+      "shallow": {
+        "rmse": 212.14569316482212,
+        "samples": 40000,
+        "snr_db": 29.271973132994013
+      },
+      "whole": {
+        "rmse": 165.74127176638623,
+        "samples": 120000,
+        "snr_db": 33.50912604977975
+      }
+    },
+    "admm_noisy": {
+      "centre": {
+        "rmse": 286.7256978003904,
+        "samples": 39900,
+        "snr_db": 29.450466849093374
+      },
+      "crop_fault": {
+        "rmse": 278.32554346727187,
+        "samples": 120000,
+        "snr_db": 29.006678073612097
+      },
+      "deep": {
+        "rmse": 335.1251710211151,
+        "samples": 40000,
+        "snr_db": 28.547551461086066
+      },
+      "left": {
+        "rmse": 273.7060862331623,
+        "samples": 39900,
+        "snr_db": 29.12774543931264
+      },
+      "middle": {
+        "rmse": 240.2686702901809,
+        "samples": 40000,
+        "snr_db": 30.610260117808114
+      },
+      "right": {
+        "rmse": 274.3812462540606,
+        "samples": 40200,
+        "snr_db": 28.328717433854354
+      },
+      "shallow": {
+        "rmse": 249.7146576877565,
+        "samples": 40000,
+        "snr_db": 27.855776817769087
+      },
+      "whole": {
+        "rmse": 278.32554346727187,
+        "samples": 120000,
+        "snr_db": 29.006678073612097
+      }
+    },
+    "initial_model": {
+      "centre": {
+        "rmse": 632.689485813523,
+        "samples": 39900,
+        "snr_db": 22.57598686989057
+      },
+      "crop_fault": {
+        "rmse": 627.6863753840153,
+        "samples": 120000,
+        "snr_db": 21.942885350409938
+      },
+      "deep": {
+        "rmse": 856.4839842388869,
+        "samples": 40000,
+        "snr_db": 20.397307507114082
+      },
+      "left": {
+        "rmse": 642.5422815420984,
+        "samples": 39900,
+        "snr_db": 21.715400311463494
+      },
+      "middle": {
+        "rmse": 625.8933376614407,
+        "samples": 40000,
+        "snr_db": 22.294196441233947
+      },
+      "right": {
+        "rmse": 607.455241618332,
+        "samples": 40200,
+        "snr_db": 21.425520243798225
+      },
+      "shallow": {
+        "rmse": 238.04048424894634,
+        "samples": 40000,
+        "snr_db": 28.27164102021611
+      },
+      "whole": {
+        "rmse": 627.6863753840153,
+        "samples": 120000,
+        "snr_db": 21.942885350409938
+      }
+    }
+  },
+  "noise_reference": "whole",
+  "noise_seed": 42,
+  "noise_snr": 8.0,
+  "noise_std": 0.0069350464667961844,
+  "nt": 300,
+  "nw": 96,
+  "nx": 400,
+  "outputs": {
+    "S_clean.npy": "69cc9149463476546a3d51a6faeb2fb9b7578aefb6b87dba0496a5f3b933beaf",
+    "S_noisy.npy": "711a131a709bcc6d15271368acc4c4553080f55c959341bbc46ab7ffcc701eee",
+    "Z_init.npy": "95e52c7c121048b56a474738e455caf009288c7d61b7a4f89b5448841a3a5bad",
+    "Z_rw_clean.npy": "f12dd43ab27ce2e32eb884edb16d667c084d6b0af698b96755fe75864e6f70f9",
+    "Z_rw_noisy.npy": "360ced4e2f6297ed377fee27c08cfdd6d842c835b0e607d1b4bcb15a314159a2",
+    "Z_true.npy": "bc0dd91115c1f4f26a0b644baa6f169f41584be9582eefa95d465f9621b0fa0b",
+    "admm_iters_clean.npy": "3e2eb0c25328f7d090d362f6c6bc8380a190ca1521bc11012e179ea169f129ae",
+    "admm_iters_noisy.npy": "2285fef50637bf495e5f1ffef5dde0985d9d09ef252c393903e165108055c325",
+    "wavelet.npy": "24f15becb398d0b6f97bd0348a1f34c9d177bd014e6a7460e87bee168283db78"
+  },
+  "sample_range": [
+    1500,
+    1800
+  ],
+  "smooth_sigma": [
+    8.0,
+    12.0
+  ],
+  "software": {
+    "cuda": "12.6",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "host": "t0015",
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.6",
+    "platform": "Linux-5.14.0-687.42.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.16",
+    "scipy": "1.17.1",
+    "torch": "2.10.0+cu126"
+  },
+  "timings": {
+    "admm_clean": 1.486480474472046,
+    "admm_noisy": 1.8500709533691406,
+    "forward_and_noise": 0.010723114013671875
+  },
+  "total_seconds": 6.850449562072754,
+  "trace_range": [
+    8100,
+    8500
+  ],
+  "warnings": [
+    "ADMM prior (noisy) is below the starting model in region 'shallow': 27.86 dB vs 28.27 dB"
+  ]
+}

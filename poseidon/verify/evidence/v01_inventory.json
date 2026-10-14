@@ -1,0 +1,3144 @@
+{
+ "item": "(1) inventory and SHA-256 of every raw file; contents of each well file; seismic block records",
+ "n_files": 189,
+ "total_bytes": 12188078766,
+ "inventory": [
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/provenance/SOURCE.md",
+   "bytes": 8736,
+   "mtime_utc": "2026-09-16T21:32:04Z",
+   "sha256": "6f5b43d72c675773bfc7df80f3afb67cabf9c74324faa6454a6340716e129fdb"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/reports/Poseidon_3D_Interpretation_Report_Rev.pdf",
+   "bytes": 15711448,
+   "mtime_utc": "2026-09-16T19:24:59Z",
+   "sha256": "39e4b8f89e3d057316c4ee8ab116227ae719caf9d7e70a2dde4a4d15c21b7dfa"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/reports/Poseidon_3D_Interpretation_Report_Rev.txt",
+   "bytes": 37379,
+   "mtime_utc": "2026-09-16T19:28:31Z",
+   "sha256": "aebd9e275a606b5313cb5f339be4f30a9c9dee6496d5eb29c52475ed1bd1fc05"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/reports/Processing_Report_Poseidon3D.pdf",
+   "bytes": 1870714,
+   "mtime_utc": "2026-09-16T19:24:52Z",
+   "sha256": "fc25087c745638af33711c18509212942a879cdd5c12368f8c9008163ef5c739"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/reports/Processing_Report_Poseidon3D.txt",
+   "bytes": 98695,
+   "mtime_utc": "2026-09-16T19:28:32Z",
+   "sha256": "5da230653ac27fdcfd9d265c064db61a0d1722f2a6a6bdb251f8d69e91b6dd2e"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/reports/SHA256SUMS.txt",
+   "bytes": 207,
+   "mtime_utc": "2026-09-16T19:24:59Z",
+   "sha256": "9b9a350d4d84813326a562bc738aeaa4bc0d52e463547642b4f94dbf9e7d0b29"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_blocks.py",
+   "bytes": 4368,
+   "mtime_utc": "2026-09-16T20:16:20Z",
+   "sha256": "28fbbd0c3ded9d0dcbf940f23b36d2b608ff504f7a7eb256c11f388f5d0ab0c2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_blocks_sync.py",
+   "bytes": 6415,
+   "mtime_utc": "2026-09-16T20:59:43Z",
+   "sha256": "81c6354e1b12dcb588a582a912d37e247f256d4dfd26eeb3b1bcbd6313d12329"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_near.log",
+   "bytes": 76070,
+   "mtime_utc": "2026-09-16T20:06:50Z",
+   "sha256": "49e2633fdea7a401eec5fde6070f71214268a8fe5e78205f4bcec2b6fc6913e1"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_near_run1.log",
+   "bytes": 70719,
+   "mtime_utc": "2026-09-16T20:00:19Z",
+   "sha256": "ee3768bb728b1c40ab0f117299c65b17fdf63f327d14cd6a4cbfb7e4b82d3a16"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_remaining.log",
+   "bytes": 193,
+   "mtime_utc": "2026-09-16T20:23:15Z",
+   "sha256": "c8982875c8a48d73347ba4bebbd62a45e785a25643adc4a0e060379b49b418e3"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_remaining_sync.log",
+   "bytes": 5279,
+   "mtime_utc": "2026-09-16T21:15:16Z",
+   "sha256": "f2ff70b6063d83e48b26067caefce74ff132c25015ceac9a3f42bad9762ea20c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/extract_sync_Zephyros_1.log",
+   "bytes": 514,
+   "mtime_utc": "2026-09-16T20:27:55Z",
+   "sha256": "cfcba47974dd7d8124bb52120ae365ecbf9cfc9d4c52db6ed8cdb9041454cab7"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Boreas_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T19:31:54Z",
+   "sha256": "a6fdc21b82bbd759c6ba1acd0783e0a4d602431f974ae36f82e19dd1e4a88888"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Boreas_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T19:31:54Z",
+   "sha256": "2d2737eebf6fc91c6e523583ca245efc6212e59dc0713157c52cb16eac90d317"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Crown_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T19:39:02Z",
+   "sha256": "f1d8a396e3ab1b8b35e335bca946c1d4e0c713c2828e38596e719207b5cccd48"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Crown_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T19:39:02Z",
+   "sha256": "8e37243e33daf6f59d37eb3ae3078ae8200f6ce851a0b60db802815e4f3fc65a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Kronos_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T19:45:53Z",
+   "sha256": "83363859fd048ccb0b42f93db92235d9a60de9421ad2dd5710a75e62ba5823db"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Kronos_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T19:45:53Z",
+   "sha256": "12629a5e1e7f6c1aca25a8694305b1c7a05db269cb6e33b92be5bc44809f7781"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Pharos_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T19:51:16Z",
+   "sha256": "c030aad90e9850cb9f22a85c7f7a76818f4a686e30f04eee69034ae53029fdb2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Pharos_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T19:51:16Z",
+   "sha256": "f5b97480aefa4c9d263d278571d23d14d31caa2642a3c0f610786ea8043f39f5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Poseidon_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T19:57:53Z",
+   "sha256": "6b39707f01ce86e94eb07da2059c68caa9f5945582b1754ae7e6f2ec57eb3053"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Poseidon_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T19:57:53Z",
+   "sha256": "eefe25d6b19e34b24340e4d9779ec8b7994346bdb88a6b504b45c45dad215758"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Poseidon_2.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T21:02:54Z",
+   "sha256": "7b6649c4f6f8f50ed0bc6a17a10f710d628683de67391fd94923dbf58b3a30ba"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Poseidon_2_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T21:02:54Z",
+   "sha256": "63c2b256a9120be17876f3c4ac6791e6221ba4c33cbfd93d4ae4ef283352f6e7"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Poseidon_North_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T21:06:14Z",
+   "sha256": "a979cac97b7d9ba5cfc4093fed04fc29d4e3d4779729dc6dacd515f9000f5dfb"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Poseidon_North_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T21:06:14Z",
+   "sha256": "cb4fdd27e3059868b3c76de27c301bdbb060827da8659405757e6193a7a71502"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Proteus_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T21:09:33Z",
+   "sha256": "a57b0c14154be85f9a54c9770b352ea5ebeda52c21cbd29cd2c14ab813687f70"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Proteus_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T21:09:33Z",
+   "sha256": "6f52846f92ff1865b82edba7e4e211ce9a63f01e1283a3cb3f633ca59defdc59"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Torosa_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T21:15:13Z",
+   "sha256": "e91eca6d20c85837cd8b0612daaec7f9c7ec314d2f1d86f85fd1b13617517966"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Torosa_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T21:15:13Z",
+   "sha256": "3b682e3fcf7d153f9384c6a59dfeff08d2df426e2fe7392b711bb05a3f66a975"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Zephyros_1.npy",
+   "bytes": 1180434560,
+   "mtime_utc": "2026-09-16T20:27:53Z",
+   "sha256": "da5ed8d028007bd553598bb605dff04b778d32812e855588ad732fecd8377613"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_Zephyros_1_headers.npz",
+   "bytes": 4719592,
+   "mtime_utc": "2026-09-16T20:27:53Z",
+   "sha256": "15be930bc15602fe71276aa5d555085b83c2b2cf58b4d5184d591c82e32ba304"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/near_stack_blocks_record.json",
+   "bytes": 6971,
+   "mtime_utc": "2026-09-16T21:15:15Z",
+   "sha256": "e1775cff80c9adcee5fb1e625c5a981fb5b6eb0c9e945d87d6f61e32b3c48ddd"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/rebuild_record.py",
+   "bytes": 2810,
+   "mtime_utc": "2026-09-16T20:34:12Z",
+   "sha256": "c44700fdd9024bf29e6986bdfe3dd35d97652ae1361ed9b7e4d25815d633a77d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/run_remaining.sh",
+   "bytes": 743,
+   "mtime_utc": "2026-09-16T20:16:20Z",
+   "sha256": "ad52e62e8b4ec7495d24699c666255ae0aa7cd1145f4f40ebb84e6f138e76887"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/run_remaining_sync.sh",
+   "bytes": 805,
+   "mtime_utc": "2026-09-16T20:59:43Z",
+   "sha256": "0ab04ed56b1f48471c94811d765611d9470bc3ec531a8e56fb0c9d143e25098c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/seismic/wells_for_extraction.json",
+   "bytes": 646,
+   "mtime_utc": "2026-09-16T19:27:43Z",
+   "sha256": "1b2dbb0da81e87f46644b4a9c02f66260a9e4bceb7cdf34c7d39e11d325023ba"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Drift_and_Sonic_Adjustment_Report.xls",
+   "bytes": 106496,
+   "mtime_utc": "2021-02-10T13:25:48Z",
+   "sha256": "fb46eed0b7bb61b4e8a97727d5c95253bf596b3e4a85e3f8104ae3739ce28b84"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Logs_depth.las",
+   "bytes": 5418581,
+   "mtime_utc": "2018-01-29T07:00:18Z",
+   "sha256": "3cc60bd655b7ebec945d9ce554e57269e2bf248c11f3e44e853372624a3026e0"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+   "bytes": 851161,
+   "mtime_utc": "2018-01-29T06:18:55Z",
+   "sha256": "5d5e64ff0ae21d48448d34e383d946032fcd5689393442e390cdcf5feee433c2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Synthetics.las",
+   "bytes": 851592,
+   "mtime_utc": "2018-01-29T06:18:55Z",
+   "sha256": "9b897978c69ad13e23358e2d80500905d84666e4256e41569f1e1ee82b6f4ce6"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Time_to_Depth_Report.xls",
+   "bytes": 89088,
+   "mtime_utc": "2026-09-16T20:02:23Z",
+   "sha256": "1a16aa4109aa091396beaf5271a1c722b916900573283063e5d17f55e6167c34"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_VSP_Report.pdf",
+   "bytes": 4938462,
+   "mtime_utc": "2018-01-29T06:32:09Z",
+   "sha256": "884dacbcaf279c09ac2a21fafd73bb298a94fedad03ae13d461451d0443bf943"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Velocity_Report.xls",
+   "bytes": 92160,
+   "mtime_utc": "2020-11-30T09:47:11Z",
+   "sha256": "8cad06549df07eff276244e8120a5c06bfb89a476c7b9c518a76ee28011ecde9"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Well_Seismic_Report.xls",
+   "bytes": 120320,
+   "mtime_utc": "2019-11-02T16:41:49Z",
+   "sha256": "13edf97384e9b56726a1af504a6bf90cce18f6de3849c517a0fa359f62ca6b59"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_corstk.sgy",
+   "bytes": 166040,
+   "mtime_utc": "2018-01-29T06:18:58Z",
+   "sha256": "89f416b0c8db81b78a5dbf42159ecf8555e6e66dade33eacf9c57b81f4ec5720"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_corstkf.sgy",
+   "bytes": 166040,
+   "mtime_utc": "2018-01-29T06:18:59Z",
+   "sha256": "ba7db14c90ab67e73e202336176dca81db86a4944ab3e5c60d283856e9d65afc"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/VSP/VSI_003_Stack.txt",
+   "bytes": 28749,
+   "mtime_utc": "2018-01-29T06:18:58Z",
+   "sha256": "d4f8757211bb7ecb5206ce31362efe72365632ef9dfbabcb1daa4760734c95c4"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/wireline/GR to Surface VSIT_327LUC.las",
+   "bytes": 1674832,
+   "mtime_utc": "2018-01-29T06:59:11Z",
+   "sha256": "2cb11e318da0acf92a62cd3815d5334f2038b2d9719cba12e94534791a4f3089"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/wireline/Run 1 CMR-LDS-CNT-GR Main Pass _268PUC.las",
+   "bytes": 1143099,
+   "mtime_utc": "2018-01-29T06:54:24Z",
+   "sha256": "6bf21786f0561a91e07f7f3603d42809d5f33757850f30c2f022081aed9302f3"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/wireline/Run 2 OBMI-SS-PPC-GR Main Pass 112PUC.las",
+   "bytes": 1614659,
+   "mtime_utc": "2026-09-16T20:02:18Z",
+   "sha256": "1f04f9ec40b17a85ff737781c768c5b1c9a12983482d6a8735845db0853d64e1"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Kronos_1/wireline/Run 3 AIT-ECS-HNGS-GR Main Pass 096PUC.las",
+   "bytes": 2000729,
+   "mtime_utc": "2018-01-29T06:58:57Z",
+   "sha256": "1b0ae5853395ce45810cc957e2f63a46fc8d27949cbf85e50784801ae379fceb"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP-Pharos-1_QC_VSP_Corridor_Stack.sgy",
+   "bytes": 206040,
+   "mtime_utc": "2018-02-26T11:40:30Z",
+   "sha256": "e9d40c3ce687ad56bb97f29086b75bcdc583d7a3f990d4e666f8005ff5170095"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP-Pharos-1_QC_VSP_Corridor_Stack.txt",
+   "bytes": 140147,
+   "mtime_utc": "2018-02-26T11:40:30Z",
+   "sha256": "5e47f9647e31d0965c5563efc77768f100c4e72d08140bd5d0d04cd8ca0d2d64"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP-Pharos-1_QC_VSP_TimeDepthListing.xlsx",
+   "bytes": 25923,
+   "mtime_utc": "2021-03-12T08:07:51Z",
+   "sha256": "2ea3275f28e84901bd5fa8c7d2be8c1cb00052cca584f62f3e80004ec519edeb"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_QC_VSP_GR_log.las",
+   "bytes": 993247,
+   "mtime_utc": "2018-02-26T11:40:33Z",
+   "sha256": "1dc43f05ecc0121e019683dab64ea263ec10406d67cc36e7d6dca1f64b681490"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_QC_VSP_Report.pdf",
+   "bytes": 13020234,
+   "mtime_utc": "2018-02-26T11:47:51Z",
+   "sha256": "929858a101112b7155d28569babfaacb46ab01303122c2f2d7f680914fa019bd"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_VSP_Processing_Report_short.pdf",
+   "bytes": 15545190,
+   "mtime_utc": "2018-02-26T11:48:05Z",
+   "sha256": "267da883aa4019d1115f98e5390f46e9fe7538d892274b5afc68f200c6152c1c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_corstk.sgy",
+   "bytes": 206040,
+   "mtime_utc": "2018-02-26T11:40:30Z",
+   "sha256": "f5996c3e885b2280ce65287ff5a24d0e8dc619f173698f039bbbe3edd574ee5d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_logs_depth.las",
+   "bytes": 5317220,
+   "mtime_utc": "2018-02-26T11:47:45Z",
+   "sha256": "6d7b29a26b3f1f695b21fb7ac9a565ae6bcf085b6c65c24a3abdb9bdfea0de2c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+   "bytes": 837760,
+   "mtime_utc": "2018-02-26T11:40:33Z",
+   "sha256": "b04fbe5951f185fd259822f65b8d8f6a1741fc141261d50a161ac5f02bc8a2de"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_synthetics.las",
+   "bytes": 1344196,
+   "mtime_utc": "2018-02-26T11:47:59Z",
+   "sha256": "cb62ea604b69ec9a42848d9eee68618c31abc031c5eb6b7462d6dc32aa68f688"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/survey/Pharos-1_Definitive Survey Report_TD 5220m.xlsx",
+   "bytes": 43146,
+   "mtime_utc": "2026-09-16T20:02:13Z",
+   "sha256": "cf3513426258bcc6b4cb97fc0b5f93ae9c63f75d2d7f9768bf746d398b11ae09"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/wireline/COP_Pharos-1_S1R2_NGIT_PPC_MAST_HNGS_MainPass.las",
+   "bytes": 12243947,
+   "mtime_utc": "2026-09-16T20:02:01Z",
+   "sha256": "3a3f51e522195c94eabb9ce55764de4f789f07f36ff5fed5cfe5875a4e6ac888"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/wireline/COP_Pharos-1_S2R1_Main_Pass.las",
+   "bytes": 6455686,
+   "mtime_utc": "2018-02-26T11:55:54Z",
+   "sha256": "604ea6f13564c54766a5fa9f0ad86e0f6114b5169ae6a49865503a76ec626af1"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/wireline/COP_Pharos-1_S2R2_Main_Pass.las",
+   "bytes": 4296073,
+   "mtime_utc": "2018-02-26T11:55:58Z",
+   "sha256": "096418424d25e316940f7e5238de7cda3a631795aa5b7093f654356de29a5b83"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/wireline/COP_Pharos-1_S2R2_SonicScanner.las",
+   "bytes": 154898,
+   "mtime_utc": "2026-09-16T20:01:49Z",
+   "sha256": "41dcc326f2e31a9652e013d7f68a122602ee7e10855a7ae8c77b1123187bff00"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Pharos_1/wireline/COP_Pharos-1_SonicScanner_L0_PnS_SLB.las",
+   "bytes": 616187,
+   "mtime_utc": "2026-09-16T20:02:08Z",
+   "sha256": "7c84bd6864a4572d889f918417baac0aea61ed9e867af75004fffe954bc3e10d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/VSP/P1_R20.sgy",
+   "bytes": 137880,
+   "mtime_utc": "2026-09-16T20:21:10Z",
+   "sha256": "11b6694733754155b64c0e80a37425b2b0ed5aa980ee9d9f929a177397744c58"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/VSP/P1_corstk.sgy",
+   "bytes": 206040,
+   "mtime_utc": "2018-01-29T06:16:46Z",
+   "sha256": "bdaf104fa4dc0f44ef06a69793c34ea247a5b203bdb457f975c539fc9636d951"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/VSP/P1_corstk_full.sgy",
+   "bytes": 49224,
+   "mtime_utc": "2018-01-29T06:16:46Z",
+   "sha256": "6d26feb134e555ccab5a0eb99d01fba844af3aefd8f6ea1b3258c6e7c9ebad42"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/VSP/P1_corstk_near.sgy",
+   "bytes": 206040,
+   "mtime_utc": "2018-01-29T06:16:45Z",
+   "sha256": "386cde692ffa9dc906414787a3b4b3be1a8587c57fd279b0d76c02cd983e6416"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/VSP/P1_corstkf.sgy",
+   "bytes": 206040,
+   "mtime_utc": "2018-01-29T06:16:47Z",
+   "sha256": "23a44c49ed7716d75d5d66c68d2614f46ab71b7913aaf64e0abf619ef6b58ebe"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/reports/Poseidon1_VSP_Table33_time_depth.csv",
+   "bytes": 24063,
+   "mtime_utc": "2026-09-16T20:24:14Z",
+   "sha256": "ee53a466b59b01dbc20a52561b43f4f98ddd7d295a18d7af0123a366b1194400"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/reports/Poseidon_1_WCR_Volume_2_Interpretive_Data.pdf",
+   "bytes": 28321673,
+   "mtime_utc": "2026-09-16T20:21:06Z",
+   "sha256": "30ed41d8a78485acc1777c695f7ca9271dcd3435dffae628cae4cc57a7d34eac"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/reports/WCR_Vol2_VSP_appendix_pages211-287.txt",
+   "bytes": 144134,
+   "mtime_utc": "2026-09-16T20:23:21Z",
+   "sha256": "f931c785f1e9bf3aa4957c0e2bd9f08fcc8b6681f59d0494101995b4ffff59cb"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/ConocoPhillips_Poseidon-1_Sonic_Scanner_P&S_S2R3.las",
+   "bytes": 529351,
+   "mtime_utc": "2018-01-29T06:16:54Z",
+   "sha256": "411a4ec57ddf2da0d25c8788a4fb02168a931b2408af7b7209392d528507bc38"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/Poseidon-1_Suite1_Run1_FMI-LDS-CNL-GR_ML.las",
+   "bytes": 158741,
+   "mtime_utc": "2018-01-29T06:16:48Z",
+   "sha256": "82da09a06a637a516d605e1b8fcbc52af0b138abc7cadc225a140666bb422ad2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/Poseidon-1_Suite1_Run1_GR_log_till_3800m.las",
+   "bytes": 55702,
+   "mtime_utc": "2018-01-29T06:16:53Z",
+   "sha256": "4f2e05e52ab88622ddf2ea067b46b680a5f086c23355dcea9b8e418f080ef728"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/Poseidon-1_Suite2_Run1_CMR-LDS-CNL-GR_ML.las",
+   "bytes": 1086708,
+   "mtime_utc": "2018-01-29T06:33:54Z",
+   "sha256": "0d7027648157b0a0a634f5125ecdd564e0311c60c9207224dfdf628df3d84444"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/Poseidon-1_Suite2_Run2_AIT-ECS-HNGS-GR_ML.las",
+   "bytes": 1929752,
+   "mtime_utc": "2018-01-29T06:34:05Z",
+   "sha256": "0f5278525a7967c8c5a13277f757d3e346c3abbdd98c0e5a828f1ecd1d2523d6"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/Poseidon-1_Suite2_Run3_OBMI-SS-GR_ML.las",
+   "bytes": 934097,
+   "mtime_utc": "2018-01-29T06:16:57Z",
+   "sha256": "d523e9fbd23ff335fcb6fa0e9471bd81e06a6b0f9d6471d68db36fad8436a2de"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_1/wireline/Read Me.txt",
+   "bytes": 530,
+   "mtime_utc": "2018-01-29T06:15:02Z",
+   "sha256": "8ccc6ada08badf330f2b5950704c400f5eb460c49ad75d5163d0d446b9e1a1a5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_Drift_and_Sonic_Adjustment_Report.xls",
+   "bytes": 100864,
+   "mtime_utc": "2026-09-16T20:05:49Z",
+   "sha256": "b1a1c2412f27a1edc53cd961061f220df14f8a4c84cf2e81e1e1973822d9b52b"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_VSP_Report.pdf",
+   "bytes": 3974288,
+   "mtime_utc": "2026-09-16T20:06:26Z",
+   "sha256": "b8fc53346ee49928ee402d4c45b5c019e1249e7374486a11129dbe7ef962d6ad"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_Velocity_Report.xls",
+   "bytes": 90624,
+   "mtime_utc": "2026-09-16T20:05:54Z",
+   "sha256": "03baea32b2c725f725570ffa8c5ccef9cb985306c9449ce17f7a47b13e5df4f4"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_Well_Seismic_Report.xls",
+   "bytes": 111104,
+   "mtime_utc": "2026-09-16T20:06:00Z",
+   "sha256": "6db9c2e31f0e62e3dd72cbcdf6ff0288b618701e58af02c796cb62fb0b7c19a7"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_corstk.sgy",
+   "bytes": 206040,
+   "mtime_utc": "2026-09-16T20:06:06Z",
+   "sha256": "b2c1f3e9a52f10e1ed9ea1e494c321f0928499beebbfacceea8ae5439e29b4ba"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_corstk.txt",
+   "bytes": 49043,
+   "mtime_utc": "2026-09-16T20:06:11Z",
+   "sha256": "30410b11c0013dbb0a1281f565d4c5ad54e3c24ecb5303e3134e6ec2f6c3492c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_logs_depth.las",
+   "bytes": 4964848,
+   "mtime_utc": "2026-09-16T20:05:33Z",
+   "sha256": "63027c85fb236112e21bcde7334cf44437de39f104035e21a8c4622f6774c082"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+   "bytes": 812688,
+   "mtime_utc": "2026-09-16T20:05:38Z",
+   "sha256": "3d0bf6f79c6862805ba6dc88b3541d17ed90e4ca6afeeb4d928225d0aa0d4649"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_synthetics.las",
+   "bytes": 821046,
+   "mtime_utc": "2026-09-16T20:05:44Z",
+   "sha256": "e4ee16fe4532d0928a231ed9977465e5c75c0e1c89d2906c89a3cea0441b0f72"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/wireline/CoP Poseidon-2 SonicScanner 6in DT P&S.LAS",
+   "bytes": 406706,
+   "mtime_utc": "2026-09-16T20:18:28Z",
+   "sha256": "7bd0c0589c060b3cf5b9bfc69ed53d3a4db04c7b400fb29552316245a4b40192"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run6_LDS-CNL-GR_Merged_ML.las",
+   "bytes": 488164,
+   "mtime_utc": "2026-09-16T20:18:35Z",
+   "sha256": "b3015c754a243c0d178f28a95a56e542153dc36b051c4352fd79d399ce55ff9f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run7_AIT-ECS-LDL-CNL-GR_Merged_ML.las",
+   "bytes": 1839484,
+   "mtime_utc": "2026-09-16T20:18:50Z",
+   "sha256": "c636b1e00d00be01bdea1b5fa6922add6a8607c117f999c43ff1ae22e2b22e9c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run8_VSP_VSI4-GR_Data.xls",
+   "bytes": 32256,
+   "mtime_utc": "2026-09-16T20:18:55Z",
+   "sha256": "04b794d6965fd92138d806c0157443bfb748ed98a2873424a96de9da5b930225"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/LWD/COP_Nth1_Poseidon Nth1_VISION Service_RM_508.34-5287.00mMD_I.las",
+   "bytes": 9726641,
+   "mtime_utc": "2018-01-29T06:27:37Z",
+   "sha256": "e5fbda1778021c69d91ad870853e157440e556dc50ae541eb60f13dde2b063a5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/LWD/COP_Nth1_Poseidon Nth1_VISION Service_RM_508.34-5287.00mMD_N.las",
+   "bytes": 9726641,
+   "mtime_utc": "2018-01-29T06:27:42Z",
+   "sha256": "f266abaf7695d17443b8b1059fce104e6aa094411461f72e412ee49d50c73206"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD.PDF",
+   "bytes": 16230648,
+   "mtime_utc": "2018-01-29T06:27:02Z",
+   "sha256": "905658c0fd5eea92ddc610a99a6f2447eadbcf53dd775e8a39f732f2651bf4b2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD.las",
+   "bytes": 305635,
+   "mtime_utc": "2018-01-29T06:15:35Z",
+   "sha256": "1e48a56c2e465562449e4ac2341f2591c176aebd859c4b7c9a4fdc12f71b3256"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD_processed.las",
+   "bytes": 305635,
+   "mtime_utc": "2026-09-16T20:19:17Z",
+   "sha256": "2773f0c0ddccac7d1f0c913882a47381a08136c316587439eee6ff8c9f1875cf"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/reports/Pos North1_Basic WCR rev0.pdf",
+   "bytes": 31367910,
+   "mtime_utc": "2018-01-29T06:23:13Z",
+   "sha256": "51fe53f71533bcb8ad513a17d1025e4f11e18f733db0887c5a2f1c6cc064c0dc"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/survey/COP_Nth1_Definitive Survey Report_TD 5287m.xlsx",
+   "bytes": 45259,
+   "mtime_utc": "2026-09-16T20:19:11Z",
+   "sha256": "cffddfb7ea70b13912b69d5a61c8c7f0f259faf6fdaee21efe62721ff825383d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/wireline/COP_Poseidon North-1_SSCAN_L0_PnS_SLB.las",
+   "bytes": 891918,
+   "mtime_utc": "2026-09-16T20:19:06Z",
+   "sha256": "3f9dadfadeb45f2826b69430c6a482b18bc32c82f9ac17a10415f2afa3c07acd"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Poseidon_North_1/wireline/COP_WL_Poseidon_North-1_S1R1_ConPr_R1L2Up_MainPass_SC.las",
+   "bytes": 31183042,
+   "mtime_utc": "2026-09-16T20:20:40Z",
+   "sha256": "5082406af127e079060cedc618e11a782cfe0e38d2d8b1a2ef06999d8ac192ee"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/LWD/ConocoPhillips_Proteus1_Final.las",
+   "bytes": 5013435,
+   "mtime_utc": "2026-09-16T20:19:24Z",
+   "sha256": "8d9831dae159a0cbd475a8c497039aadb1cb583897e4bf32d349bcc4b84e1a7d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/LWD/ConocoPhillips_Proteus1_ST1_Fina.las",
+   "bytes": 9678273,
+   "mtime_utc": "2026-09-16T20:19:35Z",
+   "sha256": "aedc729609fba63f6d72fe841d66992dd1f7aa0c2d50eece7abdb144237fb344"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/LWD/ConocoPhillips_Proteus1_ST2_Final.las",
+   "bytes": 10348738,
+   "mtime_utc": "2026-09-16T20:19:51Z",
+   "sha256": "4e4ed3cee6d5d174a6090ada9a7e988dd6c433ba23bbc305f3f9b07cee828162"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_A1_Well_Seismic_Report_Final.xls",
+   "bytes": 98816,
+   "mtime_utc": "2026-09-16T20:19:56Z",
+   "sha256": "8f81b4edcf5dd6aaea00bfea36f5124dde6fc64775a8592ce9315dfbfb1f1f77"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_A2_Drift_Report_Final.xls",
+   "bytes": 93184,
+   "mtime_utc": "2026-09-16T20:20:00Z",
+   "sha256": "baeb5528e48b46b75c586aee2e5cf77c11d279793721b07661f399dd429a63c7"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_A3_Velocity_Report_Final.xls",
+   "bytes": 89088,
+   "mtime_utc": "2026-09-16T20:20:05Z",
+   "sha256": "0364fb94a376bfd511c56d8e02f0e9d1986deae37a44f9047786f88e236aa8cc"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_VSP_Processing_Report.pdf",
+   "bytes": 13136316,
+   "mtime_utc": "2026-09-16T20:21:04Z",
+   "sha256": "5da70f004063d9ecee98973ef9ff12a7a273e09a2ef1ec85ef92e73068edf43b"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_corstk.txt",
+   "bytes": 50902,
+   "mtime_utc": "2026-09-16T20:21:06Z",
+   "sha256": "5ee413a51e96e9879f2bc921f5b96205664e87cd694ccb9b8b557a8cd002a917"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_depth_MD.las",
+   "bytes": 7058095,
+   "mtime_utc": "2026-09-16T20:20:21Z",
+   "sha256": "ac963d2a7ea90fcc91fef1e9f28946b054a16fe1475c1cd6f2c9eac57f2415df"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_depth_TVDSS.las",
+   "bytes": 5377523,
+   "mtime_utc": "2026-09-16T20:20:42Z",
+   "sha256": "2f5b94e99cc1ecfe9b1f86eb776a76a6b2fed87801a94f35c3d34d36963d51e1"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+   "bytes": 793306,
+   "mtime_utc": "2026-09-16T20:20:47Z",
+   "sha256": "399737213a350b6db65eacc6de9437a6d7989ecec7c5eebcb66a6d16708b4a92"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_synthetics.las",
+   "bytes": 1344445,
+   "mtime_utc": "2026-09-16T20:21:00Z",
+   "sha256": "61300870a74f943f596dfad6ce78f0228306a27069e2c4473560d2694805c08a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_synthetics_well_wavelets.ascii",
+   "bytes": 19195,
+   "mtime_utc": "2026-09-16T20:21:12Z",
+   "sha256": "096c14873e321f1923ae08604530c591c0a2a1f8c72c52efe76105d521b6e79d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/survey/Proteus Surveys.xlsx",
+   "bytes": 88747,
+   "mtime_utc": "2026-09-16T20:21:18Z",
+   "sha256": "82cc56ecca0f9e64bf7915095de0bd3d884315987b7203e5935c1a4446c7bdd5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/survey/Proteus-1 ST2_Definitive Survey Report_TD 5250m.xlsx",
+   "bytes": 48546,
+   "mtime_utc": "2026-09-16T20:21:23Z",
+   "sha256": "d8e1994295e27da9492648ba0d40de71d7beaf7a4192d4aacd5d448a5d1535be"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/wireline/COP_Proteus-1ST2_CH_QSLT_PnS_Processed_PTS.las",
+   "bytes": 141821,
+   "mtime_utc": "2026-09-16T20:21:33Z",
+   "sha256": "506ef02a4ab6fcfe4d747acd1f799dd430aa37784850077e985cf3cd2b3909a2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Proteus_1/wireline/COP_Proteus-1ST2_OH_QSLT_PnS_Processed_PTS.las",
+   "bytes": 159410,
+   "mtime_utc": "2026-09-16T20:21:28Z",
+   "sha256": "86c392d8942bd1c00adb8392102d741b58cccc96a281a88278c69ef15a81d877"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Boreas1Decim.LAS",
+   "bytes": 1115490,
+   "mtime_utc": "2026-09-16T20:09:09Z",
+   "sha256": "b9dde09e42269b7dc75b18d2f9e4362ddbfa3e9e639a68f535da01ca4964f134"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Kronos1Decim.LAS",
+   "bytes": 1070630,
+   "mtime_utc": "2026-09-16T20:09:24Z",
+   "sha256": "b4a1660954ec1cc192f44069296678e8409ca25424fe0a6ae1b78d50ca4c812f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Pharos1Decim.LAS",
+   "bytes": 943140,
+   "mtime_utc": "2026-09-16T20:09:43Z",
+   "sha256": "40b0eb346a8016bbd75f0009df83c825b09524ab2728b7e7317a9be5d553499f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Poseidon1Decim.LAS",
+   "bytes": 1119115,
+   "mtime_utc": "2026-09-16T20:09:56Z",
+   "sha256": "ea89921885f461bcc1929f1187db08fa8524b38efc27ff4d8601350ee2972185"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Poseidon2Decim.LAS",
+   "bytes": 1083261,
+   "mtime_utc": "2026-09-16T20:10:09Z",
+   "sha256": "3931de5d92973bd8b6fa36f17b2469262aef6ba6086fba68a5d58e9d5f758cfd"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/PoseidonNorth1Decim.LAS",
+   "bytes": 1058391,
+   "mtime_utc": "2026-09-16T20:10:21Z",
+   "sha256": "67340f79405cdfd2b997ec381c4259ff0efaa86b3a4183ba435f6654d8c91f12"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Proteus1Decim.LAS",
+   "bytes": 1062753,
+   "mtime_utc": "2026-09-16T20:10:39Z",
+   "sha256": "e290f0b260f940464a8c6502b5441d8cb48e544a5bc5369ab4d3e56fa6c0d936"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/README_FIRST.txt",
+   "bytes": 612,
+   "mtime_utc": "2026-09-16T20:07:24Z",
+   "sha256": "ea94d8d7f14af2689ab595c8a7d527a45f6bd1081e073f6bf0a583dab4e64ea8"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/Torosa1LDecim.LAS",
+   "bytes": 918942,
+   "mtime_utc": "2026-09-16T20:10:45Z",
+   "sha256": "df5550eb463b6e56d77b95d14dc7b5e02b54f124d05a9152e212a04373ea075d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Spliced_occam/public wells poseidon 3D Petrel project.zip",
+   "bytes": 1715235,
+   "mtime_utc": "2026-09-16T20:19:08Z",
+   "sha256": "baf21d9f2ba0bfcc2e442a986fa2931d5519ea7844ab21aee2990a6969baa2f9"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/LWD/Torosa-1_REC_DDS_550-4685mMD.las",
+   "bytes": 5571224,
+   "mtime_utc": "2026-09-16T20:08:13Z",
+   "sha256": "d4678e8a48b9703378b3bc107dd5c56f7622eab2056dd10568e936b66cce7cae"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/LWD/Torosa-1_REC_DGR-EWR-NUKE-BAT_550-4685mMD.las",
+   "bytes": 10246168,
+   "mtime_utc": "2026-09-16T20:07:49Z",
+   "sha256": "3c006f51a5ca53db379d3b941be221f2feee30424160fa77d6be354fbe2085d2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/TZV_DEPTH_CHECKSHOT.PDF",
+   "bytes": 126214,
+   "mtime_utc": "2026-09-16T20:19:51Z",
+   "sha256": "803916f45d4e253a97b7cab9102151fa41f0bfa1a1ffd411dde7168ad7a523d1"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/TZV_DEPTH_CHECKSHOT.XLS",
+   "bytes": 49664,
+   "mtime_utc": "2026-09-16T20:19:43Z",
+   "sha256": "ffe61b7a8f4e36d3a79e40633aae0e422a0087be2e90467d666e516472c57f79"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+   "bytes": 3446624,
+   "mtime_utc": "2026-09-16T20:20:03Z",
+   "sha256": "7ae6ae68186de2a75dc3f72acd7b2541989623463320c6176c5cd51fe6b1e98d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/TZV_DEPTH_GEOMETRY.XLS",
+   "bytes": 27136,
+   "mtime_utc": "2026-09-16T20:20:07Z",
+   "sha256": "7dc2d4d2dac2c9b8971be00ee751c26434b2d881f7669ab4d461efc69bb9a6c5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/TZV_TIME_INDX.XLS",
+   "bytes": 260096,
+   "mtime_utc": "2026-09-16T20:20:14Z",
+   "sha256": "047fff83602fe8380c3408531a67ffd1db3425c6e7db01505afc45740642a218"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/TZV_TIME_SYNTHETICS_1.LAS",
+   "bytes": 510646,
+   "mtime_utc": "2026-09-16T20:20:22Z",
+   "sha256": "2af1e564424e952ea5f8fce080dccad23c59e1ad4492de64c6e5668bf5036ec7"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/VSPZO_COMPUTED_DCU_ZPH_90.SEGY",
+   "bytes": 2432400,
+   "mtime_utc": "2026-09-16T20:20:38Z",
+   "sha256": "77db7a2469a7d56a784620185c4ace552ad3e27db8876af8c073901cbf840b0b"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/VSP/VSPZO_COMPUTED_INF.ASC",
+   "bytes": 3695,
+   "mtime_utc": "2026-09-16T20:20:27Z",
+   "sha256": "a946acb499a7d40bc71bbfdc5406d851591dda3419fabcdaf41a92ec2db6f743"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/survey/ENO407785_Torosa_1_Surveys_4685mMD.txt",
+   "bytes": 15103,
+   "mtime_utc": "2026-09-16T20:08:40Z",
+   "sha256": "8fcb247d019c9e6d8703d079e605860fe91ef14d5394f22fbbf311a7580e8afb"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/survey/Inclination_Survey.txt",
+   "bytes": 2616,
+   "mtime_utc": "2026-09-16T20:08:53Z",
+   "sha256": "f672baf8bde4b921d8b08e11b52e8ac86ad3ad9782069db2557e50ee79d0737a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/survey/Torosa-1_Surveys_4685mMD.txt",
+   "bytes": 11791,
+   "mtime_utc": "2026-09-16T20:08:22Z",
+   "sha256": "2ad3d4d91552347e224df59df655863afa882b75e70fb90556415d000cd0831c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Torosa_1/wireline/Torosa-1_Nan Hai IV_Suite 1 Run 1_ Main Log_HRLA_TLD_MCFL_CNL_4680m-3526m.las",
+   "bytes": 3123731,
+   "mtime_utc": "2026-09-16T20:07:28Z",
+   "sha256": "412b0b33d7113256b3622f535d7e841e00a79bdd2381fd7a6a092da1aacbfda3"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/Velocity/velocity explanation.txt",
+   "bytes": 15792,
+   "mtime_utc": "2026-09-16T20:25:26Z",
+   "sha256": "c454a49296ea39add1705a4ad008a8f3e3555d44311fd8d14961e41891f9a81d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/curl_fetch.py",
+   "bytes": 2894,
+   "mtime_utc": "2026-09-16T20:18:23Z",
+   "sha256": "82f0a61cfd206a120600e805779bf85b048fc590931a8a3d241135c873c471e5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch1.log",
+   "bytes": 4088,
+   "mtime_utc": "2026-09-16T19:53:18Z",
+   "sha256": "d6060a225156e8cf873e1a258cc3112f5bc11ead7683c61b5a90f2ba961892a2"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch2.log",
+   "bytes": 8072,
+   "mtime_utc": "2026-09-16T19:58:19Z",
+   "sha256": "39941351f4914701fd18aac8130613d6696ecd17a0a7c32b2fac0e8d84d8bd93"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch3.log",
+   "bytes": 614,
+   "mtime_utc": "2026-09-16T19:58:10Z",
+   "sha256": "cb8c826364d5de06ef9a1e9d21182c2554ad0a8b74c1675b9039a12708e2fdef"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch4.log",
+   "bytes": 2626,
+   "mtime_utc": "2026-09-16T20:16:15Z",
+   "sha256": "0b97fb97244f8cee2c55793689a7490c3235447514e159a0255897deaaf046d9"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch4b.log",
+   "bytes": 6647,
+   "mtime_utc": "2026-09-16T20:21:35Z",
+   "sha256": "10561dd023f35c8b5eb79742f90c8321591e470abd740a58eed827a1b1646923"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch5.log",
+   "bytes": 2814,
+   "mtime_utc": "2026-09-16T20:10:45Z",
+   "sha256": "f85efa722cf6fd9960c0a68f7f3d6873ba956e63df9cc5a15e12f583938a7f9d"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch6.log",
+   "bytes": 213,
+   "mtime_utc": "2026-09-16T20:19:10Z",
+   "sha256": "efb023186fae5d58d5296c42efa801cf74d7518ee3a9aef49bca06c02e4d3a7a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch7.log",
+   "bytes": 2024,
+   "mtime_utc": "2026-09-16T20:21:12Z",
+   "sha256": "9d69ce194504592030fd50f071c0e2f300ec18a019f3b91adff59d876303ce06"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_batch8.log",
+   "bytes": 615,
+   "mtime_utc": "2026-09-16T20:21:08Z",
+   "sha256": "91f1670dab73762cdd129cc9433b7578712b5b1e0b95556409292d5a9206d702"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/download_drive.py",
+   "bytes": 1769,
+   "mtime_utc": "2026-09-16T19:56:34Z",
+   "sha256": "72abc265cb9d13fc44809b234fe4de29fdd0eed762e63b06704bda7401732c7a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/drive_download_record.json",
+   "bytes": 10155,
+   "mtime_utc": "2026-09-16T19:58:19Z",
+   "sha256": "c9f31452f7ed480fcb590920b8bd06fcb2adf81c6a8309911e6bc70f341722f3"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/gdrive_deep_list.py",
+   "bytes": 2172,
+   "mtime_utc": "2026-09-16T19:47:42Z",
+   "sha256": "8a5a2924ecbf0b55282924aa573ce6d6937b7631efcc3ffaa0a5796607545d79"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/gdrive_deep_listing.txt",
+   "bytes": 175039,
+   "mtime_utc": "2026-09-16T20:01:49Z",
+   "sha256": "f889d3f66ca62b4a5f26c6c61b9840162d8c178e2fbd9536bff4fd165d2b818e"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/gdrive_deep_tree.json",
+   "bytes": 264169,
+   "mtime_utc": "2026-09-16T20:01:49Z",
+   "sha256": "80e100b120982fa286af737a597be727bd5967aa339c0a04d42cb743ca050c03"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/gdrive_tree.json",
+   "bytes": 2196,
+   "mtime_utc": "2026-09-16T19:36:03Z",
+   "sha256": "83045de113a97bc78c44ba92e84ee38465ff8b4e028b026033504762fb5f3006"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/gdrive_tree_wells.json",
+   "bytes": 135680,
+   "mtime_utc": "2026-09-16T19:49:20Z",
+   "sha256": "ea38ff05940de1fd24be0b26d587b0a730ac1697be89179327b8bf54b013f5b7"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/info/urls.txt",
+   "bytes": 5928,
+   "mtime_utc": "2026-09-16T19:30:31Z",
+   "sha256": "605c93f9cbec11625ae9c7fff4c7ff26c5754277b3896353ea221e498f273c1f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/nopims_items_table.csv",
+   "bytes": 17329,
+   "mtime_utc": "2026-09-16T19:30:37Z",
+   "sha256": "7ea096f3babc7e0777ae6c20d2d651bbf257d91e7e848d894f0cf9a221b30702"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/nopims_reports_for_selection.json",
+   "bytes": 65090,
+   "mtime_utc": "2026-09-16T19:29:13Z",
+   "sha256": "ca95c8d3d6d45c8f5d6fe8b80dc64268473fac12ba26b00577480ab566dc752f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/nopims_wells.json",
+   "bytes": 12513,
+   "mtime_utc": "2026-09-16T19:29:09Z",
+   "sha256": "47a81d4b803da77ea9f0b450e52853237968541a43cdc455f4ac43a9da3928c5"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/nopims_zip_members.json",
+   "bytes": 2,
+   "mtime_utc": "2026-09-16T19:33:43Z",
+   "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/nopta_petroleum_wells_query.json",
+   "bytes": 19982,
+   "mtime_utc": "2026-09-16T19:26:13Z",
+   "sha256": "f2be91fa2fe926dfeefd757f6c9769252853f2b188ee3d596761f361dc295c01"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch1.json",
+   "bytes": 1936,
+   "mtime_utc": "2026-09-16T19:48:43Z",
+   "sha256": "20c6e5d46f006867e9871c1e3aab8961d79a015536b96dd3535ddd45c01f621c"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch2.json",
+   "bytes": 4241,
+   "mtime_utc": "2026-09-16T19:54:59Z",
+   "sha256": "773e3ef194859cc08fe06f64038cd81319740757c7026ec41d52948a46d51e9e"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch3.json",
+   "bytes": 260,
+   "mtime_utc": "2026-09-16T19:56:34Z",
+   "sha256": "dd0fd0616d8a39f4cafc9b0dc1cdb2fbfd2c6edaadff22cf3b096ab78b17a200"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch3_record.json",
+   "bytes": 1293,
+   "mtime_utc": "2026-09-16T19:58:10Z",
+   "sha256": "e1cee952ad679f99f81265d004094a28f37158e2606904d987f4522328e16088"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch4.json",
+   "bytes": 4925,
+   "mtime_utc": "2026-09-16T20:05:27Z",
+   "sha256": "ba0ccc8381b6462e635dfb1735a72f5bafb897f7ff1899c650ac246e3a49d2a4"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch4_curl_record.json",
+   "bytes": 10452,
+   "mtime_utc": "2026-09-16T20:21:35Z",
+   "sha256": "e0628a0e2fd099a239f78cbc930b065f9a8c1a95573ace1e3f37d0ef77c85a3f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch5.json",
+   "bytes": 2158,
+   "mtime_utc": "2026-09-16T20:07:19Z",
+   "sha256": "6227946314102d677f616021b34948a6f497f071283f43db96ede4084a6f72e9"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch6.json",
+   "bytes": 136,
+   "mtime_utc": "2026-09-16T20:19:01Z",
+   "sha256": "a2720a8cb39eeb680045cbf2206ad969e725411096d04857d687590f0c14db57"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch6_curl_record.json",
+   "bytes": 557,
+   "mtime_utc": "2026-09-16T20:19:10Z",
+   "sha256": "eda712f54ae2af75827f3a30561d1f54958e51210125845a31e2d87e419a7f21"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch7.json",
+   "bytes": 1311,
+   "mtime_utc": "2026-09-16T20:19:41Z",
+   "sha256": "e23894f108f9d1e7792bd1641f7e9561492120c684290a8cffdf98a01100fbff"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch7_curl_record.json",
+   "bytes": 3128,
+   "mtime_utc": "2026-09-16T20:21:12Z",
+   "sha256": "a752477c932ebf2d9abecf8aa1b8c105c47dcf19b1a600c7e511af06ba5fe74a"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch8.json",
+   "bytes": 429,
+   "mtime_utc": "2026-09-16T20:20:13Z",
+   "sha256": "b921b2f6f882cf33c4facc380d34201afda3759353d83f6f7c6b697fcb05a89f"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch8_curl_record.json",
+   "bytes": 1191,
+   "mtime_utc": "2026-09-16T20:21:08Z",
+   "sha256": "cf3791ac9131ff30221e834bc7c58165082793ccb8457bca6da4c8c1a525f8e3"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch9.json",
+   "bytes": 109,
+   "mtime_utc": "2026-09-16T20:25:22Z",
+   "sha256": "11df1e37345aa1d61511b6bbe1e483ebd3e7df927fc0c83acee79357debb13d1"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_batch9_curl_record.json",
+   "bytes": 531,
+   "mtime_utc": "2026-09-16T20:25:28Z",
+   "sha256": "0eab8bcf10c27a0076f87760204599681f2da4d9fddc3942f3d503ea6086c6f6"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_retry1.json",
+   "bytes": 907,
+   "mtime_utc": "2026-09-16T20:01:47Z",
+   "sha256": "fc8f4fe53c124c65a9c2f92da5046d715efafc147c23bbf6fd0fc359a71a0bd9"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/selection_retry1_curl_record.json",
+   "bytes": 2097,
+   "mtime_utc": "2026-09-16T20:02:25Z",
+   "sha256": "dde3686dfa3d79f7e2cd2496e8354a055b07257c26bb75db5cab47c069a99468"
+  },
+  {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D/wells/wells_positions.json",
+   "bytes": 7532,
+   "mtime_utc": "2026-09-16T19:27:43Z",
+   "sha256": "1fb3d53d26cb0449409164a3849b5f898fedb1eaad416a2d2160907a312e7d67"
+  }
+ ],
+ "wells": {
+  "Kronos 1": {
+   "las": [
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_Logs_depth.las",
+     "large_file_text_scan": true,
+     "bytes": 5418581,
+     "curves": [
+      "DEPT",
+      "ADJS",
+      "ADJS",
+      "CALI",
+      "DTCO",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "NPHI",
+      "RHOB",
+      "RESD"
+     ],
+     "n_rows": 34718
+    },
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+     "large_file_text_scan": true,
+     "bytes": 851161,
+     "curves": [
+      "Time",
+      "AIMP",
+      "ATTE",
+      "CALI",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "MULT",
+      "MUON",
+      "NPHI",
+      "PRIM",
+      "REFL",
+      "RHOB",
+      "RESD",
+      "SVEL"
+     ],
+     "n_rows": 4001
+    },
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_Synthetics.las",
+     "large_file_text_scan": true,
+     "bytes": 851592,
+     "curves": [
+      "Time",
+      "SMUL",
+      "SMUL",
+      "SMUL",
+      "SMUO",
+      "SMUO",
+      "SMUO",
+      "SPRM",
+      "SPRM",
+      "SPRM",
+      "SREF",
+      "SREF",
+      "SREF",
+      "VSPS",
+      "VSPS"
+     ],
+     "n_rows": 4001
+    },
+    {
+     "file": "Kronos_1/wireline/GR to Surface VSIT_327LUC.las",
+     "large_file_text_scan": true,
+     "bytes": 1674832,
+     "curves": [
+      "DEPT",
+      "CS",
+      "TENS",
+      "GR_EDTC"
+     ],
+     "n_rows": 32776
+    },
+    {
+     "file": "Kronos_1/wireline/Run 1 CMR-LDS-CNT-GR Main Pass _268PUC.las",
+     "large_file_text_scan": true,
+     "bytes": 1143099,
+     "curves": [
+      "DEPT",
+      "TENS",
+      "GR_EDTC",
+      "HBDC",
+      "HLEF",
+      "HROM",
+      "HTNP",
+      "LCAL",
+      "CBP1",
+      "CBP2",
+      "CBP3",
+      "CBP4",
+      "CBP5",
+      "CBP6",
+      "CBP7",
+      "CBP8",
+      "CMFF",
+      "CMRP_3MS",
+      "KSDR",
+      "KTIM",
+      "TCMR"
+     ],
+     "n_rows": 4184
+    },
+    {
+     "file": "Kronos_1/wireline/Run 2 OBMI-SS-PPC-GR Main Pass 112PUC.las",
+     "large_file_text_scan": true,
+     "bytes": 1614659,
+     "curves": [
+      "DEPT",
+      "BS",
+      "TENS",
+      "GR_EDTC",
+      "CDF",
+      "HAZIM",
+      "SDEV",
+      "P1AZ",
+      "HAZI",
+      "DTCO",
+      "VPVS",
+      "PR",
+      "DTSM",
+      "DTSH6",
+      "DTSH5",
+      "DTST",
+      "SPHI",
+      "C2_OBMT",
+      "C1_OBMT",
+      "DEVI",
+      "RD1_PPC1",
+      "RD2_PPC1",
+      "RD3_PPC1",
+      "RD4_PPC1",
+      "ETC1_PPC1",
+      "ETC2_PPC1",
+      "EHD1_PPC1",
+      "EHD2_PPC1",
+      "HD1_PPC1",
+      "HD2_PPC1"
+     ],
+     "n_rows": 4136
+    },
+    {
+     "file": "Kronos_1/wireline/Run 3 AIT-ECS-HNGS-GR Main Pass 096PUC.las",
+     "large_file_text_scan": true,
+     "bytes": 2000729,
+     "curves": [
+      "DEPT",
+      "BS",
+      "TENS",
+      "GR_EDTC",
+      "CDF",
+      "HUPR",
+      "HTUR",
+      "HTPR",
+      "HCGR",
+      "HSGR",
+      "HBHK",
+      "HFK",
+      "HURA",
+      "HTHO",
+      "AO10",
+      "AO20",
+      "AO30",
+      "AO60",
+      "AO90",
+      "DWSI_WALK2",
+      "DWCA_WALK2",
+      "DWFE_WALK2",
+      "DWSU_WALK2",
+      "DWTI_WALK2",
+      "DWGD_WALK2",
+      "DWHY_WALK2",
+      "DWAL_WALK2",
+      "DXFE_WALK2",
+      "WCLA_WALK2",
+      "WCAR_WALK2",
+      "WANH_WALK2",
+      "WPYR_WALK2",
+      "WSID_WALK2",
+      "WQFM_WALK2",
+      "WCOA_WALK2",
+      "WEVA_WALK2",
+      "ECST"
+     ],
+     "n_rows": 4153
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_corstk.sgy",
+     "traces": 10,
+     "samples": 4001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                    C2 CLIENT:ConocoPhillips CONTRACTOR:Schlumberger  SURVEY DATE:12 May 2010       C3 COUNTRY: Australia      WELL NAME: Kronos-1  RUN NO: S2R2                    C4 MEASUREMENT SYSTEM: M   COORD: X:412599.3 m E   Y:8485490.7 m N              C5 SRD: MSL                ACQUISITION DATUM: RT   RT: 21.8 m MSL               "
+    },
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_corstkf.sgy",
+     "traces": 10,
+     "samples": 4001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                    C2 CLIENT:ConocoPhillips CONTRACTOR:Schlumberger  SURVEY DATE:12 May 2010       C3 COUNTRY: Australia      WELL NAME: Kronos-1  RUN NO: S2R2                    C4 MEASUREMENT SYSTEM: M   COORD: X:412599.3 m E   Y:8485490.7 m N              C5 SRD: MSL                ACQUISITION DATUM: RT   RT: 21.8 m MSL               "
+    }
+   ],
+   "other": [
+    "Kronos_1/VSP/CP_Kronos1_Drift_and_Sonic_Adjustment_Report.xls",
+    "Kronos_1/VSP/CP_Kronos1_Time_to_Depth_Report.xls",
+    "Kronos_1/VSP/CP_Kronos1_VSP_Report.pdf",
+    "Kronos_1/VSP/CP_Kronos1_Velocity_Report.xls",
+    "Kronos_1/VSP/CP_Kronos1_Well_Seismic_Report.xls",
+    "Kronos_1/VSP/VSI_003_Stack.txt"
+   ]
+  },
+  "Pharos 1": {
+   "las": [
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_QC_VSP_GR_log.las",
+     "large_file_text_scan": true,
+     "bytes": 993247,
+     "curves": [
+      "DEPT",
+      "GR"
+     ],
+     "n_rows": 30895
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_logs_depth.las",
+     "large_file_text_scan": true,
+     "bytes": 5317220,
+     "curves": [
+      "DEPT",
+      "AT90",
+      "CALI",
+      "DTCO",
+      "DTCO",
+      "DTTS",
+      "GR",
+      "PWXO",
+      "RHOB",
+      "SVEL",
+      "SVEL"
+     ],
+     "n_rows": 34064
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+     "large_file_text_scan": true,
+     "bytes": 837760,
+     "curves": [
+      "Time",
+      "AIMP",
+      "AT90",
+      "ATTE",
+      "CALI",
+      "CALI",
+      "DTCO",
+      "GR",
+      "GR",
+      "MULT",
+      "MUON",
+      "PWXO",
+      "PRIM",
+      "REFL",
+      "RHOB",
+      "SVEL"
+     ],
+     "n_rows": 3693
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_synthetics.las",
+     "large_file_text_scan": true,
+     "bytes": 1344196,
+     "curves": [
+      "Time",
+      "SMUL",
+      "SMUL",
+      "SMUL",
+      "SMUL",
+      "SMUO",
+      "SMUO",
+      "SMUO",
+      "SMUO",
+      "SPRM",
+      "SPRM",
+      "SPRM",
+      "SPRM",
+      "SREF",
+      "SREF",
+      "SREF",
+      "SREF",
+      "VSPS",
+      "VSPS"
+     ],
+     "n_rows": 5001
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S1R2_NGIT_PPC_MAST_HNGS_MainPass.las",
+     "large_file_text_scan": true,
+     "bytes": 12243947,
+     "curves": [
+      "DEPT",
+      "AX",
+      "AY",
+      "AZ",
+      "CDF",
+      "CS",
+      "CVEL",
+      "DTCO",
+      "DTSM",
+      "DTST",
+      "ECGR_EDTC",
+      "EHD1_PPC1",
+      "EHD1_PPC2",
+      "EHD2_PPC1",
+      "EHD2_PPC2",
+      "EHGR_EDTC",
+      "ETC1_PPC1",
+      "ETC1_PPC2",
+      "ETC2_PPC1",
+      "ETC2_PPC2",
+      "GR_EDTC",
+      "HAZI",
+      "HAZIM",
+      "HBHK",
+      "HCGR",
+      "HDAR",
+      "HFK",
+      "HGR_EDTC",
+      "HSGR",
+      "HTHO",
+      "HTPR",
+      "HTUR",
+      "HUPR",
+      "HURA",
+      "ICV",
+      "IHV",
+      "INCL",
+      "ITT",
+      "P1AZ",
+      "PR",
+      "RB",
+      "SPHI",
+      "SSVE",
+      "SVEL",
+      "TENS",
+      "VPVS"
+     ],
+     "n_rows": 20496
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S2R1_Main_Pass.las",
+     "large_file_text_scan": true,
+     "bytes": 6455686,
+     "curves": [
+      "DEPT",
+      "AF10",
+      "AF20",
+      "AF30",
+      "AF60",
+      "AF90",
+      "AFRT",
+      "APLC",
+      "AT10",
+      "AT20",
+      "AT30",
+      "AT60",
+      "AT90",
+      "ATRT",
+      "ATRX",
+      "ATSE",
+      "BHPR_ADT",
+      "CALI",
+      "CALI_ADT",
+      "CDF",
+      "CS",
+      "CVEL",
+      "DPO",
+      "DRH",
+      "DWCA_SIG_WALK2",
+      "DWCA_WALK2",
+      "DWFE_WALK2",
+      "DWSI_SIG_WALK2",
+      "DWSI_WALK2",
+      "DWSU_SIG_WALK2",
+      "DWSU_WALK2",
+      "DWTI_SIG_WALK2",
+      "DWTI_WALK2",
+      "DXFE_WALK2",
+      "ECGR_EDTC",
+      "EHGR_EDTC",
+      "FPLC",
+      "GR_EDTC",
+      "HALC",
+      "HDAR",
+      "HDPO",
+      "HFLC",
+      "HGR_EDTC",
+      "HLEF",
+      "HROM",
+      "ICV",
+      "IHV",
+      "INCL",
+      "LCAL",
+      "MTEM_ADT",
+      "PEFL",
+      "PWXO",
+      "RHOM",
+      "RXO_ADT",
+      "TENS",
+      "THMC",
+      "WCAR_WALK2",
+      "WCLA_WALK2",
+      "WQFM_WALK2",
+      "WSALXO"
+     ],
+     "n_rows": 8274
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S2R2_Main_Pass.las",
+     "large_file_text_scan": true,
+     "bytes": 4296073,
+     "curves": [
+      "DEPT",
+      "AX",
+      "AY",
+      "AZ",
+      "C1_OBMT",
+      "C2_OBMT",
+      "CDF",
+      "CS",
+      "CVEL",
+      "DEVI",
+      "DTCO",
+      "DTSM",
+      "DTST",
+      "ECGR_EDTC",
+      "EHD1_PPC1",
+      "EHD1_PPC2",
+      "EHD2_PPC1",
+      "EHD2_PPC2",
+      "EHGR_EDTC",
+      "ETC1_PPC1",
+      "ETC1_PPC2",
+      "ETC2_PPC1",
+      "ETC2_PPC2",
+      "GR_EDTC",
+      "HAZI",
+      "HAZIM",
+      "HBHK",
+      "HCGR",
+      "HDAR",
+      "HFK",
+      "HGR_EDTC",
+      "HSGR",
+      "HTHO",
+      "HTPR",
+      "HTUR",
+      "HUPR",
+      "HURA",
+      "ICV",
+      "IHV",
+      "INCL",
+      "ITT",
+      "P1AZ",
+      "P1AZ_OBMT",
+      "PR",
+      "RB",
+      "RB_OBMT",
+      "SPHI",
+      "SSVE",
+      "SVEL",
+      "TENS",
+      "VPVS"
+     ],
+     "n_rows": 6477
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S2R2_SonicScanner.las",
+     "large_file_text_scan": true,
+     "bytes": 154898,
+     "curves": [
+      "DEPT",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "PR",
+      "VPVS"
+     ],
+     "n_rows": 1759
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_SonicScanner_L0_PnS_SLB.las",
+     "large_file_text_scan": true,
+     "bytes": 616187,
+     "curves": [
+      "DEPT",
+      "DTCO",
+      "DTSM_FAST",
+      "DTSM_SLOW",
+      "GR_EDTC",
+      "PR",
+      "VPVS"
+     ],
+     "n_rows": 6129
+    }
+   ],
+   "vsp_listing": [
+    {
+     "file": "Pharos_1/VSP/COP-Pharos-1_QC_VSP_TimeDepthListing.xlsx",
+     "levels": 196,
+     "tvd_srd_range_m": [
+      448.02,
+      5187.09
+     ],
+     "twt_range_s": [
+      0.589682,
+      3.355089
+     ],
+     "header": [
+      "Stack number",
+      "Well depth[m]",
+      "TVD from SRD[m]",
+      "TT[ms]",
+      "TT(TVD Corrected)[ms]",
+      "TWT(TVD Corrected)[ms]",
+      "Interval Velocity[m/s]",
+      "Average Velocity[m/s]",
+      "RMS Velocity[m/s]",
+      "SRD=MSL, Surface Velocity=1524 m/s"
+     ]
+    }
+   ],
+   "segy": [
+    {
+     "file": "Pharos_1/VSP/COP-Pharos-1_QC_VSP_Corridor_Stack.sgy",
+     "traces": 10,
+     "samples": 5001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                    C2 CLIENT: ConocoPhillips Australia CONTRACTOR:Schlumberger DATE: 16-Jul-2014   C3 COUNTRY: Australia  WELL NAME: Pharos-1       RUN NO: S2R8                   C4 MEASUREMENT SYSTEM: M   COORD: X: 435,010.573 m E   Y: 8,487,361.386 m S     C5 SRD: MSL                ACQUISITION DATUM: DF      DF: 22.1 m MSL            "
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_corstk.sgy",
+     "traces": 10,
+     "samples": 5001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                    C2 CLIENT: ConocoPhillips  CONTRACTOR:Schlumberger  SURVEY DATE:  16-Jul-2014   C3 COUNTRY: Australia         WELL NAME: Pharos-1        RUN NO: S2R8           C4 MEASUREMENT SYSTEM: M   COORD: X: 435,010.60 m E   Y: 8,487,361.00  m S      C5 SRD: MSL                ACQUISITION DATUM: DF      DF:  22.1 m MSL           "
+    }
+   ],
+   "other": [
+    "Pharos_1/VSP/COP-Pharos-1_QC_VSP_Corridor_Stack.txt",
+    "Pharos_1/VSP/COP_Pharos-1_QC_VSP_Report.pdf",
+    "Pharos_1/VSP/COP_Pharos-1_VSP_Processing_Report_short.pdf",
+    "Pharos_1/survey/Pharos-1_Definitive Survey Report_TD 5220m.xlsx"
+   ]
+  },
+  "Poseidon 1": {
+   "las": [
+    {
+     "file": "Poseidon_1/wireline/ConocoPhillips_Poseidon-1_Sonic_Scanner_P&S_S2R3.las",
+     "large_file_text_scan": true,
+     "bytes": 529351,
+     "curves": [
+      "DEPT",
+      "CHRP",
+      "CHR_YD",
+      "DTCO",
+      "DTRP",
+      "DTRS",
+      "DTSM",
+      "DTTP",
+      "DT_YD_R",
+      "ECGR_EDTC",
+      "PR",
+      "TICO",
+      "TISH",
+      "VPVS"
+     ],
+     "n_rows": 2657
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite1_Run1_FMI-LDS-CNL-GR_ML.las",
+     "large_file_text_scan": true,
+     "bytes": 158741,
+     "curves": [
+      "DEPT",
+      "C1",
+      "C2",
+      "CDF",
+      "GR_EDTC",
+      "HAZI",
+      "HBDC",
+      "HCFT",
+      "HCNT",
+      "HRHL",
+      "HROM",
+      "HTNP",
+      "LCAL",
+      "P1AZ",
+      "SDEV",
+      "TENS"
+     ],
+     "n_rows": 745
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite1_Run1_GR_log_till_3800m.las",
+     "large_file_text_scan": true,
+     "bytes": 55702,
+     "curves": [
+      "DEPT",
+      "CDF",
+      "GR_EDTC",
+      "TENS"
+     ],
+     "n_rows": 1028
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite2_Run1_CMR-LDS-CNL-GR_ML.las",
+     "large_file_text_scan": true,
+     "bytes": 1086708,
+     "curves": [
+      "DEPT",
+      "CDF",
+      "TENS",
+      "GR_EDTC",
+      "HBDC",
+      "HLEF",
+      "HROM",
+      "HTNP",
+      "LCAL",
+      "CBP1",
+      "CBP2",
+      "CBP3",
+      "CBP4",
+      "CBP5",
+      "CBP6",
+      "CBP7",
+      "CBP8",
+      "CMFF",
+      "CMRP_3MS",
+      "KSDR",
+      "KTIM",
+      "TCMR"
+     ],
+     "n_rows": 3795
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite2_Run2_AIT-ECS-HNGS-GR_ML.las",
+     "large_file_text_scan": true,
+     "bytes": 1929752,
+     "curves": [
+      "DEPT",
+      "BS",
+      "TENS",
+      "GR_EDTC",
+      "CDF",
+      "HUPR",
+      "HTUR",
+      "HTPR",
+      "HCGR",
+      "HSGR",
+      "HBHK",
+      "HFK",
+      "HURA",
+      "HTHO",
+      "AO10",
+      "AO20",
+      "AO30",
+      "AO60",
+      "AO90",
+      "DWSI_WALK2",
+      "DWCA_WALK2",
+      "DWFE_WALK2",
+      "DWSU_WALK2",
+      "DWTI_WALK2",
+      "DWGD_WALK2",
+      "DWHY_WALK2",
+      "DWAL_WALK2",
+      "DXFE_WALK2",
+      "WCLA_WALK2",
+      "WCAR_WALK2",
+      "WANH_WALK2",
+      "WPYR_WALK2",
+      "WSID_WALK2",
+      "WQFM_WALK2",
+      "WCOA_WALK2",
+      "WEVA_WALK2",
+      "ECST"
+     ],
+     "n_rows": 4005
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite2_Run3_OBMI-SS-GR_ML.las",
+     "large_file_text_scan": true,
+     "bytes": 934097,
+     "curves": [
+      "DEPT",
+      "TENS",
+      "GR_EDTC",
+      "CDF",
+      "HAZIM",
+      "SDEV",
+      "P1AZ",
+      "DTCO",
+      "VPVS",
+      "PR",
+      "DTSM",
+      "DTSH6",
+      "DTSH5",
+      "DTST",
+      "SPHI",
+      "C2_OBMT",
+      "C1_OBMT",
+      "DEVI"
+     ],
+     "n_rows": 3989
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [
+    {
+     "file": "Poseidon_1/VSP/P1_R20.sgy",
+     "traces": 10,
+     "samples": 3297,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                  ! C2 DATA DESCRIPTION: Zero Phase 20 Hz Ricker Synthetic                        ! C3 CLIENT:ConocoPhillips ! CONTRACTOR: Schlumberger ! SURVEY DATE: 18-May-2009! C4 COUNTRY: Australia    ! WELL NAME:  Poseidon-1   ! TAPE FORMAT:  SEGY      ! C5 MEASUREMENT SYSTEM: M ! COORD: X:425055.466 m E  ! Y:8493875.275m N        ! "
+    },
+    {
+     "file": "Poseidon_1/VSP/P1_corstk.sgy",
+     "traces": 10,
+     "samples": 5001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                  ! C2 DATA DESCRIPTION: Corridor Stack                                           ! C3 CLIENT:ConocoPhillips ! CONTRACTOR: Schlumberger ! SURVEY DATE: 18-May-2009! C4 COUNTRY: Australia    ! WELL NAME:  Poseidon-1   ! TAPE FORMAT:  SEGY      ! C5 MEASUREMENT SYSTEM: M ! COORD: X:425055.466 m E  ! Y:8493875.275m N        ! "
+    },
+    {
+     "file": "Poseidon_1/VSP/P1_corstk_near.sgy",
+     "traces": 10,
+     "samples": 5001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                  ! C2 DATA DESCRIPTION: Corridor Stack - From Extracted Near Stack Wavelet       ! C3 CLIENT:ConocoPhillips ! CONTRACTOR: Schlumberger ! SURVEY DATE: 18-May-2009! C4 COUNTRY: Australia    ! WELL NAME:  Poseidon-1   ! TAPE FORMAT:  SEGY      ! C5 MEASUREMENT SYSTEM: M ! COORD: X:425055.466 m E  ! Y:8493875.275m N        ! "
+    },
+    {
+     "file": "Poseidon_1/VSP/P1_corstkf.sgy",
+     "traces": 10,
+     "samples": 5001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 SURVEY DESCRIPTION: Offshore Zero Offset (Rig Source) VSP                  ! C2 DATA DESCRIPTION: Corridor Stack - BPF + AGC                               ! C3 CLIENT:ConocoPhillips ! CONTRACTOR: Schlumberger ! SURVEY DATE: 18-May-2009! C4 COUNTRY: Australia    ! WELL NAME:  Poseidon-1   ! TAPE FORMAT:  SEGY      ! C5 MEASUREMENT SYSTEM: M ! COORD: X:425055.466 m E  ! Y:8493875.275m N        ! "
+    }
+   ],
+   "other": [
+    {
+     "file": "Poseidon_1/VSP/P1_corstk_full.sgy",
+     "error": "unable to count traces, no data traces past headers"
+    },
+    "Poseidon_1/reports/Poseidon1_VSP_Table33_time_depth.csv",
+    "Poseidon_1/reports/Poseidon_1_WCR_Volume_2_Interpretive_Data.pdf",
+    "Poseidon_1/reports/WCR_Vol2_VSP_appendix_pages211-287.txt",
+    "Poseidon_1/wireline/Read Me.txt"
+   ]
+  },
+  "Poseidon 2": {
+   "las": [
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_logs_depth.las",
+     "large_file_text_scan": true,
+     "bytes": 4964848,
+     "curves": [],
+     "n_rows": 34946
+    },
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+     "large_file_text_scan": true,
+     "bytes": 812688,
+     "curves": [
+      "Time",
+      "AIMP",
+      "ATTE",
+      "CALI",
+      "DTCO",
+      "GR",
+      "MULT",
+      "MUON",
+      "NPHI",
+      "PRIM",
+      "REFL",
+      "RHOB",
+      "RT",
+      "SVEL"
+     ],
+     "n_rows": 4090
+    },
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_synthetics.las",
+     "large_file_text_scan": true,
+     "bytes": 821046,
+     "curves": [
+      "Time",
+      "SMUL",
+      "SMUL",
+      "SMUL",
+      "SMUO",
+      "SMUO",
+      "SMUO",
+      "SPRM",
+      "SPRM",
+      "SPRM",
+      "SREF",
+      "SREF",
+      "SREF",
+      "VSPS"
+     ],
+     "n_rows": 4130
+    },
+    {
+     "file": "Poseidon_2/wireline/CoP Poseidon-2 SonicScanner 6in DT P&S.LAS",
+     "large_file_text_scan": true,
+     "bytes": 406706,
+     "curves": [
+      "DEPT",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "PR",
+      "VPVS"
+     ],
+     "n_rows": 4692
+    },
+    {
+     "file": "Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run6_LDS-CNL-GR_Merged_ML.las",
+     "large_file_text_scan": true,
+     "bytes": 488164,
+     "curves": [
+      "DEPT",
+      "CDF",
+      "TENS",
+      "GR_EDTC",
+      "HBDC",
+      "HLEF",
+      "HROM",
+      "HTNP",
+      "LCAL"
+     ],
+     "n_rows": 4175
+    },
+    {
+     "file": "Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run7_AIT-ECS-LDL-CNL-GR_Merged_ML.las",
+     "large_file_text_scan": true,
+     "bytes": 1839484,
+     "curves": [
+      "DEPT",
+      "AO10",
+      "AO20",
+      "AO30",
+      "AO60",
+      "AO90",
+      "BS",
+      "CDF",
+      "DWAL_WALK2",
+      "DWCA_WALK2",
+      "DWFE_WALK2",
+      "DWGD_WALK2",
+      "DWHY_WALK2",
+      "DWSI_WALK2",
+      "DWSU_WALK2",
+      "DWTI_WALK2",
+      "DXFE_WALK2",
+      "ECST",
+      "GR_EDTC",
+      "LCAL",
+      "TENS",
+      "WANH_WALK2",
+      "WCAR_WALK2",
+      "WCLA_WALK2",
+      "WCOA_WALK2",
+      "WEVA_WALK2",
+      "WPYR_WALK2",
+      "WQFM_WALK2",
+      "WSID_WALK2"
+     ],
+     "n_rows": 4875
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_corstk.sgy",
+     "traces": 10,
+     "samples": 5001,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C1 CLIENT:CONOCOPHILLIPS CONTRACTOR:SCHLUMBERGER SURVEY DATE:3-JAN-2010         C2 COUNTRY: AUSTRALIA   WELL NAME:  POSEIDON-2                                  C3 VSP SURVEY DESCRIPTION: OFFSHORE RIG SOURCE VSP                              C4 TAPE FORMAT:  SEGY   MEASUREMENT SYSTEM: M                                   C5 WELL COORD: LON: 122 16' 32.26\"E LAT: 13 40' 07.18\"S                         "
+    }
+   ],
+   "other": [
+    "Poseidon_2/VSP/CP_Poseidon2_Drift_and_Sonic_Adjustment_Report.xls",
+    "Poseidon_2/VSP/CP_Poseidon2_VSP_Report.pdf",
+    "Poseidon_2/VSP/CP_Poseidon2_Velocity_Report.xls",
+    "Poseidon_2/VSP/CP_Poseidon2_Well_Seismic_Report.xls",
+    "Poseidon_2/VSP/CP_Poseidon2_corstk.txt",
+    "Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run8_VSP_VSI4-GR_Data.xls"
+   ]
+  },
+  "Poseidon North 1": {
+   "las": [
+    {
+     "file": "Poseidon_North_1/LWD/COP_Nth1_Poseidon Nth1_VISION Service_RM_508.34-5287.00mMD_I.las",
+     "large_file_text_scan": true,
+     "bytes": 9726641,
+     "curves": [
+      "DEPT",
+      "TVD",
+      "ROP5",
+      "GR",
+      "P16H",
+      "P22H",
+      "P28H",
+      "P34H",
+      "P40H",
+      "A16H",
+      "A22H",
+      "A28H",
+      "A34H",
+      "A40H",
+      "DCAV",
+      "ADIA",
+      "DRHO",
+      "RHOB",
+      "TNPH",
+      "PEF",
+      "DHAT",
+      "DHAP",
+      "ECD"
+     ],
+     "n_rows": 31860
+    },
+    {
+     "file": "Poseidon_North_1/LWD/COP_Nth1_Poseidon Nth1_VISION Service_RM_508.34-5287.00mMD_N.las",
+     "large_file_text_scan": true,
+     "bytes": 9726641,
+     "curves": [
+      "DEPT",
+      "TVD",
+      "ROP5",
+      "GR",
+      "P16H",
+      "P22H",
+      "P28H",
+      "P34H",
+      "P40H",
+      "A16H",
+      "A22H",
+      "A28H",
+      "A34H",
+      "A40H",
+      "DCAV",
+      "ADIA",
+      "DRHO",
+      "RHOB",
+      "TNPH",
+      "PEF",
+      "DHAT",
+      "DHAP",
+      "ECD"
+     ],
+     "n_rows": 31860
+    },
+    {
+     "file": "Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD.las",
+     "large_file_text_scan": true,
+     "bytes": 305635,
+     "curves": [
+      "DEPT",
+      "DTCO"
+     ],
+     "n_rows": 10092
+    },
+    {
+     "file": "Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD_processed.las",
+     "large_file_text_scan": true,
+     "bytes": 305635,
+     "curves": [
+      "DEPT",
+      "DTCO"
+     ],
+     "n_rows": 10092
+    },
+    {
+     "file": "Poseidon_North_1/wireline/COP_Poseidon North-1_SSCAN_L0_PnS_SLB.las",
+     "large_file_text_scan": true,
+     "bytes": 891918,
+     "curves": [
+      "DEPT",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "PR",
+      "VPVS"
+     ],
+     "n_rows": 10334
+    },
+    {
+     "file": "Poseidon_North_1/wireline/COP_WL_Poseidon_North-1_S1R1_ConPr_R1L2Up_MainPass_SC.las",
+     "large_file_text_scan": true,
+     "bytes": 31183042,
+     "curves": [
+      "DEPT",
+      "AF10",
+      "AF20",
+      "AF30",
+      "AF60",
+      "AF90",
+      "AFRT",
+      "APLC",
+      "AT10",
+      "AT20",
+      "AT30",
+      "AT60",
+      "AT90",
+      "ATRT",
+      "ATRX",
+      "ATSE",
+      "AX",
+      "AY",
+      "AZ",
+      "CALI",
+      "CDF",
+      "CS",
+      "CVEL",
+      "DPO",
+      "DRH",
+      "DTCO",
+      "DTSM",
+      "DTST",
+      "ECGR_EDTC",
+      "EHD1_PPC1",
+      "EHD1_PPC2",
+      "EHD2_PPC1",
+      "EHD2_PPC2",
+      "EHGR_EDTC",
+      "ETC1_PPC1",
+      "ETC1_PPC2",
+      "ETC2_PPC1",
+      "ETC2_PPC2",
+      "FPLC",
+      "GAT",
+      "GR_EDTC",
+      "HALC",
+      "HAZI",
+      "HAZIM",
+      "HBHK",
+      "HCGR",
+      "HDAR",
+      "HDPO",
+      "HFK",
+      "HFLC",
+      "HGR_EDTC",
+      "HLEF",
+      "HROM",
+      "HSGR",
+      "HTHO",
+      "HTPR",
+      "HTUR",
+      "HUPR",
+      "HURA",
+      "ICV"
+     ],
+     "n_rows": 32004
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [],
+   "other": [
+    "Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD.PDF",
+    "Poseidon_North_1/reports/Pos North1_Basic WCR rev0.pdf",
+    "Poseidon_North_1/survey/COP_Nth1_Definitive Survey Report_TD 5287m.xlsx"
+   ]
+  },
+  "Proteus 1": {
+   "las": [
+    {
+     "file": "Proteus_1/LWD/ConocoPhillips_Proteus1_Final.las",
+     "large_file_text_scan": true,
+     "bytes": 5013435,
+     "curves": [
+      "DEPT",
+      "ROP5",
+      "GR",
+      "P16H",
+      "P22H",
+      "P28H",
+      "P34H",
+      "P40H",
+      "A16H",
+      "A22H",
+      "A28H",
+      "A34H",
+      "A40H"
+     ],
+     "n_rows": 28606
+    },
+    {
+     "file": "Proteus_1/LWD/ConocoPhillips_Proteus1_ST1_Fina.las",
+     "large_file_text_scan": true,
+     "bytes": 9678273,
+     "curves": [
+      "DEPT",
+      "ROP5",
+      "GR",
+      "GR",
+      "P10H",
+      "P16H",
+      "P16H",
+      "P22H",
+      "P22H",
+      "P28H",
+      "P28H",
+      "P34H",
+      "P34H",
+      "P40H",
+      "A10H",
+      "A16H",
+      "A16H",
+      "A22H",
+      "A22H",
+      "A28H",
+      "A28H",
+      "A34H",
+      "A34H",
+      "A40H"
+     ],
+     "n_rows": 30403
+    },
+    {
+     "file": "Proteus_1/LWD/ConocoPhillips_Proteus1_ST2_Final.las",
+     "large_file_text_scan": true,
+     "bytes": 10348738,
+     "curves": [
+      "DEPT",
+      "ROP5",
+      "GR",
+      "GR",
+      "GR",
+      "P10H",
+      "P16H",
+      "P16H",
+      "P22H",
+      "P22H",
+      "P28H",
+      "P28H",
+      "P34H",
+      "P34H",
+      "P40H",
+      "A10H",
+      "A16H",
+      "A16H",
+      "A22H",
+      "A22H",
+      "A28H",
+      "A28H",
+      "A34H",
+      "A34H",
+      "A40H"
+     ],
+     "n_rows": 31234
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_logs_depth_MD.las",
+     "large_file_text_scan": true,
+     "bytes": 7058095,
+     "curves": [
+      "DEPT",
+      "CALI",
+      "DTCO",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "NPHI",
+      "PEF",
+      "POTA",
+      "RESM",
+      "RHOB",
+      "RESD",
+      "THOR",
+      "RESS",
+      "BIT",
+      "URAN"
+     ],
+     "n_rows": 31213
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_logs_depth_TVDSS.las",
+     "large_file_text_scan": true,
+     "bytes": 5377523,
+     "curves": [
+      "DEPT",
+      "CALI",
+      "DTCO",
+      "DTCO",
+      "DTSM",
+      "GR",
+      "NPHI",
+      "RHOB",
+      "RT",
+      "SVEL",
+      "SVEL"
+     ],
+     "n_rows": 34448
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+     "large_file_text_scan": true,
+     "bytes": 793306,
+     "curves": [
+      "Time",
+      "AIMP",
+      "ATTE",
+      "CALI",
+      "DTCO",
+      "GR",
+      "MULT",
+      "MUON",
+      "NPHI",
+      "PRIM",
+      "REFL",
+      "RHOB",
+      "RT",
+      "SVEL"
+     ],
+     "n_rows": 3990
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_synthetics.las",
+     "large_file_text_scan": true,
+     "bytes": 1344445,
+     "curves": [
+      "Time",
+      "SMUL",
+      "SMUL",
+      "SMUL",
+      "SMUL",
+      "SMUO",
+      "SMUO",
+      "SMUO",
+      "SMUO",
+      "SPRM",
+      "SPRM",
+      "SPRM",
+      "SPRM",
+      "SREF",
+      "SREF",
+      "SREF",
+      "SREF",
+      "VSPS",
+      "VSPS",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "n_rows": 0
+    },
+    {
+     "file": "Proteus_1/wireline/COP_Proteus-1ST2_CH_QSLT_PnS_Processed_PTS.las",
+     "large_file_text_scan": true,
+     "bytes": 141821,
+     "curves": [
+      "DEPT",
+      "DTCO",
+      "GR_STGC"
+     ],
+     "n_rows": 3163
+    },
+    {
+     "file": "Proteus_1/wireline/COP_Proteus-1ST2_OH_QSLT_PnS_Processed_PTS.las",
+     "large_file_text_scan": true,
+     "bytes": 159410,
+     "curves": [
+      "DEPT",
+      "DTCO",
+      "DTSM",
+      "GR_STGC",
+      "PR",
+      "VPVS"
+     ],
+     "n_rows": 1820
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [],
+   "other": [
+    "Proteus_1/VSP/COP_Proteus-1ST2_A1_Well_Seismic_Report_Final.xls",
+    "Proteus_1/VSP/COP_Proteus-1ST2_A2_Drift_Report_Final.xls",
+    "Proteus_1/VSP/COP_Proteus-1ST2_A3_Velocity_Report_Final.xls",
+    "Proteus_1/VSP/COP_Proteus-1ST2_VSP_Processing_Report.pdf",
+    "Proteus_1/VSP/COP_Proteus-1ST2_corstk.txt",
+    "Proteus_1/VSP/COP_Proteus-1ST2_synthetics_well_wavelets.ascii",
+    "Proteus_1/survey/Proteus Surveys.xlsx",
+    "Proteus_1/survey/Proteus-1 ST2_Definitive Survey Report_TD 5250m.xlsx"
+   ]
+  },
+  "Spliced occam": {
+   "las": [
+    {
+     "file": "Spliced_occam/Boreas1Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 1115490,
+     "curves": [
+      "DEPT",
+      "ECGR",
+      "RS",
+      "RD",
+      "RHOB",
+      "TNPH",
+      "DTCO",
+      "DTSM",
+      "HDAR"
+     ],
+     "n_rows": 10012
+    },
+    {
+     "file": "Spliced_occam/Kronos1Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 1070630,
+     "curves": [
+      "DEPT",
+      "ECGR",
+      "RS",
+      "RD",
+      "TNPH",
+      "RHOB",
+      "DCAV",
+      "DTCO",
+      "DTSM"
+     ],
+     "n_rows": 9584
+    },
+    {
+     "file": "Spliced_occam/Pharos1Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 943140,
+     "curves": [
+      "DEPT",
+      "RHOB",
+      "TNPH",
+      "GRARC",
+      "P16H",
+      "P34H",
+      "DTC",
+      "DTS"
+     ],
+     "n_rows": 9488
+    },
+    {
+     "file": "Spliced_occam/Poseidon1Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 1119115,
+     "curves": [
+      "DEPT",
+      "ECGR",
+      "ATRX",
+      "ATRT",
+      "NPHI",
+      "CAL1",
+      "HDAR",
+      "HROM",
+      "DTSM",
+      "DTCO"
+     ],
+     "n_rows": 9073
+    },
+    {
+     "file": "Spliced_occam/Poseidon2Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 1083261,
+     "curves": [
+      "DEPT",
+      "GR",
+      "RS",
+      "RD",
+      "DTCO",
+      "DTSM",
+      "DCAV",
+      "RHOB",
+      "TNP"
+     ],
+     "n_rows": 9723
+    },
+    {
+     "file": "Spliced_occam/PoseidonNorth1Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 1058391,
+     "curves": [
+      "DEPT",
+      "GRD",
+      "RS",
+      "RD",
+      "RHOB",
+      "TNPH",
+      "DTCO",
+      "DTSM",
+      "HDAR"
+     ],
+     "n_rows": 9544
+    },
+    {
+     "file": "Spliced_occam/Proteus1Decim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 1062753,
+     "curves": [
+      "DEPT",
+      "GR",
+      "RS",
+      "RD",
+      "DTCO",
+      "DTSM",
+      "HDAR",
+      "RHOB",
+      "NPHI"
+     ],
+     "n_rows": 9521
+    },
+    {
+     "file": "Spliced_occam/Torosa1LDecim.LAS",
+     "large_file_text_scan": true,
+     "bytes": 918942,
+     "curves": [
+      "DEPT",
+      "GR",
+      "RS",
+      "RD",
+      "RHOZ",
+      "HTNP",
+      "HDAR",
+      "BATC",
+      "DTS"
+     ],
+     "n_rows": 8257
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [],
+   "other": [
+    "Spliced_occam/README_FIRST.txt",
+    "Spliced_occam/public wells poseidon 3D Petrel project.zip"
+   ]
+  },
+  "Torosa 1": {
+   "las": [
+    {
+     "file": "Torosa_1/LWD/Torosa-1_REC_DDS_550-4685mMD.las",
+     "large_file_text_scan": true,
+     "bytes": 5571224,
+     "curves": [
+      "DEPTH",
+      "SGRC",
+      "SROP",
+      "SAAX",
+      "SAAY",
+      "SAAZ",
+      "SPAX",
+      "SPAY",
+      "SPAZ",
+      "WOB",
+      "RPM",
+      "TORQUE"
+     ],
+     "n_rows": 41351
+    },
+    {
+     "file": "Torosa_1/LWD/Torosa-1_REC_DGR-EWR-NUKE-BAT_550-4685mMD.las",
+     "large_file_text_scan": true,
+     "bytes": 10246168,
+     "curves": [
+      "DEPT",
+      "SGRC",
+      "SEXP",
+      "SESP",
+      "SEMP",
+      "SEDP",
+      "SROP",
+      "SFXE",
+      "SDDE",
+      "STEM",
+      "NUCL",
+      "SCO2",
+      "SBD2",
+      "SNB2",
+      "SFB2",
+      "SNLF",
+      "SFLF",
+      "SNNA",
+      "SNFA",
+      "SNP2",
+      "SHSI",
+      "BATC"
+     ],
+     "n_rows": 165404
+    },
+    {
+     "file": "Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+     "large_file_text_scan": true,
+     "bytes": 3446624,
+     "curves": [
+      "MD",
+      "TVD",
+      "TIME",
+      "DT",
+      "DTC_CS",
+      "RHO_CS",
+      "VEL_CS",
+      "AIMP_CS"
+     ],
+     "n_rows": 30480
+    },
+    {
+     "file": "Torosa_1/VSP/TZV_TIME_SYNTHETICS_1.LAS",
+     "large_file_text_scan": true,
+     "bytes": 510646,
+     "curves": [
+      "TIME",
+      "SYN_20",
+      "SYN_30",
+      "SYN_40",
+      "SYN_50",
+      "SYN_60",
+      "SYN_70",
+      "SYN_80",
+      "SYN_90"
+     ],
+     "n_rows": 4001
+    },
+    {
+     "file": "Torosa_1/wireline/Torosa-1_Nan Hai IV_Suite 1 Run 1_ Main Log_HRLA_TLD_MCFL_CNL_4680m-3526m.las",
+     "large_file_text_scan": true,
+     "bytes": 3123731,
+     "curves": [
+      "DEPT",
+      "CDF",
+      "DSO8",
+      "DSOZ",
+      "ECGR",
+      "EHGR",
+      "HDRA",
+      "HPRA",
+      "HTNP",
+      "NPHI",
+      "NPOR",
+      "PEF8",
+      "PEFZ",
+      "RHO8",
+      "RHOZ",
+      "RLA1",
+      "RLA2",
+      "RLA3",
+      "RLA4",
+      "RLA5",
+      "RM_HRLT",
+      "RSO8",
+      "RSOZ",
+      "RT_HRLT",
+      "RXO_HRLT",
+      "RXO8",
+      "SP",
+      "TENS",
+      "TNPH",
+      "HCAL"
+     ],
+     "n_rows": 8014
+    }
+   ],
+   "vsp_listing": [],
+   "segy": [
+    {
+     "file": "Torosa_1/VSP/VSPZO_COMPUTED_DCU_ZPH_90.SEGY",
+     "traces": 120,
+     "samples": 5000,
+     "dt_us": 1000.0,
+     "t0_ms": 0.0,
+     "text_header_head": "C01 CLIENT                :   WOODSIDE ENERGY LTD.                              C02 WELL                  :   MARINE VERTICAL WELL, TOROSA-1                    C03 SURVEY                :   ZERO OFFSET VSP                                   C04 ACQUIRED BY           :   SCHLUMBERGER, 18 DEC 2006                         C05 PROCESSED BY          :   READ WELL SERVICES, START 31 MAY 2007             "
+    }
+   ],
+   "other": [
+    "Torosa_1/VSP/TZV_DEPTH_CHECKSHOT.PDF",
+    "Torosa_1/VSP/TZV_DEPTH_CHECKSHOT.XLS",
+    "Torosa_1/VSP/TZV_DEPTH_GEOMETRY.XLS",
+    "Torosa_1/VSP/TZV_TIME_INDX.XLS",
+    "Torosa_1/VSP/VSPZO_COMPUTED_INF.ASC",
+    "Torosa_1/survey/ENO407785_Torosa_1_Surveys_4685mMD.txt",
+    "Torosa_1/survey/Inclination_Survey.txt",
+    "Torosa_1/survey/Torosa-1_Surveys_4685mMD.txt"
+   ]
+  },
+  "Velocity": {
+   "las": [],
+   "vsp_listing": [],
+   "segy": [],
+   "other": [
+    "Velocity/velocity explanation.txt"
+   ]
+  }
+ },
+ "seismic_records": {
+  "near_stack_blocks_record.json": {
+   "stack": "near_stack",
+   "source": "s3://tgs-opendata-poseidon/near_stack.mdio",
+   "affine_raw": {
+    "A": [
+     [
+      1205.226958,
+      -957.555533
+     ],
+     [
+      1436.333333,
+      803.484399
+     ]
+    ],
+    "B": [
+     40911129.891,
+     842942630.308
+    ],
+    "scalar": -100
+   },
+   "time_ms": [
+    0,
+    6000,
+    4
+   ],
+   "blocks": [
+    {
+     "well": "Boreas 1",
+     "inside": true,
+     "x": 424077.3,
+     "y": 8490107.5,
+     "il_float": 2992.237423040756,
+     "xl_float": 2203.24046520357,
+     "il": 2992,
+     "xl": 2203,
+     "il_range": [
+      2775,
+      3158
+     ],
+     "xl_range": [
+      1912,
+      2423
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009193790161144402,
+     "nan_fraction": 0.0,
+     "rms": 13644.955522162154,
+     "file": "near_stack_Boreas_1.npy",
+     "sha256": "a6fdc21b82bbd759c6ba1acd0783e0a4d602431f974ae36f82e19dd1e4a88888",
+     "reader": "extract_blocks.py run 1 (zarr async); record rebuilt from the saved files by rebuild_record.py",
+     "rebuilt_utc": "2026-09-16T20:34:13Z"
+    },
+    {
+     "well": "Crown 1",
+     "inside": true,
+     "x": 445933.5,
+     "y": 8498102.9,
+     "il_float": 4068.1693849118637,
+     "xl_float": 1274.9624030484924,
+     "il": 4068,
+     "xl": 1275,
+     "il_range": [
+      3927,
+      4310
+     ],
+     "xl_range": [
+      1016,
+      1527
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009085079547213342,
+     "nan_fraction": 0.0,
+     "rms": 6177.897603575495,
+     "file": "near_stack_Crown_1.npy",
+     "sha256": "f1d8a396e3ab1b8b35e335bca946c1d4e0c713c2828e38596e719207b5cccd48",
+     "reader": "extract_blocks.py run 1 (zarr async); record rebuilt from the saved files by rebuild_record.py",
+     "rebuilt_utc": "2026-09-16T20:34:14Z"
+    },
+    {
+     "well": "Kronos 1",
+     "inside": true,
+     "x": 412591.0,
+     "y": 8485495.0,
+     "il_float": 2410.017142866442,
+     "xl_float": 2669.9731062227347,
+     "il": 2410,
+     "xl": 2670,
+     "il_range": [
+      2263,
+      2646
+     ],
+     "xl_range": [
+      2424,
+      2935
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009222862252752607,
+     "nan_fraction": 0.0,
+     "rms": 12316.085071914382,
+     "file": "near_stack_Kronos_1.npy",
+     "sha256": "83363859fd048ccb0b42f93db92235d9a60de9421ad2dd5710a75e62ba5823db",
+     "reader": "extract_blocks.py run 1 (zarr async); record rebuilt from the saved files by rebuild_record.py",
+     "rebuilt_utc": "2026-09-16T20:34:14Z"
+    },
+    {
+     "well": "Pharos 1",
+     "inside": true,
+     "x": 435012.1,
+     "y": 8487363.1,
+     "il_float": 3254.979858551476,
+     "xl_float": 1391.9917104935869,
+     "il": 3255,
+     "xl": 1392,
+     "il_range": [
+      3031,
+      3414
+     ],
+     "xl_range": [
+      1144,
+      1655
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009451886078354359,
+     "nan_fraction": 0.0,
+     "rms": 13645.191853700833,
+     "file": "near_stack_Pharos_1.npy",
+     "sha256": "c030aad90e9850cb9f22a85c7f7a76818f4a686e30f04eee69034ae53029fdb2",
+     "reader": "extract_blocks.py run 1 (zarr async); record rebuilt from the saved files by rebuild_record.py",
+     "rebuilt_utc": "2026-09-16T20:34:15Z"
+    },
+    {
+     "well": "Poseidon 1",
+     "inside": true,
+     "x": 425058.9,
+     "y": 8493871.1,
+     "il_float": 3179.653159022477,
+     "xl_float": 2336.620194062159,
+     "il": 3180,
+     "xl": 2337,
+     "il_range": [
+      3031,
+      3414
+     ],
+     "xl_range": [
+      2040,
+      2551
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009028163847089609,
+     "nan_fraction": 0.0,
+     "rms": 13042.397338758778,
+     "file": "near_stack_Poseidon_1.npy",
+     "sha256": "6b39707f01ce86e94eb07da2059c68caa9f5945582b1754ae7e6f2ec57eb3053",
+     "reader": "extract_blocks.py run 1 (zarr async); record rebuilt from the saved files by rebuild_record.py",
+     "rebuilt_utc": "2026-09-16T20:34:16Z"
+    },
+    {
+     "well": "Zephyros 1",
+     "inside": true,
+     "x": 405186.5,
+     "y": 8480280.3,
+     "il_float": 1943.1258308591089,
+     "xl_float": 2855.5915880625485,
+     "il": 1943,
+     "xl": 2856,
+     "il_range": [
+      1751,
+      2134
+     ],
+     "xl_range": [
+      2552,
+      3063
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009392473965986796,
+     "nan_fraction": 0.0,
+     "rms": 11454.783203125,
+     "file": "near_stack_Zephyros_1.npy",
+     "sha256": "da5ed8d028007bd553598bb605dff04b778d32812e855588ad732fecd8377613",
+     "seconds": 460.6,
+     "reader": "extract_blocks_sync.py (direct chunk reads)"
+    },
+    {
+     "well": "Poseidon 2",
+     "inside": true,
+     "x": 421661.8,
+     "y": 8488800.6,
+     "il_float": 2856.0349309720223,
+     "xl_float": 2284.0661532652375,
+     "il": 2856,
+     "xl": 2284,
+     "il_range": [
+      2647,
+      3030
+     ],
+     "xl_range": [
+      2040,
+      2551
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009201945109491978,
+     "nan_fraction": 0.0,
+     "rms": 13338.2177734375,
+     "file": "near_stack_Poseidon_2.npy",
+     "sha256": "7b6649c4f6f8f50ed0bc6a17a10f710d628683de67391fd94923dbf58b3a30ba",
+     "seconds": 189.5,
+     "reader": "extract_blocks_sync.py (direct chunk reads over HTTPS, no s3fs)"
+    },
+    {
+     "well": "Poseidon North 1",
+     "inside": true,
+     "x": 428611.9,
+     "y": 8499338.3,
+     "il_float": 3524.823408418123,
+     "xl_float": 2400.0196393987826,
+     "il": 3525,
+     "xl": 2400,
+     "il_range": [
+      3287,
+      3670
+     ],
+     "xl_range": [
+      2168,
+      2679
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.008787809258867952,
+     "nan_fraction": 0.0,
+     "rms": 12008.330078125,
+     "file": "near_stack_Poseidon_North_1.npy",
+     "sha256": "a979cac97b7d9ba5cfc4093fed04fc29d4e3d4779729dc6dacd515f9000f5dfb",
+     "seconds": 196.9,
+     "reader": "extract_blocks_sync.py (direct chunk reads over HTTPS, no s3fs)"
+    },
+    {
+     "well": "Proteus 1",
+     "inside": true,
+     "x": 428152.8,
+     "y": 8481148.0,
+     "il_float": 2765.9070483687806,
+     "xl_float": 1492.7548113455132,
+     "il": 2766,
+     "xl": 1493,
+     "il_range": [
+      2519,
+      2902
+     ],
+     "xl_range": [
+      1272,
+      1783
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.009566159534473125,
+     "nan_fraction": 0.0,
+     "rms": 13099.546875,
+     "file": "near_stack_Proteus_1.npy",
+     "sha256": "a57b0c14154be85f9a54c9770b352ea5ebeda52c21cbd29cd2c14ab813687f70",
+     "seconds": 195.3,
+     "reader": "extract_blocks_sync.py (direct chunk reads over HTTPS, no s3fs)"
+    },
+    {
+     "well": "Torosa 1",
+     "inside": true,
+     "x": 399434.9,
+     "y": 8466761.5,
+     "il_float": 1193.629395793596,
+     "xl_float": 2512.892603871254,
+     "il": 1194,
+     "xl": 2513,
+     "il_range": [
+      983,
+      1366
+     ],
+     "xl_range": [
+      2296,
+      2807
+     ],
+     "shape": [
+      384,
+      512,
+      1501
+     ],
+     "affine_max_err_m": 0.00995173267063382,
+     "nan_fraction": 0.0,
+     "rms": 12766.0615234375,
+     "file": "near_stack_Torosa_1.npy",
+     "sha256": "e91eca6d20c85837cd8b0612daaec7f9c7ec314d2f1d86f85fd1b13617517966",
+     "seconds": 336.9,
+     "reader": "extract_blocks_sync.py (direct chunk reads over HTTPS, no s3fs)"
+    }
+   ],
+   "last_read_utc": "2026-09-16T21:15:15Z"
+  }
+ },
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v01_inventory.py",
+   "sha256": "8742e65bb92aabcea687b521c9dfa0e0367c14e37ae9f7ca78c289b24b658482"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T21:56:12Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [],
+  "config": {
+   "raw_root": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D"
+  }
+ }
+}

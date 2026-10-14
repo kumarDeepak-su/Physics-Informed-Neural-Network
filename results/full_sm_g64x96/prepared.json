@@ -1,0 +1,245 @@
+{
+  "admm": {
+    "alpha": 5e-05,
+    "chunk": 64,
+    "epsilon": 0.001,
+    "iterations": {
+      "clean": {
+        "at_limit": 6962,
+        "max": 200,
+        "mean": 177.0259539739725
+      },
+      "noisy": {
+        "at_limit": 11561,
+        "max": 200,
+        "mean": 196.6062789500772
+      }
+    },
+    "lambda_": 0.0001,
+    "max_iter": 200,
+    "mu": 5e-06,
+    "n_jobs": 128,
+    "tol": 1e-06
+  },
+  "command": "/net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/code/run_marmousi_full.py prepare --out /net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/runs/full_sm_g64x96 --marmousi-dir /net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/data/marmousi2 --starting-model gaussian --smooth-sigma-x 64 --smooth-sigma-t 96 --noise-reference fault --epsilon 1e-3 --n-jobs 128",
+  "dt": 0.00125,
+  "f0": 30.0,
+  "inputs": {
+    "density.segy": {
+      "path": "/net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/data/marmousi2/density.segy",
+      "sha256": "5677ba1f2199d06440164da557966f2c25e2d1a572f3cfb8c37e2a40c16ba29e"
+    },
+    "vp.segy": {
+      "path": "/net/pr2/projects/plgrid/plggseismicresearch/admm_pinn/data/marmousi2/vp.segy",
+      "sha256": "64a6bc60c5074e64a5ecf16e471077aaf47c3ad6c8be50aeb230800235dc82d3"
+    }
+  },
+  "local_snr_ratio": {
+    "centre": 4.851977583646162,
+    "crop_fault": 7.976005404689388,
+    "crop_second": 2.5581123455817147,
+    "deep": 4.873337833373863,
+    "left": 5.190902985194657,
+    "middle": 4.938570734085854,
+    "right": 4.309982717319255,
+    "shallow": 4.5738247464401125,
+    "whole": 4.797919947818597
+  },
+  "metrics": {
+    "admm_clean": {
+      "centre": {
+        "rmse": 196.7569069005647,
+        "samples": 12699734,
+        "snr_db": 30.30209667886027
+      },
+      "crop_fault": {
+        "rmse": 255.14180107945117,
+        "samples": 120000,
+        "snr_db": 29.762107049911005
+      },
+      "crop_second": {
+        "rmse": 145.87227409075768,
+        "samples": 120000,
+        "snr_db": 28.381074879455966
+      },
+      "deep": {
+        "rmse": 141.70461115938835,
+        "samples": 12703334,
+        "snr_db": 35.8590637538931
+      },
+      "left": {
+        "rmse": 217.12745641171648,
+        "samples": 12696933,
+        "snr_db": 29.10100125326177
+      },
+      "middle": {
+        "rmse": 297.2077233054999,
+        "samples": 12703334,
+        "snr_db": 26.435462082000317
+      },
+      "right": {
+        "rmse": 222.68621042867727,
+        "samples": 12699734,
+        "snr_db": 29.693957559356164
+      },
+      "shallow": {
+        "rmse": 164.36020612897147,
+        "samples": 12689733,
+        "snr_db": 25.57397272696742
+      },
+      "whole": {
+        "rmse": 212.4824078395987,
+        "samples": 38096401,
+        "snr_db": 29.68765303307391
+      }
+    },
+    "admm_noisy": {
+      "centre": {
+        "rmse": 462.2859940847641,
+        "samples": 12699734,
+        "snr_db": 22.882481696260424
+      },
+      "crop_fault": {
+        "rmse": 862.7319407909416,
+        "samples": 120000,
+        "snr_db": 19.180221845724983
+      },
+      "crop_second": {
+        "rmse": 220.89469276907948,
+        "samples": 120000,
+        "snr_db": 24.776824317015183
+      },
+      "deep": {
+        "rmse": 543.2358363051309,
+        "samples": 12703334,
+        "snr_db": 24.186975170797375
+      },
+      "left": {
+        "rmse": 454.2096377179293,
+        "samples": 12696933,
+        "snr_db": 22.690169245810882
+      },
+      "middle": {
+        "rmse": 524.4876819983992,
+        "samples": 12703334,
+        "snr_db": 21.50195804204357
+      },
+      "right": {
+        "rmse": 445.1081218425543,
+        "samples": 12699734,
+        "snr_db": 23.678513675953297
+      },
+      "shallow": {
+        "rmse": 218.57255100226743,
+        "samples": 12689733,
+        "snr_db": 23.097993851360354
+      },
+      "whole": {
+        "rmse": 453.9221364464376,
+        "samples": 38096401,
+        "snr_db": 23.09448536498403
+      }
+    },
+    "initial_model": {
+      "centre": {
+        "rmse": 857.4467999217494,
+        "samples": 12699734,
+        "snr_db": 17.516552734821904
+      },
+      "crop_fault": {
+        "rmse": 1687.664810311857,
+        "samples": 120000,
+        "snr_db": 13.35201548951769
+      },
+      "crop_second": {
+        "rmse": 330.26661901637186,
+        "samples": 120000,
+        "snr_db": 21.283236338477547
+      },
+      "deep": {
+        "rmse": 1012.7774559502541,
+        "samples": 12703334,
+        "snr_db": 18.776462896946345
+      },
+      "left": {
+        "rmse": 901.7745771857146,
+        "samples": 12696933,
+        "snr_db": 16.733336397939865
+      },
+      "middle": {
+        "rmse": 998.2667015198219,
+        "samples": 12703334,
+        "snr_db": 15.911732202166116
+      },
+      "right": {
+        "rmse": 769.0410650941011,
+        "samples": 12699734,
+        "snr_db": 18.928833437860938
+      },
+      "shallow": {
+        "rmse": 341.93778710917337,
+        "samples": 12689733,
+        "snr_db": 19.210964336431353
+      },
+      "whole": {
+        "rmse": 844.5540289255357,
+        "samples": 38096401,
+        "snr_db": 17.701563854323425
+      }
+    }
+  },
+  "noise_reference": "fault",
+  "noise_seed": 42,
+  "noise_snr": 8.0,
+  "noise_std": 0.007910462022601598,
+  "nt": 2801,
+  "nw": 96,
+  "nx": 13601,
+  "outputs": {
+    "S_clean.npy": "32fc595db988206880b2f6504645d16645abd5e408c82c14725f926c3ca040d3",
+    "S_noisy.npy": "5b0e303bf96b019a57a7f6097c1dd0dae074eea1bad88583490e2e7c30f0025c",
+    "Z_init.npy": "aa1c187d2248515ed60769b8b87189bac2e46509647c6f80aebe8280caf7889b",
+    "Z_rw_clean.npy": "9e1641aae96e323c704fbda93638c44c383286a7ef475e23f7902bffe03ca5cd",
+    "Z_rw_noisy.npy": "df3bc0a4a0345ace4509ab72712db8732f8ed307dd36af320da7b330109761b1",
+    "Z_true.npy": "f975a8cd47f677004e759ea14d12db6a60c6edd965d27fd5d88721951cb14df9",
+    "admm_iters_clean.npy": "c5382a0f520dbdf7d8751ba0c1cf2913a686a3d0ba90ffd2e03ee0e7f0ed8ea3",
+    "admm_iters_noisy.npy": "08c82ef96242e262d95eda2d13d0f42e022007cd489540c9df7b6e194264d955",
+    "wavelet.npy": "24f15becb398d0b6f97bd0348a1f34c9d177bd014e6a7460e87bee168283db78"
+  },
+  "sample_range": [
+    0,
+    2801
+  ],
+  "smooth_sigma": [
+    64.0,
+    96.0
+  ],
+  "software": {
+    "cuda": "12.6",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "host": "t0011",
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.6",
+    "platform": "Linux-5.14.0-687.42.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.16",
+    "scipy": "1.17.1",
+    "torch": "2.10.0+cu126"
+  },
+  "starting_model": {
+    "cutoff_hz": 1.5615885427439795,
+    "kind": "gaussian",
+    "sigma_t_samples": 96.0,
+    "sigma_x_traces": 64.0
+  },
+  "timings": {
+    "admm_clean": 109.17320656776428,
+    "admm_noisy": 117.74952578544617,
+    "forward_and_noise": 1.088766098022461
+  },
+  "total_seconds": 262.6461238861084,
+  "trace_range": [
+    0,
+    13601
+  ],
+  "warnings": []
+}

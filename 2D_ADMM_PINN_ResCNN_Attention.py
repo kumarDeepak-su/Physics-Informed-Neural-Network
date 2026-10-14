@@ -127,6 +127,8 @@ W_INIT_END   = 0.01     # initial-model proximity weight after warm-up
 W_LATERAL    = 0.005    # lateral smoothness weight (0.003→0.005)
 W_SUPERVISED = 2.0      # synthetic benchmark only: impedance target loss
 W_GRAD       = 0.6      # gradient-domain loss to sharpen thin beds/fault edges
+W_LOWBAND    = 0.0      # low-band anchor to the prior (0 = off, as in the published runs)
+LOWBAND_SIGMA = 12.0    # Gaussian width (samples) of the time low-pass defining that band
 UNET_BASE_CH = 16        # CPU-friendly; keep same in Marmousi when loading this checkpoint
 USE_HE_ADMM_AS_NEURAL_INITIAL = True  # refine the He et al. RW-L1 ADMM result
 RUN_ATTENTION = False     # server preset enables Attention ResUNet ablation
@@ -354,6 +356,12 @@ def parse_args():
     parser.add_argument("--stride-nt", type=int, default=None)
     parser.add_argument("--lr", type=float, default=None)
     parser.add_argument("--noise-snr", type=float, default=None)
+    parser.add_argument("--epsilon", type=float, default=None,
+                        help="Reweighting floor of the ADMM prior (default EPSILON_CL = 1e-4).")
+    parser.add_argument("--lowband", type=float, default=None,
+                        help="Weight of the low-band anchor to the prior (default 0: not used).")
+    parser.add_argument("--lowband-sigma", type=float, default=None,
+                        help="Gaussian width in samples of the low-pass of that anchor (default 12).")
     parser.add_argument("--with-attention", action="store_true",
                         help="Train Attention ResUNet in addition to U-Net and ResCNN.")
     parser.add_argument("--no-attention", action="store_true",
@@ -364,9 +372,16 @@ def parse_args():
 def configure_runtime(args) -> None:
     global DEVICE, NX, NT, LAYER_TOPS, PATCH_NX, PATCH_NT, STRIDE_NX, STRIDE_NT
     global EPOCHS, BATCH_SIZE, LR, WARMUP_EPOCHS, REWEIGHT_EVERY, UNET_BASE_CH
-    global NOISE_SNR, RESULTS_DIR, RUN_ATTENTION, RUN_TAG, BENCHMARK
+    global W_LOWBAND, LOWBAND_SIGMA
+    global NOISE_SNR, RESULTS_DIR, RUN_ATTENTION, RUN_TAG, BENCHMARK, EPSILON_CL
 
     BENCHMARK = args.benchmark
+    if args.epsilon is not None:
+        EPSILON_CL = args.epsilon
+    if args.lowband is not None:
+        W_LOWBAND = args.lowband
+    if args.lowband_sigma is not None:
+        LOWBAND_SIGMA = args.lowband_sigma
     RUN_TAG = args.run_tag or args.preset
 
     if args.device == "cuda":
@@ -1350,10 +1365,63 @@ class PhysicsLayer2D(nn.Module):
 #  SECTION 5 – U-NET TRAINING
 # ==============================================================================
 
+def supervised_terms(L_pred, Lt_batch, mask_batch=None):
+    """
+    Impedance and gradient supervision of a batch.
+
+    Without a mask (dense labels) the terms are the MSE to the target and the
+    L1 distance of the vertical and lateral first differences, as in the
+    published runs.  With a mask (sparse labels, e.g. pseudo-well columns)
+    both terms are averaged over the labelled samples only: the impedance
+    term over mask == 1, the gradient term over vertical differences whose two
+    samples are labelled, and the lateral difference is not used.  A batch
+    without labelled samples contributes zero.
+    """
+    if mask_batch is None:
+        loss_supervised = F.mse_loss(L_pred, Lt_batch)
+        grad_pred_t = L_pred[:, :, :, 1:] - L_pred[:, :, :, :-1]
+        grad_true_t = Lt_batch[:, :, :, 1:] - Lt_batch[:, :, :, :-1]
+        grad_pred_x = L_pred[:, :, 1:, :] - L_pred[:, :, :-1, :]
+        grad_true_x = Lt_batch[:, :, 1:, :] - Lt_batch[:, :, :-1, :]
+        loss_grad = (F.l1_loss(grad_pred_t, grad_true_t) +
+                     F.l1_loss(grad_pred_x, grad_true_x))
+        return loss_supervised, loss_grad
+    n_lab = mask_batch.sum()
+    loss_supervised = (mask_batch * (L_pred - Lt_batch) ** 2).sum() / torch.clamp(n_lab, min=1.0)
+    mask_t = mask_batch[:, :, :, 1:] * mask_batch[:, :, :, :-1]
+    grad_pred_t = L_pred[:, :, :, 1:] - L_pred[:, :, :, :-1]
+    grad_true_t = Lt_batch[:, :, :, 1:] - Lt_batch[:, :, :, :-1]
+    loss_grad = (mask_t * torch.abs(grad_pred_t - grad_true_t)).sum() / torch.clamp(mask_t.sum(), min=1.0)
+    return loss_supervised, loss_grad
+
+
+def lowpass_kernel(sigma: float, device) -> torch.Tensor:
+    """Normalised Gaussian kernel along time, shape (1, 1, 1, K), K = 6 sigma + 1."""
+    half = int(3 * sigma)
+    t = torch.arange(-half, half + 1, dtype=torch.float32)
+    k = torch.exp(-0.5 * (t / sigma) ** 2)
+    return (k / k.sum()).view(1, 1, 1, -1).to(device)
+
+
+def lowband_mse(x: torch.Tensor, kernel: torch.Tensor) -> torch.Tensor:
+    """
+    Mean square of the time low-pass of x (N, 1, nx, nt): the part of x below
+    the seismic band.  Normalised convolution: zero padding divided by the
+    low-pass of a ones mask, so at the patch ends the average is taken over
+    the samples that exist (exact for a constant, no edge leakage).
+    """
+    half = kernel.shape[-1] // 2
+    xp = F.pad(x, (half, half, 0, 0))
+    ones = F.pad(torch.ones_like(x), (half, half, 0, 0))
+    low = F.conv2d(xp, kernel) / F.conv2d(ones, kernel)
+    return torch.mean(low ** 2)
+
+
 def train_model_2d(S_patches, L_init_patches, wavelet,
                    patch_nx, patch_nt, label="", checkpoint_path=None,
                    L_true_patches=None, model_class=UNet2D,
-                   model_name="U-Net", transfer_checkpoint=None):
+                   model_name="U-Net", transfer_checkpoint=None,
+                   label_mask_patches=None, monitor=None):
     """
     Train a physics-informed 2D neural impedance model on patches.
 
@@ -1362,6 +1430,11 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
     S_patches      : (N, patch_nx, patch_nt) zero-phase seismic patches
     L_init_patches : (N, patch_nx, patch_nt)  initial log-impedance patches
     L_true_patches : optional synthetic target log-impedance patches
+    label_mask_patches : optional (N, patch_nx, patch_nt) mask, 1 where the
+                     target is known (sparse labels); None = dense labels
+    monitor        : optional callable monitor(epoch, terms, net) called after
+                     every epoch with the epoch means of the loss terms
+                     (diagnostics only; the training is unchanged)
     wavelet        : 1D wavelet array
     patch_nx, patch_nt : patch dimensions
 
@@ -1373,7 +1446,11 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
     # Convert to tensors: (N, 1, patch_nx, patch_nt)
     S_t    = torch.tensor(S_patches, dtype=torch.float32).unsqueeze(1)
     L0_t   = torch.tensor(L_init_patches, dtype=torch.float32).unsqueeze(1)
-    if L_true_patches is not None:
+    if L_true_patches is not None and label_mask_patches is not None:
+        Lt_t = torch.tensor(L_true_patches, dtype=torch.float32).unsqueeze(1)
+        M_t = torch.tensor(label_mask_patches, dtype=torch.float32).unsqueeze(1)
+        dataset = TensorDataset(S_t, L0_t, Lt_t, M_t)
+    elif L_true_patches is not None:
         Lt_t = torch.tensor(L_true_patches, dtype=torch.float32).unsqueeze(1)
         dataset = TensorDataset(S_t, L0_t, Lt_t)
     else:
@@ -1390,6 +1467,7 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
 
     # Reweighting tensor: (1, 1, 1, patch_nt-1)
     rw_weights = torch.ones(1, 1, 1, patch_nt - 1, device=DEVICE)
+    low_kernel = lowpass_kernel(LOWBAND_SIGMA, DEVICE) if W_LOWBAND > 0.0 else None
 
     loss_history = []
     t0 = time.time()
@@ -1397,6 +1475,7 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
     for epoch in range(EPOCHS):
         net.train()
         epoch_loss, n_batch = 0.0, 0
+        term_sums = {}
 
         # Linear annealing: w_init(epoch) = W_INIT_START -
         # (W_INIT_START - W_INIT_END) * epoch / WARMUP_EPOCHS.
@@ -1406,7 +1485,12 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
             w_init = W_INIT_END
 
         for batch in loader:
-            if L_true_patches is not None:
+            M_batch = None
+            if L_true_patches is not None and label_mask_patches is not None:
+                S_batch, L0_batch, Lt_batch, M_batch = batch
+                Lt_batch = Lt_batch.to(DEVICE)
+                M_batch = M_batch.to(DEVICE)
+            elif L_true_patches is not None:
                 S_batch, L0_batch, Lt_batch = batch
                 Lt_batch = Lt_batch.to(DEVICE)
             else:
@@ -1427,13 +1511,7 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
             loss_init   = F.mse_loss(L_pred, L0_batch)
 
             if Lt_batch is not None:
-                loss_supervised = F.mse_loss(L_pred, Lt_batch)
-                grad_pred_t = L_pred[:, :, :, 1:] - L_pred[:, :, :, :-1]
-                grad_true_t = Lt_batch[:, :, :, 1:] - Lt_batch[:, :, :, :-1]
-                grad_pred_x = L_pred[:, :, 1:, :] - L_pred[:, :, :-1, :]
-                grad_true_x = Lt_batch[:, :, 1:, :] - Lt_batch[:, :, :-1, :]
-                loss_grad = (F.l1_loss(grad_pred_t, grad_true_t) +
-                             F.l1_loss(grad_pred_x, grad_true_x))
+                loss_supervised, loss_grad = supervised_terms(L_pred, Lt_batch, M_batch)
             else:
                 loss_supervised = torch.tensor(0.0, device=DEVICE)
                 loss_grad = torch.tensor(0.0, device=DEVICE)
@@ -1445,24 +1523,41 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
             else:
                 loss_lat = torch.tensor(0.0, device=DEVICE)
 
+            # Low-band anchor: below the seismic band the prediction must stay
+            # with the prior, because the physics term cannot constrain it there
+            if low_kernel is not None:
+                loss_low = lowband_mse(L_pred - L0_batch, low_kernel)
+            else:
+                loss_low = torch.tensor(0.0, device=DEVICE)
+
             loss = (W_PHYSICS * loss_phys +
                     W_SPARSE  * loss_sparse +
                     w_init    * loss_init +
                     W_LATERAL * loss_lat +
                     W_SUPERVISED * loss_supervised +
-                    W_GRAD * loss_grad)
+                    W_GRAD * loss_grad +
+                    W_LOWBAND * loss_low)
 
             optim.zero_grad()
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(net.parameters(), max_norm=1.0)
+            grad_norm = torch.nn.utils.clip_grad_norm_(net.parameters(), max_norm=1.0)
             optim.step()
 
             epoch_loss += loss.item()
             n_batch += 1
+            if monitor is not None:
+                for key, value in (("physics", W_PHYSICS * loss_phys), ("sparse", W_SPARSE * loss_sparse),
+                                   ("init", w_init * loss_init), ("lateral", W_LATERAL * loss_lat),
+                                   ("supervised", W_SUPERVISED * loss_supervised),
+                                   ("gradient", W_GRAD * loss_grad), ("lowband", W_LOWBAND * loss_low),
+                                   ("grad_norm", grad_norm), ("w_init", torch.tensor(float(w_init)))):
+                    term_sums[key] = term_sums.get(key, 0.0) + float(value.detach())
 
         sched.step()
         avg_loss = epoch_loss / max(n_batch, 1)
         loss_history.append(avg_loss)
+        if monitor is not None:
+            monitor(epoch, {k: v / max(n_batch, 1) for k, v in term_sums.items()}, net)
 
         if epoch % 20 == 0 or epoch == EPOCHS - 1:
             print(f"  [{label}] Epoch {epoch:4d}/{EPOCHS} | "
@@ -1505,6 +1600,8 @@ def train_model_2d(S_patches, L_init_patches, wavelet,
                 "W_LATERAL": W_LATERAL,
                 "W_SUPERVISED": W_SUPERVISED,
                 "W_GRAD": W_GRAD,
+                "W_LOWBAND": W_LOWBAND,
+                "LOWBAND_SIGMA": LOWBAND_SIGMA,
                 "USE_HE_ADMM_AS_NEURAL_INITIAL": USE_HE_ADMM_AS_NEURAL_INITIAL,
                 "model_name": model_name,
             },

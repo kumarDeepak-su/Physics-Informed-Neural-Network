@@ -1,0 +1,322 @@
+{
+ "item": "(8) summary of the Poseidon verification evidence and the provisional feasibility picture",
+ "per_well": {
+  "Boreas 1": {
+   "seismic_block": true,
+   "time_depth": false,
+   "impedance_in_time": false,
+   "tied": false
+  },
+  "Crown 1": {
+   "seismic_block": true,
+   "time_depth": false,
+   "impedance_in_time": false,
+   "tied": false
+  },
+  "Kronos 1": {
+   "seismic_block": true,
+   "time_depth": true,
+   "impedance_in_time": true,
+   "tied": true,
+   "r_best": 0.4302127545909809,
+   "lag_ms": 8.0,
+   "p_circular": 0.0,
+   "p_phase": 0.0,
+   "beats_both_nulls": true,
+   "loo_error_ms": 8.0,
+   "passes_gate_loo": false,
+   "rows": 317,
+   "n_eff_2BT": 105.61621093749999,
+   "n_eff_PP": 68.23494470356695
+  },
+  "Pharos 1": {
+   "seismic_block": true,
+   "time_depth": true,
+   "impedance_in_time": true,
+   "tied": true,
+   "r_best": 0.3976511760346545,
+   "lag_ms": 4.0,
+   "p_circular": 0.022,
+   "p_phase": 0.0,
+   "beats_both_nulls": true,
+   "loo_error_ms": 4.0,
+   "passes_gate_loo": false,
+   "rows": 168,
+   "n_eff_2BT": 55.81616210937498,
+   "n_eff_PP": 39.675670590032944
+  },
+  "Poseidon 1": {
+   "seismic_block": true,
+   "time_depth": true,
+   "impedance_in_time": false,
+   "tied": true,
+   "r_best": 0.21252484416844525,
+   "lag_ms": -12.0,
+   "p_circular": 0.702,
+   "p_phase": 0.666,
+   "beats_both_nulls": false,
+   "loo_error_ms": 16.0,
+   "passes_gate_loo": false
+  },
+  "Poseidon 2": {
+   "seismic_block": true,
+   "time_depth": true,
+   "impedance_in_time": true,
+   "tied": true,
+   "r_best": 0.2920571639171812,
+   "lag_ms": -4.0,
+   "p_circular": 0.0,
+   "p_phase": 0.0,
+   "beats_both_nulls": true,
+   "loo_error_ms": 8.0,
+   "passes_gate_loo": false,
+   "rows": 350,
+   "n_eff_2BT": 116.64575195312499,
+   "n_eff_PP": 82.71955693653427
+  },
+  "Poseidon North 1": {
+   "seismic_block": true,
+   "time_depth": false,
+   "impedance_in_time": false,
+   "tied": false
+  },
+  "Proteus 1": {
+   "seismic_block": true,
+   "time_depth": true,
+   "impedance_in_time": true,
+   "tied": true,
+   "r_best": 0.6727119958458833,
+   "lag_ms": 0.0,
+   "p_circular": 0.0,
+   "p_phase": 0.0,
+   "beats_both_nulls": true,
+   "loo_error_ms": 4.0,
+   "passes_gate_loo": false,
+   "rows": 318,
+   "n_eff_2BT": 105.95043945312499,
+   "n_eff_PP": 59.63200369959382
+  },
+  "Torosa 1": {
+   "seismic_block": true,
+   "time_depth": true,
+   "impedance_in_time": true,
+   "tied": true,
+   "r_best": 0.5689690094681565,
+   "lag_ms": 8.0,
+   "p_circular": 0.0,
+   "p_phase": 0.0,
+   "beats_both_nulls": true,
+   "loo_error_ms": 8.0,
+   "passes_gate_loo": false,
+   "rows": 136,
+   "n_eff_2BT": 45.120849609375,
+   "n_eff_PP": 38.28290654397138
+  },
+  "Zephyros 1": {
+   "seismic_block": true,
+   "time_depth": false,
+   "impedance_in_time": false,
+   "tied": false
+  }
+ },
+ "tie_table": {
+  "Kronos 1": {
+   "rows": 285,
+   "r_at_zero_lag": 0.04336833613215052,
+   "best_lag_ms": 8.0,
+   "r_best": 0.4302127545909809
+  },
+  "Pharos 1": {
+   "rows": 136,
+   "r_at_zero_lag": 0.3973607754989562,
+   "best_lag_ms": 4.0,
+   "r_best": 0.3976511760346545
+  },
+  "Poseidon 1": {
+   "rows": 18,
+   "r_at_zero_lag": -0.17550789542179623,
+   "best_lag_ms": -12.0,
+   "r_best": 0.21252484416844525
+  },
+  "Poseidon 2": {
+   "rows": 318,
+   "r_at_zero_lag": 0.2052842795083279,
+   "best_lag_ms": -4.0,
+   "r_best": 0.2920571639171812
+  },
+  "Proteus 1": {
+   "rows": 286,
+   "r_at_zero_lag": 0.6727119958458833,
+   "best_lag_ms": 0.0,
+   "r_best": 0.6727119958458833
+  },
+  "Torosa 1": {
+   "rows": 104,
+   "r_at_zero_lag": -0.2906338801006287,
+   "best_lag_ms": 8.0,
+   "r_best": 0.5689690094681565
+  }
+ },
+ "alignment_budget": {
+  "Kronos 1": {
+   "own_lag_ms": 8.0,
+   "loo_predicted_lag_ms": 0.0,
+   "loo_error_ms": 8.0,
+   "others_spread_ms": 20.0
+  },
+  "Pharos 1": {
+   "own_lag_ms": 4.0,
+   "loo_predicted_lag_ms": 0.0,
+   "loo_error_ms": 4.0,
+   "others_spread_ms": 20.0
+  },
+  "Poseidon 1": {
+   "own_lag_ms": -12.0,
+   "loo_predicted_lag_ms": 4.0,
+   "loo_error_ms": 16.0,
+   "others_spread_ms": 12.0
+  },
+  "Poseidon 2": {
+   "own_lag_ms": -4.0,
+   "loo_predicted_lag_ms": 4.0,
+   "loo_error_ms": 8.0,
+   "others_spread_ms": 20.0
+  },
+  "Proteus 1": {
+   "own_lag_ms": 0.0,
+   "loo_predicted_lag_ms": 4.0,
+   "loo_error_ms": 4.0,
+   "others_spread_ms": 20.0
+  },
+  "Torosa 1": {
+   "own_lag_ms": 8.0,
+   "loo_predicted_lag_ms": 0.0,
+   "loo_error_ms": 8.0,
+   "others_spread_ms": 20.0
+  }
+ },
+ "gate_ms": 2.3126873915830957,
+ "verdict": {
+  "q1_timing": {
+   "gate_ms": 2.3126873915830957,
+   "wells_with_loo_error": 6,
+   "wells_passing_gate_loo": [],
+   "note": "LOO error = |own lag - median lag of the other tied wells|; the freeze must declare the bulk shift rule and this budget"
+  },
+  "q2_effective_samples": {
+   "pooled_2BT": 429.14941406249994,
+   "pooled_PP": 288.5450824736994,
+   "zou_mdd": {
+    "n_eff=14": {
+     "r_b=0.3,r_ab=0.5": 0.5791910971793091,
+     "r_b=0.3,r_ab=0.8": 0.45938889429054125,
+     "r_b=0.3,r_ab=0.9": 0.3927599648340136,
+     "r_b=0.5,r_ab=0.5": 0.43854317722885294,
+     "r_b=0.5,r_ab=0.8": 0.3642593210997358,
+     "r_b=0.5,r_ab=0.9": 0.3223738556698653
+    },
+    "n_eff=429": {
+     "r_b=0.3,r_ab=0.5": 0.14150656654036953,
+     "r_b=0.3,r_ab=0.8": 0.09185670152894376,
+     "r_b=0.3,r_ab=0.9": 0.06583975331332625,
+     "r_b=0.5,r_ab=0.5": 0.12100583247546404,
+     "r_b=0.5,r_ab=0.8": 0.08116414051364962,
+     "r_b=0.5,r_ab=0.9": 0.05906727300361181
+    },
+    "n_eff=288": {
+     "r_b=0.3,r_ab=0.5": 0.17094121703663862,
+     "r_b=0.3,r_ab=0.8": 0.11156191973491919,
+     "r_b=0.3,r_ab=0.9": 0.08029022832840382,
+     "r_b=0.5,r_ab=0.5": 0.14521902252259478,
+     "r_b=0.5,r_ab=0.8": 0.09822752802064316,
+     "r_b=0.5,r_ab=0.9": 0.07198007306995058
+    }
+   }
+  },
+  "q3_wells": {
+   "tied_and_beating_nulls": [
+    "Kronos 1",
+    "Pharos 1",
+    "Poseidon 2",
+    "Proteus 1",
+    "Torosa 1"
+   ],
+   "blocks_present": [
+    "Boreas 1",
+    "Crown 1",
+    "Kronos 1",
+    "Pharos 1",
+    "Poseidon 1",
+    "Poseidon 2",
+    "Poseidon North 1",
+    "Proteus 1",
+    "Torosa 1",
+    "Zephyros 1"
+   ],
+   "no_time_depth": [
+    "Boreas 1",
+    "Crown 1",
+    "Poseidon North 1",
+    "Zephyros 1"
+   ]
+  },
+  "status": "PROVISIONAL until all ten blocks are extracted and v06 has tied every well with impedance in time"
+ },
+ "evidence_hashes": {
+  "v03_wells_datums": "cd9949a700f04d10307ccf62bb795374a01cb5a33e9828873e0703ce5ec017a0",
+  "v04_time_depth": "723893897eebefb741fa0e7884b6eb7ec67cc558b079c50d7ffec69ddff950c8",
+  "v05_seismic_band": "d7c499f90be892da49ad744290fc8cbbe31f494e859f3bfc25233f77726d9659",
+  "v06_ties": "9243b7d1a98954451f171318967c62bb04b4cae429ef792946b121c677707c10",
+  "v07_rows_and_power": "17e67fc6e7346235d3c06b492b173b5bd404a06cb23ba1f318ea2e7d96cb9e23"
+ },
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v08_summary.py",
+   "sha256": "f43487a79a14ad4056e5908195f01f9e1f393875b65983da5d4f004de1409a5a"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T21:15:33Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v03_wells_datums.json",
+    "bytes": 52142,
+    "mtime_utc": "2026-09-16T20:51:21Z",
+    "sha256": "cd9949a700f04d10307ccf62bb795374a01cb5a33e9828873e0703ce5ec017a0"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v04_time_depth.json",
+    "bytes": 11075,
+    "mtime_utc": "2026-09-16T20:36:28Z",
+    "sha256": "723893897eebefb741fa0e7884b6eb7ec67cc558b079c50d7ffec69ddff950c8"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v05_seismic_band.json",
+    "bytes": 304654,
+    "mtime_utc": "2026-09-16T21:15:31Z",
+    "sha256": "d7c499f90be892da49ad744290fc8cbbe31f494e859f3bfc25233f77726d9659"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v06_ties.json",
+    "bytes": 10127,
+    "mtime_utc": "2026-09-16T21:15:32Z",
+    "sha256": "9243b7d1a98954451f171318967c62bb04b4cae429ef792946b121c677707c10"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v07_rows_and_power.json",
+    "bytes": 5374,
+    "mtime_utc": "2026-09-16T21:15:33Z",
+    "sha256": "17e67fc6e7346235d3c06b492b173b5bd404a06cb23ba1f318ea2e7d96cb9e23"
+   }
+  ],
+  "config": {}
+ }
+}

@@ -6,8 +6,9 @@ Addresses the reviewer concern that the neural network is only compared against
 a *trace-wise* He et al. solver, so its advantage could be dismissed as "just
 2D spatial coupling".  Here we add a genuine 2D-coupled classical baseline
 (`admm_l1_2d_tv`: vertical reweighted-L1 + lateral edge-preserving TV, solved
-matrix-free by conjugate gradient) and show the physics-informed networks still
-win.
+by consensus ADMM with a batched dense linear solve for the vertical subproblem
+and one shared Cholesky factorisation for the lateral TV subproblem) and compare
+it with the physics-informed networks.
 
 The script reuses the *already trained* neural results stored in the existing
 2D_results.npz files (no 20-minute retrain): it loads S_clean / S_noisy /
@@ -70,22 +71,22 @@ def section_figure(Z_true, Z_init, Z_rw, Z_tv, Z_unet, Z_rescnn,
         (Z_init,   "(b) Initial model",             "init"),
         (Z_rw,     "(c) Classical RW-L1 (trace-wise)", "rw"),
         (Z_tv,     "(d) Classical 2D-coupled (TV+RW-L1)", "tv"),
-        (Z_unet,   "(e) PINN U-Net2D",              "unet"),
-        (Z_rescnn, "(f) PINN ResCNN2D",             "rescnn"),
+        (Z_unet,   "(e) 2D U-Net",                 "unet"),
+        (Z_rescnn, "(f) ResCNN",                   "rescnn"),
     ]
     for ax, (Z, ttl, key) in zip(axes.ravel(), items):
         if key is not None and key in metrics:
             ttl = f"{ttl}\nSNR={metrics[key][0]:.2f} dB | RMSE={metrics[key][1]:.0f}"
         im = panel(ax, Z, ttl, vmin, vmax, dt)
     fig.colorbar(im, ax=axes, shrink=0.85, label="Impedance")
-    fig.suptitle(f"2D classical-vs-PINN comparison — {tag}", fontsize=14)
+    fig.suptitle(f"Classical inversions versus physics-informed networks — {tag}", fontsize=14)
     fig.savefig(out_path, dpi=200)
     plt.close(fig)
 
 
 def metrics_bar_figure(m_clean, m_noisy, out_path, tag):
     labels = ["Initial", "RW-L1\n(trace-wise)", "2D-coupled\n(TV+RW-L1)",
-              "PINN\nU-Net2D", "PINN\nResCNN2D"]
+              "2D U-Net", "ResCNN"]
     keys = ["init", "rw", "tv", "unet", "rescnn"]
     snr_c = [m_clean[k][0] for k in keys]
     snr_n = [m_noisy[k][0] for k in keys]
@@ -129,7 +130,7 @@ def trace_figure(Z_true, Z_rw, Z_tv, Z_unet, dt, tag, out_path):
         ax.plot(Z_true[c], t, "k", lw=2.0, label="True")
         ax.plot(Z_rw[c], t, "--", color="#7570b3", lw=1.3, label="RW-L1 (1D)")
         ax.plot(Z_tv[c], t, "-.", color="#1b9e77", lw=1.3, label="2D-coupled")
-        ax.plot(Z_unet[c], t, color="#d95f02", lw=1.3, label="PINN U-Net")
+        ax.plot(Z_unet[c], t, color="#d95f02", lw=1.3, label="2D U-Net")
         ax.invert_yaxis()
         ax.set_title(f"Trace {c}")
         ax.set_xlabel("Impedance")
@@ -196,8 +197,8 @@ def process(mod, tag, npz_path):
 
     print("\n  --- SNR (dB) / RMSE ---")
     for name, key in [("Initial model", "init"), ("RW-L1 (trace-wise)", "rw"),
-                      ("2D-coupled (TV+RW-L1)", "tv"), ("PINN U-Net2D", "unet"),
-                      ("PINN ResCNN2D", "rescnn")]:
+                      ("2D-coupled (TV+RW-L1)", "tv"), ("2D U-Net", "unet"),
+                      ("ResCNN", "rescnn")]:
         print(f"    {name:24s} clean: {m_clean[key][0]:6.2f} dB / {m_clean[key][1]:8.1f}"
               f"   noisy: {m_noisy[key][0]:6.2f} dB / {m_noisy[key][1]:8.1f}")
 

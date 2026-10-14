@@ -1,0 +1,95 @@
+{
+  "item": "VSP-derived alignment (surface near stack against the VSP corridor stack at the well, no log read)",
+  "convention": "shift_ms > 0: surface event later than the VSP event (as the v06 lags)",
+  "wells": {
+    "Proteus 1": {
+      "window_s": [
+        1.984,
+        3.4520000000000004
+      ],
+      "log_based_lag_ms": -0.6785547996093009,
+      "shift_ms": 0.0,
+      "source": null,
+      "note": "no corridor stack on disk; zero shift"
+    },
+    "Pharos 1": {
+      "window_s": [
+        2.584,
+        3.456
+      ],
+      "log_based_lag_ms": 2.0055944571891513,
+      "shift_ms": -0.6428163445598947,
+      "correlation": 0.5916243275819739,
+      "polarity_sign": 1,
+      "source": "Pharos_1/VSP/COP_Pharos-1_corstk.sgy",
+      "stack_traces": 10,
+      "stack_dt_ms": 1.0,
+      "lag_grid_ms": [
+        -24.0,
+        24.0
+      ],
+      "note": "corridor stack, mean of the delivered traces"
+    },
+    "Poseidon 2": {
+      "window_s": [
+        1.888,
+        3.488
+      ],
+      "log_based_lag_ms": -3.782509841979412,
+      "shift_ms": -4.504742387272434,
+      "correlation": 0.39022562604873356,
+      "polarity_sign": 1,
+      "source": "Poseidon_2/VSP/CP_Poseidon2_corstk.sgy",
+      "stack_traces": 10,
+      "stack_dt_ms": 1.0,
+      "lag_grid_ms": [
+        -24.0,
+        24.0
+      ],
+      "note": "corridor stack, mean of the delivered traces"
+    },
+    "Kronos 1": {
+      "window_s": [
+        2.012,
+        3.4760000000000004
+      ],
+      "log_based_lag_ms": 7.320116793337268,
+      "shift_ms": 4.661753784950591,
+      "correlation": 0.3214712818044626,
+      "polarity_sign": 1,
+      "source": "Kronos_1/VSP/CP_Kronos1_corstk.sgy",
+      "stack_traces": 10,
+      "stack_dt_ms": 1.0,
+      "lag_grid_ms": [
+        -24.0,
+        24.0
+      ],
+      "note": "corridor stack, mean of the delivered traces"
+    },
+    "Torosa 1": {
+      "window_s": [
+        2.356,
+        3.096
+      ],
+      "log_based_lag_ms": 9.993874697657235,
+      "shift_ms": 11.320970947940083,
+      "correlation": 0.22564022753963547,
+      "polarity_sign": 1,
+      "source": "Torosa_1/VSP/VSPZO_COMPUTED_DCU_ZPH_90.SEGY",
+      "stack_traces": 120,
+      "stack_dt_ms": 1.0,
+      "lag_grid_ms": [
+        -24.0,
+        24.0
+      ],
+      "note": "not a corridor stack: deconvolved upgoing wavefield (120 levels, Read Well Services 2007); the deepest level's trace is used"
+    }
+  },
+  "inputs_sha256": {
+    "Pharos_1/VSP/COP_Pharos-1_corstk.sgy": "f5996c3e885b2280ce65287ff5a24d0e8dc619f173698f039bbbe3edd574ee5d",
+    "Poseidon_2/VSP/CP_Poseidon2_corstk.sgy": "b2c1f3e9a52f10e1ed9ea1e494c321f0928499beebbfacceea8ae5439e29b4ba",
+    "Kronos_1/VSP/CP_Kronos1_corstk.sgy": "89f416b0c8db81b78a5dbf42159ecf8555e6e66dade33eacf9c57b81f4ec5720",
+    "Torosa_1/VSP/VSPZO_COMPUTED_DCU_ZPH_90.SEGY": "77db7a2469a7d56a784620185c4ace552ad3e27db8876af8c073901cbf840b0b"
+  },
+  "script_sha256": "80c2f5d1bcc9ac0e54bae486f015479c2a6dce77f665057cf275cfc90cc54941"
+}

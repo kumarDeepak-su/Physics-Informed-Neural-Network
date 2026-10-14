@@ -1,0 +1,1005 @@
+{
+  "classical": {
+    "admm_clean": {
+      "centre": {
+        "rmse": 135.3085445732933,
+        "samples": 12699734,
+        "snr_db": 33.554191959076356
+      },
+      "crop_fault": {
+        "rmse": 201.388488262835,
+        "samples": 120000,
+        "snr_db": 31.817046551700166
+      },
+      "crop_second": {
+        "rmse": 72.61527272435974,
+        "samples": 120000,
+        "snr_db": 34.43997049320652
+      },
+      "deep": {
+        "rmse": 120.35958835961713,
+        "samples": 12703334,
+        "snr_db": 37.2771295329838
+      },
+      "left": {
+        "rmse": 150.26376112122009,
+        "samples": 12696933,
+        "snr_db": 32.298211046614696
+      },
+      "middle": {
+        "rmse": 187.02203750026413,
+        "samples": 12703334,
+        "snr_db": 30.45880821852534
+      },
+      "right": {
+        "rmse": 146.43101448857607,
+        "samples": 12699734,
+        "snr_db": 33.33516262915704
+      },
+      "shallow": {
+        "rmse": 113.38912019290657,
+        "samples": 12689733,
+        "snr_db": 28.798478561261597
+      },
+      "whole": {
+        "rmse": 144.14026100842406,
+        "samples": 38096401,
+        "snr_db": 33.05840653259571
+      }
+    },
+    "admm_noisy": {
+      "centre": {
+        "rmse": 286.5837994043,
+        "samples": 12699734,
+        "snr_db": 27.035663690571212
+      },
+      "crop_fault": {
+        "rmse": 374.6365047930772,
+        "samples": 120000,
+        "snr_db": 26.425537528757012
+      },
+      "crop_second": {
+        "rmse": 163.76497311739274,
+        "samples": 120000,
+        "snr_db": 27.376109584145972
+      },
+      "deep": {
+        "rmse": 377.16084835809886,
+        "samples": 12703334,
+        "snr_db": 27.35621132915601
+      },
+      "left": {
+        "rmse": 274.9259149687353,
+        "samples": 12696933,
+        "snr_db": 27.05098256664522
+      },
+      "middle": {
+        "rmse": 279.96141400257204,
+        "samples": 12703334,
+        "snr_db": 26.954700333342856
+      },
+      "right": {
+        "rmse": 286.8028729244363,
+        "samples": 12699734,
+        "snr_db": 27.496154106078134
+      },
+      "shallow": {
+        "rmse": 138.84412375142213,
+        "samples": 12689733,
+        "snr_db": 27.039356192195328
+      },
+      "whole": {
+        "rmse": 282.82585486142233,
+        "samples": 38096401,
+        "snr_db": 27.203730445731328
+      }
+    },
+    "initial_model": {
+      "centre": {
+        "rmse": 456.9554564579945,
+        "samples": 12699734,
+        "snr_db": 22.98321906073921
+      },
+      "crop_fault": {
+        "rmse": 890.3172178562249,
+        "samples": 120000,
+        "snr_db": 18.906843943102043
+      },
+      "crop_second": {
+        "rmse": 159.14914367716807,
+        "samples": 120000,
+        "snr_db": 27.62444382547703
+      },
+      "deep": {
+        "rmse": 563.2513158175453,
+        "samples": 12703334,
+        "snr_db": 23.87269910874597
+      },
+      "left": {
+        "rmse": 478.30625192305536,
+        "samples": 12696933,
+        "snr_db": 22.241174997223936
+      },
+      "middle": {
+        "rmse": 489.3196939826829,
+        "samples": 12703334,
+        "snr_db": 22.104809991004647
+      },
+      "right": {
+        "rmse": 385.28196504055194,
+        "samples": 12699734,
+        "snr_db": 24.93225044829731
+      },
+      "shallow": {
+        "rmse": 170.75199292357416,
+        "samples": 12689733,
+        "snr_db": 25.242590647398927
+      },
+      "whole": {
+        "rmse": 441.97284143693474,
+        "samples": 38096401,
+        "snr_db": 23.326200946851326
+      }
+    },
+    "tv2d_clean": {
+      "centre": {
+        "rmse": 136.11622121184172,
+        "samples": 12699734,
+        "snr_db": 33.50249873327958
+      },
+      "crop_fault": {
+        "rmse": 298.2407612278882,
+        "samples": 120000,
+        "snr_db": 28.406399405464114
+      },
+      "crop_second": {
+        "rmse": 58.43096079376589,
+        "samples": 120000,
+        "snr_db": 36.327669397708895
+      },
+      "deep": {
+        "rmse": 148.01056492216304,
+        "samples": 12703334,
+        "snr_db": 35.48088908328157
+      },
+      "left": {
+        "rmse": 177.33944576733796,
+        "samples": 12696933,
+        "snr_db": 30.859189211427594
+      },
+      "middle": {
+        "rmse": 182.83444793678862,
+        "samples": 12703334,
+        "snr_db": 30.655503404861566
+      },
+      "right": {
+        "rmse": 109.35395625233573,
+        "samples": 12699734,
+        "snr_db": 35.8711340587533
+      },
+      "shallow": {
+        "rmse": 81.13070258991092,
+        "samples": 12689733,
+        "snr_db": 31.70620153252433
+      },
+      "whole": {
+        "rmse": 143.6811392663524,
+        "samples": 38096401,
+        "snr_db": 33.0861173571606
+      }
+    },
+    "tv2d_noisy": {
+      "centre": {
+        "rmse": 122.77353590296377,
+        "samples": 12699734,
+        "snr_db": 34.398601136068564
+      },
+      "crop_fault": {
+        "rmse": 231.45466627531275,
+        "samples": 120000,
+        "snr_db": 30.608420571504023
+      },
+      "crop_second": {
+        "rmse": 43.308188746284564,
+        "samples": 120000,
+        "snr_db": 38.92912953199836
+      },
+      "deep": {
+        "rmse": 153.2806172525136,
+        "samples": 12703334,
+        "snr_db": 35.17699859553471
+      },
+      "left": {
+        "rmse": 148.20940914062646,
+        "samples": 12696933,
+        "snr_db": 32.417780630383255
+      },
+      "middle": {
+        "rmse": 141.82039015276797,
+        "samples": 12703334,
+        "snr_db": 32.86189038416505
+      },
+      "right": {
+        "rmse": 100.82017373134,
+        "samples": 12699734,
+        "snr_db": 36.57687522418345
+      },
+      "shallow": {
+        "rmse": 59.84748202014961,
+        "samples": 12689733,
+        "snr_db": 34.348988613328174
+      },
+      "whole": {
+        "rmse": 125.43617639886087,
+        "samples": 38096401,
+        "snr_db": 34.26565647173768
+      }
+    }
+  },
+  "figure_runs": {
+    "rescnn": "rescnn_noisy_wells5+tv_all_s42",
+    "unet": "unet_noisy_wells5+tv_all_s42"
+  },
+  "groups": [
+    {
+      "classical_held_out": {
+        "admm_clean": null,
+        "admm_noisy": null,
+        "initial_model": null,
+        "tv2d_clean": null,
+        "tv2d_noisy": null
+      },
+      "held_out_fraction": 0.0,
+      "n_patches": 18275,
+      "n_random": 2000,
+      "networks": {
+        "rescnn_clean_none": {
+          "ms_per_patch_step": 2.689663433017548,
+          "rmse_whole": 148.28425934877689,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.28933670836495,
+              null
+            ],
+            "crop_fault": [
+              31.792293837659482,
+              null
+            ],
+            "crop_second": [
+              34.33550527091811,
+              null
+            ],
+            "deep": [
+              36.665354593325326,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              32.08541890162187,
+              null
+            ],
+            "middle": [
+              30.312350314953477,
+              null
+            ],
+            "right": [
+              33.06994520068442,
+              null
+            ],
+            "shallow": [
+              28.717046280084016,
+              null
+            ],
+            "whole": [
+              32.8122115693561,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3932.2879390716553
+        },
+        "rescnn_clean_wells5": {
+          "ms_per_patch_step": 2.43096485509755,
+          "rmse_whole": 145.19900657118848,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.54835865912276,
+              null
+            ],
+            "crop_fault": [
+              31.768758050613997,
+              null
+            ],
+            "crop_second": [
+              34.35754944086587,
+              null
+            ],
+            "deep": [
+              36.96097746168959,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              32.20738975383961,
+              null
+            ],
+            "middle": [
+              30.45769755146958,
+              null
+            ],
+            "right": [
+              33.25145650294662,
+              null
+            ],
+            "shallow": [
+              28.861203240930244,
+              null
+            ],
+            "whole": [
+              32.994839715450176,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3554.0706181526184
+        },
+        "rescnn_clean_wells5+tv": {
+          "ms_per_patch_step": 1.4043242776442812,
+          "rmse_whole": 149.6195895577573,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.196695994663386,
+              null
+            ],
+            "crop_fault": [
+              27.777364870503813,
+              null
+            ],
+            "crop_second": [
+              35.421978481066745,
+              null
+            ],
+            "deep": [
+              34.86832891279109,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              30.661528199405108,
+              null
+            ],
+            "middle": [
+              30.347549539430677,
+              null
+            ],
+            "right": [
+              35.07403380520892,
+              null
+            ],
+            "shallow": [
+              32.0866745382989,
+              null
+            ],
+            "whole": [
+              32.73434343473037,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            32.73442403404368,
+            null
+          ],
+          "train_seconds": 2053.1220939159393
+        },
+        "rescnn_noisy_none": {
+          "ms_per_patch_step": 2.6813518187252834,
+          "rmse_whole": 148.74986328723904,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              32.31882003122266,
+              null
+            ],
+            "crop_fault": [
+              29.796470993126434,
+              null
+            ],
+            "crop_second": [
+              35.1875378398833,
+              null
+            ],
+            "deep": [
+              33.372156307459385,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              32.27513365593772,
+              null
+            ],
+            "middle": [
+              31.697983566140955,
+              null
+            ],
+            "right": [
+              33.78154333731092,
+              null
+            ],
+            "shallow": [
+              33.39144521006929,
+              null
+            ],
+            "whole": [
+              32.78498111043814,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3920.136358976364
+        },
+        "rescnn_noisy_wells5": {
+          "ms_per_patch_step": 2.447030706379547,
+          "rmse_whole": 126.08345770961559,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.49937058705957,
+              null
+            ],
+            "crop_fault": [
+              31.127605419643952,
+              null
+            ],
+            "crop_second": [
+              35.787486574538796,
+              null
+            ],
+            "deep": [
+              34.4957536911592,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              34.17293166727061,
+              null
+            ],
+            "middle": [
+              33.7328537415031,
+              null
+            ],
+            "right": [
+              35.0382170446258,
+              null
+            ],
+            "shallow": [
+              34.16730398064294,
+              null
+            ],
+            "whole": [
+              34.22095040764382,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3577.558892726898
+        },
+        "rescnn_noisy_wells5+tv": {
+          "ms_per_patch_step": 1.4140481169344463,
+          "rmse_whole": 83.84624468268906,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              36.62475464859892,
+              null
+            ],
+            "crop_fault": [
+              32.439397854305156,
+              null
+            ],
+            "crop_second": [
+              41.378602363453034,
+              null
+            ],
+            "deep": [
+              38.70450058715603,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              38.315161958444236,
+              null
+            ],
+            "middle": [
+              36.48027114805261,
+              null
+            ],
+            "right": [
+              38.57743186295802,
+              null
+            ],
+            "shallow": [
+              37.070557689618965,
+              null
+            ],
+            "whole": [
+              37.76444029272517,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            37.76365452424932,
+            null
+          ],
+          "train_seconds": 2067.3383469581604
+        },
+        "unet_clean_none": {
+          "ms_per_patch_step": 2.6317720595854253,
+          "rmse_whole": 146.51591033041248,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.4177330673532,
+              null
+            ],
+            "crop_fault": [
+              31.819452200951094,
+              null
+            ],
+            "crop_second": [
+              34.30058905565315,
+              null
+            ],
+            "deep": [
+              36.88329049923866,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              32.191113523690504,
+              null
+            ],
+            "middle": [
+              30.39126584443595,
+              null
+            ],
+            "right": [
+              33.15206133580885,
+              null
+            ],
+            "shallow": [
+              28.74891287621455,
+              null
+            ],
+            "whole": [
+              32.916416859724904,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3847.6507511138916
+        },
+        "unet_clean_wells5": {
+          "ms_per_patch_step": 2.4676336925757076,
+          "rmse_whole": 146.12809063142487,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.58227450903415,
+              null
+            ],
+            "crop_fault": [
+              31.731642375236135,
+              null
+            ],
+            "crop_second": [
+              34.709368800118725,
+              null
+            ],
+            "deep": [
+              36.60604866709323,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              32.11447831107279,
+              null
+            ],
+            "middle": [
+              30.48082724091261,
+              null
+            ],
+            "right": [
+              33.161774085017754,
+              null
+            ],
+            "shallow": [
+              28.975649169738947,
+              null
+            ],
+            "whole": [
+              32.93943842220894,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3607.680458545685
+        },
+        "unet_clean_wells5+tv": {
+          "ms_per_patch_step": 1.4244635989010415,
+          "rmse_whole": 149.47963789315355,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              33.20446313327858,
+              null
+            ],
+            "crop_fault": [
+              27.78751633646532,
+              null
+            ],
+            "crop_second": [
+              35.44009915070856,
+              null
+            ],
+            "deep": [
+              34.88192526290837,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              30.66630941593018,
+              null
+            ],
+            "middle": [
+              30.353856304907325,
+              null
+            ],
+            "right": [
+              35.09033912986092,
+              null
+            ],
+            "shallow": [
+              32.0827902492846,
+              null
+            ],
+            "whole": [
+              32.742471872991395,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            32.74255263733114,
+            null
+          ],
+          "train_seconds": 2082.5657815933228
+        },
+        "unet_noisy_none": {
+          "ms_per_patch_step": 2.61728434230006,
+          "rmse_whole": 160.19624881149022,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              31.69897812256299,
+              null
+            ],
+            "crop_fault": [
+              29.601680034999454,
+              null
+            ],
+            "crop_second": [
+              33.62118370834557,
+              null
+            ],
+            "deep": [
+              32.53255338561288,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              31.725716920291735,
+              null
+            ],
+            "middle": [
+              31.395407090531556,
+              null
+            ],
+            "right": [
+              32.999991835688945,
+              null
+            ],
+            "shallow": [
+              32.422422555272,
+              null
+            ],
+            "whole": [
+              32.141065768684825,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3826.469708442688
+        },
+        "unet_noisy_wells5": {
+          "ms_per_patch_step": 2.4558843020375223,
+          "rmse_whole": 138.62381990558845,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              32.82687881872978,
+              null
+            ],
+            "crop_fault": [
+              30.574099255950244,
+              null
+            ],
+            "crop_second": [
+              34.51341876745867,
+              null
+            ],
+            "deep": [
+              33.67782778488545,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              33.34168061654118,
+              null
+            ],
+            "middle": [
+              32.90578850517219,
+              null
+            ],
+            "right": [
+              34.036030117895095,
+              null
+            ],
+            "shallow": [
+              33.317365425170344,
+              null
+            ],
+            "whole": [
+              33.3973553743239,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            null,
+            null
+          ],
+          "train_seconds": 3590.5028495788574
+        },
+        "unet_noisy_wells5+tv": {
+          "ms_per_patch_step": 1.45175951776361,
+          "rmse_whole": 79.42022794526488,
+          "seeds": [
+            42
+          ],
+          "snr_db": {
+            "centre": [
+              37.163542071540014,
+              null
+            ],
+            "crop_fault": [
+              32.839182553747754,
+              null
+            ],
+            "crop_second": [
+              41.13634686578378,
+              null
+            ],
+            "deep": [
+              39.16222078361459,
+              null
+            ],
+            "held_out": [
+              null,
+              null
+            ],
+            "left": [
+              38.64104517409601,
+              null
+            ],
+            "middle": [
+              37.15708747035721,
+              null
+            ],
+            "right": [
+              39.0840263019326,
+              null
+            ],
+            "shallow": [
+              36.76854054276292,
+              null
+            ],
+            "whole": [
+              38.23549003133765,
+              null
+            ]
+          },
+          "snr_db_unlabelled": [
+            38.23495204144142,
+            null
+          ],
+          "train_seconds": 2122.472414970398
+        }
+      },
+      "train_set": "all",
+      "train_set_seed": 1
+    }
+  ],
+  "prepared": {
+    "dt": 0.00125,
+    "local_snr_ratio": {
+      "centre": 4.851977583646162,
+      "crop_fault": 7.976005404689388,
+      "crop_second": 2.5581123455817147,
+      "deep": 4.873337833373863,
+      "left": 5.190902985194657,
+      "middle": 4.938570734085854,
+      "right": 4.309982717319255,
+      "shallow": 4.5738247464401125,
+      "whole": 4.797919947818597
+    },
+    "noise_reference": "fault",
+    "noise_seed": 42,
+    "noise_snr": 8.0,
+    "noise_std": 0.007910462022601598,
+    "nt": 2801,
+    "nw": 96,
+    "nx": 13601,
+    "sample_range": [
+      0,
+      2801
+    ],
+    "trace_range": [
+      0,
+      13601
+    ]
+  },
+  "region_definitions": {
+    "centre": [
+      4533,
+      9067,
+      0,
+      2801
+    ],
+    "crop_fault": [
+      8100,
+      8500,
+      1500,
+      1800
+    ],
+    "crop_second": [
+      4500,
+      4900,
+      1000,
+      1300
+    ],
+    "deep": [
+      0,
+      13601,
+      1867,
+      2801
+    ],
+    "left": [
+      0,
+      4533,
+      0,
+      2801
+    ],
+    "middle": [
+      0,
+      13601,
+      933,
+      1867
+    ],
+    "right": [
+      9067,
+      13601,
+      0,
+      2801
+    ],
+    "shallow": [
+      0,
+      13601,
+      0,
+      933
+    ],
+    "whole": [
+      0,
+      13601,
+      0,
+      2801
+    ]
+  },
+  "regions": {
+    "centre": 12699734,
+    "crop_fault": 120000,
+    "crop_second": 120000,
+    "deep": 12703334,
+    "left": 12696933,
+    "middle": 12703334,
+    "right": 12699734,
+    "shallow": 12689733,
+    "whole": 38096401
+  }
+}

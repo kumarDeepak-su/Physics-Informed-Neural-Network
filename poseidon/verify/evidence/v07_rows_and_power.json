@@ -1,0 +1,170 @@
+{
+ "item": "(7) rows, washouts, three effective-sample estimates, Zou minimum detectable difference at the pooled n_eff",
+ "band_hz": [
+  14.495849609375,
+  56.2744140625
+ ],
+ "wells": {
+  "Boreas 1": {
+   "status": "no time-domain impedance on disk"
+  },
+  "Crown 1": {
+   "status": "no time-domain impedance on disk"
+  },
+  "Kronos 1": {
+   "source": "wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+   "window_s": [
+    2.112,
+    3.376
+   ],
+   "T_s": 1.2639999999999998,
+   "rows_4ms": 317,
+   "n_eff_2BT": 105.61621093749999,
+   "n_eff_pyper_peterman_bandpassed": 68.23494470356695,
+   "washout": {
+    "caliper_median_in": 5.868004999999982,
+    "rows_over_median_plus_1in": 0,
+    "fraction": 0.0
+   }
+  },
+  "Pharos 1": {
+   "source": "wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+   "window_s": [
+    2.684,
+    3.352
+   ],
+   "T_s": 0.6679999999999997,
+   "rows_4ms": 168,
+   "n_eff_2BT": 55.81616210937498,
+   "n_eff_pyper_peterman_bandpassed": 39.675670590032944,
+   "washout": {
+    "caliper_median_in": 8.39312,
+    "rows_over_median_plus_1in": 0,
+    "fraction": 0.0
+   }
+  },
+  "Poseidon 1": {
+   "status": "no time-domain impedance on disk"
+  },
+  "Poseidon 2": {
+   "source": "wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+   "window_s": [
+    1.988,
+    3.384
+   ],
+   "T_s": 1.396,
+   "rows_4ms": 350,
+   "n_eff_2BT": 116.64575195312499,
+   "n_eff_pyper_peterman_bandpassed": 82.71955693653427,
+   "washout": {
+    "caliper_median_in": 8.862790000000002,
+    "rows_over_median_plus_1in": 3,
+    "fraction": 0.008571428571428572
+   }
+  },
+  "Poseidon North 1": {
+   "status": "no time-domain impedance on disk"
+  },
+  "Proteus 1": {
+   "source": "wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+   "window_s": [
+    2.084,
+    3.352
+   ],
+   "T_s": 1.2679999999999998,
+   "rows_4ms": 318,
+   "n_eff_2BT": 105.95043945312499,
+   "n_eff_pyper_peterman_bandpassed": 59.63200369959382,
+   "washout": {
+    "caliper_median_in": 4.48919999999999,
+    "rows_over_median_plus_1in": 0,
+    "fraction": 0.0
+   }
+  },
+  "Torosa 1": {
+   "source": "wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+   "window_s": [
+    2.456,
+    2.996
+   ],
+   "T_s": 0.54,
+   "rows_4ms": 136,
+   "n_eff_2BT": 45.120849609375,
+   "n_eff_pyper_peterman_bandpassed": 38.28290654397138,
+   "washout": null
+  },
+  "Zephyros 1": {
+   "status": "no time-domain impedance on disk"
+  }
+ },
+ "pooled": {
+  "rows": 1289,
+  "n_2bt": 429.14941406249994,
+  "n_pp": 288.5450824736994
+ },
+ "zou_min_detectable": {
+  "n_eff=14": {
+   "r_b=0.3,r_ab=0.5": 0.5791910971793091,
+   "r_b=0.3,r_ab=0.8": 0.45938889429054125,
+   "r_b=0.3,r_ab=0.9": 0.3927599648340136,
+   "r_b=0.5,r_ab=0.5": 0.43854317722885294,
+   "r_b=0.5,r_ab=0.8": 0.3642593210997358,
+   "r_b=0.5,r_ab=0.9": 0.3223738556698653
+  },
+  "n_eff=429": {
+   "r_b=0.3,r_ab=0.5": 0.14150656654036953,
+   "r_b=0.3,r_ab=0.8": 0.09185670152894376,
+   "r_b=0.3,r_ab=0.9": 0.06583975331332625,
+   "r_b=0.5,r_ab=0.5": 0.12100583247546404,
+   "r_b=0.5,r_ab=0.8": 0.08116414051364962,
+   "r_b=0.5,r_ab=0.9": 0.05906727300361181
+  },
+  "n_eff=288": {
+   "r_b=0.3,r_ab=0.5": 0.17094121703663862,
+   "r_b=0.3,r_ab=0.8": 0.11156191973491919,
+   "r_b=0.3,r_ab=0.9": 0.08029022832840382,
+   "r_b=0.5,r_ab=0.5": 0.14521902252259478,
+   "r_b=0.5,r_ab=0.8": 0.09822752802064316,
+   "r_b=0.5,r_ab=0.9": 0.07198007306995058
+  }
+ },
+ "family_level": 0.99875,
+ "design_note": "leave-one-well-out: each evaluation well is scored on its own rows; the pooled n_eff is what a paired comparison across all evaluation wells sees",
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v07_rows_and_power.py",
+   "sha256": "fd35ce0c620e4bf049ed10d76c2e00dc8f4b7389e3504d3ef05a02b213478b19"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T21:15:33Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v04_time_depth.json",
+    "bytes": 11075,
+    "mtime_utc": "2026-09-16T20:36:28Z",
+    "sha256": "723893897eebefb741fa0e7884b6eb7ec67cc558b079c50d7ffec69ddff950c8"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/evidence/v05_seismic_band.json",
+    "bytes": 304654,
+    "mtime_utc": "2026-09-16T21:15:31Z",
+    "sha256": "d7c499f90be892da49ad744290fc8cbbe31f494e859f3bfc25233f77726d9659"
+   }
+  ],
+  "config": {
+   "band_hz": [
+    14.495849609375,
+    56.2744140625
+   ]
+  }
+ }
+}

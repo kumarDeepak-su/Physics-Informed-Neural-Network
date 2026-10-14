@@ -8,8 +8,8 @@ stochasticity, this script retrains both networks from random initialization
 the mean +/- standard deviation of the reconstruction SNR/RMSE.
 
 This is a deliberately conservative reproducibility check: it isolates the
-variance of the learned refinement under random weight init, data shuffling, and
-dropout, without relying on any pre-trained checkpoint. The classical baselines
+variance of the learned refinement under random weight initialisation and data
+shuffling, without relying on any pre-trained checkpoint. The classical baselines
 are deterministic and are listed once for reference.
 
 Outputs go to code/MULTISEED_CI_RESULTS/<tag>/.

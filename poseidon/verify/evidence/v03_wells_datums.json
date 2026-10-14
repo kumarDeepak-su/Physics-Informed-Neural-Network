@@ -1,0 +1,2589 @@
+{
+ "item": "(3) well positions, datums and deviation from the files, compared with NOPTA; transcribed report facts kept apart",
+ "wells": {
+  "Boreas 1": {
+   "nopta": {
+    "lat": -13.6569089,
+    "lon": 122.2979964,
+    "x": 424077.3,
+    "y": 8490107.5,
+    "il": 2992.2,
+    "xl": 2203.2,
+    "uwi": "ENO0537629",
+    "title": "WA-315-P",
+    "operator": "ConocoPhillips (Browse Basin) Pty Ltd"
+   },
+   "las_headers": [],
+   "segy_text_headers": [],
+   "surveys": [],
+   "files_present": false
+  },
+  "Crown 1": {
+   "nopta": {
+    "lat": -13.5851044,
+    "lon": 122.5002311,
+    "x": 445933.5,
+    "y": 8498102.9,
+    "il": 4068.2,
+    "xl": 1275.0,
+    "uwi": "ENO0568065",
+    "title": "WA-274-P",
+    "operator": "Santos Browse Pty Ltd"
+   },
+   "las_headers": [],
+   "segy_text_headers": [],
+   "surveys": [],
+   "files_present": false
+  },
+  "Kronos 1": {
+   "nopta": {
+    "lat": -13.698289,
+    "lon": 122.191656,
+    "x": 412591.0,
+    "y": 8485495.0,
+    "il": 2410.0,
+    "xl": 2670.0,
+    "uwi": "ENO0525821",
+    "title": "WA-398-P",
+    "operator": "ConocoPhillips Australia Exploration Pty Ltd"
+   },
+   "las_headers": [
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_Logs_depth.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5290.87080",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Offshore",
+       "LOCATION"
+      ],
+      "DATE": [
+       "12-May-2010",
+       "DATE"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 5418581
+    },
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4.00000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Offshore",
+       "LOCATION"
+      ],
+      "DATE": [
+       "12-May-2010",
+       "DATE"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 851161
+    },
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_Synthetics.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4.00000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos 1",
+       "WELL"
+      ],
+      "LOC": [
+       "Offshore",
+       "LOCATION"
+      ],
+      "DATE": [
+       "12-May-2010",
+       "DATE"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 851592
+    },
+    {
+     "file": "Kronos_1/wireline/GR to Surface VSIT_327LUC.las",
+     "header": {
+      "STRT": [
+       "5203.2408",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "208.3308",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "",
+       "LOG DATE"
+      ],
+      "LATI": [
+       "",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 1674832
+    },
+    {
+     "file": "Kronos_1/wireline/Run 1 CMR-LDS-CNT-GR Main Pass _268PUC.las",
+     "header": {
+      "STRT": [
+       "5334.7620",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4697.2728",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia Pty Ltd",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA398-P                          :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "02-May-2010",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 41' 53.9802\"",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 11' 30.2352\"",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 1143099
+    },
+    {
+     "file": "Kronos_1/wireline/Run 2 OBMI-SS-PPC-GR Main Pass 112PUC.las",
+     "header": {
+      "STRT": [
+       "5330.9520",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4700.7780",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia Pty Ltd",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA398-P                          :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "03-May-2010",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 41' 53.9802\"",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 11' 30.2352\"",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "0.000000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 1614659
+    },
+    {
+     "file": "Kronos_1/wireline/Run 3 AIT-ECS-HNGS-GR Main Pass 096PUC.las",
+     "header": {
+      "STRT": [
+       "5330.6472",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4697.8824",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia Pty Ltd",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Kronos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA398-P                          :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "03-May-2010",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 41' 53.9802\"",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 11' 30.2352\"",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "0.000000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 2000729
+    }
+   ],
+   "segy_text_headers": [
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_corstk.sgy",
+     "lines": [
+      "C5 SRD: MSL                A",
+      "C7 DEVIATION DATA:  Max 12.2 deg"
+     ]
+    },
+    {
+     "file": "Kronos_1/VSP/CP_Kronos1_corstkf.sgy",
+     "lines": [
+      "C5 SRD: MSL                A",
+      "C7 DEVIATION DATA:  Max 12.2 deg"
+     ]
+    }
+   ],
+   "surveys": [],
+   "files_present": true
+  },
+  "Pharos 1": {
+   "nopta": {
+    "lat": -13.6819889,
+    "lon": 122.3990361,
+    "x": 435012.1,
+    "y": 8487363.1,
+    "il": 3255.0,
+    "xl": 1392.0,
+    "uwi": "ENO0577348",
+    "title": "WA-398-P",
+    "operator": "ConocoPhillips (Browse Basin) Pty Ltd"
+   },
+   "las_headers": [
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_QC_VSP_GR_log.las",
+     "header": {
+      "STRT": [
+       "438.75960",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5147.00520",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL NAME"
+      ],
+      "DATE": [
+       "07/16/2014",
+       "LOG DATE(Composite Date for Composite LAP) (MM/DD/YYYY)"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "LOC": [
+       "Poseidon",
+       "FIELD LOCATION"
+      ],
+      "LATI": [
+       "13 40' 55.215\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 23' 56.478\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.09000",
+       "Elevation of Depth Reference (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "-999.25",
+       "Elevation of Kelly Bushing Above Permanent Datum"
+      ],
+      "EDF": [
+       "22.09000",
+       "Elevation of Drill Floor Above Permanent Datum"
+      ],
+      "EGL": [
+       "-460.02000",
+       "Elevation of Ground Level Above Permanent Datum"
+      ]
+     },
+     "bytes": 993247
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_logs_depth.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5191.20100",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "16-Jul-2014",
+       "DATE"
+      ],
+      "UWI": [
+       "Pharos-1",
+       "UNIQUE WELL UWI"
+      ],
+      "APD": [
+       "22.10",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "22.10",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ]
+     },
+     "bytes": 5317220
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "3.69200",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "16-Jul-2014",
+       "DATE"
+      ],
+      "UWI": [
+       "Pharos-1",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 837760
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_synthetics.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5.00000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "16-Jul-2014",
+       "DATE"
+      ],
+      "UWI": [
+       "Pharos-1",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 1344196
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S1R2_NGIT_PPC_MAST_HNGS_MainPass.las",
+     "header": {
+      "STRT": [
+       "4960.0104",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "3918.8644",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Poseidon",
+       "LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "20-Jun-2014",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13 40' 55.215\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 23' 56.478\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.090000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 12243947
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S2R1_Main_Pass.las",
+     "header": {
+      "STRT": [
+       "4809.1852",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5229.4536",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Poseidon",
+       "LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "12-Jul-2014",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13 40' 55.215\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 23' 56.478\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.090000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 6455686
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S2R2_Main_Pass.las",
+     "header": {
+      "STRT": [
+       "4900.0156",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5228.9964",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Poseidon",
+       "LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "12-Jul-2014",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13 40' 55.215\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 23' 56.478\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.090000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 4296073
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_S2R2_SonicScanner.las",
+     "header": {
+      "STRT": [
+       "4952.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5220.00000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "Pharos-1",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.399025",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.682004",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.09",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "13301.96",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-460.02",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.09",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 154898
+    },
+    {
+     "file": "Pharos_1/wireline/COP_Pharos-1_SonicScanner_L0_PnS_SLB.las",
+     "header": {
+      "STRT": [
+       "4030.06500",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4963.97300",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Pharos-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "Pharos-1",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.399025",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.682004",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.09",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "0.00",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-460.02",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.09",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 616187
+    }
+   ],
+   "segy_text_headers": [
+    {
+     "file": "Pharos_1/VSP/COP-Pharos-1_QC_VSP_Corridor_Stack.sgy",
+     "lines": [
+      "C5 SRD: MSL                A",
+      "C6 GL: 482.1 m MSL  MSL-LAT: NA         Average TL: 0.17 m",
+      "C7 DEVIATION DATA: 1.82 Max  deg"
+     ]
+    },
+    {
+     "file": "Pharos_1/VSP/COP_Pharos-1_corstk.sgy",
+     "lines": [
+      "C5 SRD: MSL                A",
+      "C6 GL: 460.0 m   MSL-LAT: NA          Average TL: 0 m (at MSL)",
+      "C7 DEVIATION DATA: 1.8 Max  deg"
+     ]
+    }
+   ],
+   "surveys": [
+    {
+     "file": "Pharos_1/survey/Pharos-1_Definitive Survey Report_TD 5220m.xlsx",
+     "bytes": 43146,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    }
+   ],
+   "files_present": true
+  },
+  "Poseidon 1": {
+   "nopta": {
+    "lat": -13.622906,
+    "lon": 122.307172,
+    "x": 425058.9,
+    "y": 8493871.1,
+    "il": 3179.7,
+    "xl": 2336.6,
+    "uwi": "ENO0466508",
+    "title": "WA-315-P",
+    "operator": "ConocoPhillips Australia Exploration Pty Ltd"
+   },
+   "las_headers": [
+    {
+     "file": "Poseidon_1/wireline/ConocoPhillips_Poseidon-1_Sonic_Scanner_P&S_S2R3.las",
+     "header": {
+      "STRT": [
+       "4980.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4575.22560",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "POSEIDON-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "POSEIDON-1",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.307137",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.622868",
+       "Well Surface Location"
+      ]
+     },
+     "bytes": 529351
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite1_Run1_FMI-LDS-CNL-GR_ML.las",
+     "header": {
+      "STRT": [
+       "3958.5900",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "3845.2044",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-315-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "19-Mar-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 37' 22.324\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 18' 25.704\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "26.400000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 158741
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite1_Run1_GR_log_till_3800m.las",
+     "header": {
+      "STRT": [
+       "3939.8448",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "3783.3300",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-315-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "19-Mar-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 37' 22.324\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 18' 25.704\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "26.400000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 55702
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite2_Run1_CMR-LDS-CNL-GR_ML.las",
+     "header": {
+      "STRT": [
+       "5123.6880",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4545.4824",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-315-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "29-Apr-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 37' 22.324\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 18' 25.704\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "26.400000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 1086708
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite2_Run2_AIT-ECS-HNGS-GR_ML.las",
+     "header": {
+      "STRT": [
+       "5125.2120",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4515.0024",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-315-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "29-Apr-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 37' 22.324\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 18' 25.704\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "26.400000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 1929752
+    },
+    {
+     "file": "Poseidon_1/wireline/Poseidon-1_Suite2_Run3_OBMI-SS-GR_ML.las",
+     "header": {
+      "STRT": [
+       "5002.9872",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4395.2160",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-315-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "30-Apr-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 37' 22.324\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 18' 25.704\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "26.400000",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 934097
+    }
+   ],
+   "segy_text_headers": [
+    {
+     "file": "Poseidon_1/VSP/P1_R20.sgy",
+     "lines": [
+      "C6 SRD:   0.0m MSL (AHD) ! A",
+      "C7 GL :494.0 m MSL       ! WELL DEVIATION:15.8 DEG  ! DOWNHOLE SENSOR: VSI    !",
+      "C15 (2) Pick Break time + Survey Geometry + SRD",
+      "C37 TVDSRD 53-56            Number of Samples 115-116       Y Receiver 85-88  !"
+     ]
+    },
+    {
+     "file": "Poseidon_1/VSP/P1_corstk.sgy",
+     "lines": [
+      "C6 SRD:   0.0m MSL (AHD) ! A",
+      "C7 GL :494.0 m MSL       ! WELL DEVIATION:15.8 DEG  ! DOWNHOLE SENSOR: VSI    !",
+      "C15 (2) Pick Break time + Survey Geometry + SRD",
+      "C37 TVDSRD 53-56            Number of Samples 115-116       Y Receiver 85-88  !"
+     ]
+    },
+    {
+     "file": "Poseidon_1/VSP/P1_corstk_near.sgy",
+     "lines": [
+      "C6 SRD:   0.0m MSL (AHD) ! A",
+      "C7 GL :494.0 m MSL       ! WELL DEVIATION:15.8 DEG  ! DOWNHOLE SENSOR: VSI    !",
+      "C15 (2) Pick Break time + Survey Geometry + SRD",
+      "C37 TVDSRD 53-56            Number of Samples 115-116       Y Receiver 85-88  !"
+     ]
+    },
+    {
+     "file": "Poseidon_1/VSP/P1_corstkf.sgy",
+     "lines": [
+      "C6 SRD:   0.0m MSL (AHD) ! A",
+      "C7 GL :494.0 m MSL       ! WELL DEVIATION:15.8 DEG  ! DOWNHOLE SENSOR: VSI    !",
+      "C15 (2) Pick Break time + Survey Geometry + SRD",
+      "C37 TVDSRD 53-56            Number of Samples 115-116       Y Receiver 85-88  !"
+     ]
+    }
+   ],
+   "surveys": [],
+   "files_present": true,
+   "errors": [
+    {
+     "file": "Poseidon_1/VSP/P1_corstk_full.sgy",
+     "error": "unable to count traces, no data traces past headers"
+    }
+   ]
+  },
+  "Poseidon 2": {
+   "nopta": {
+    "lat": -13.6686611,
+    "lon": 122.2756278,
+    "x": 421661.8,
+    "y": 8488800.6,
+    "il": 2856.0,
+    "xl": 2284.1,
+    "uwi": "ENO0514665",
+    "title": "WA-398-P",
+    "operator": "ConocoPhillips (Browse Basin) Pty Ltd"
+   },
+   "las_headers": [
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_logs_depth.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5325.61800",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia Pty Ltd",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-2",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "03 Jan 2010",
+       "DATE"
+      ],
+      "UWI": [
+       "Poseidon-2",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 4964848
+    },
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4.08900",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia Pty Ltd",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-2",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "03 Jan 2010",
+       "DATE"
+      ],
+      "UWI": [
+       "Poseidon-2",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 812688
+    },
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_synthetics.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4.12900",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia Pty Ltd",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-2",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "03 Jan 2010",
+       "DATE"
+      ],
+      "UWI": [
+       "Poseidon-2",
+       "UNIQUE WELL UWI"
+      ]
+     },
+     "bytes": 821046
+    },
+    {
+     "file": "Poseidon_2/wireline/CoP Poseidon-2 SonicScanner 6in DT P&S.LAS",
+     "header": {
+      "STRT": [
+       "4620.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5335.00000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-2_6in",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "Poseidon-2_6in",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.275627",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.668660",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "21.80",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "21.80",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "496.60",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "21.80",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 406706
+    },
+    {
+     "file": "Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run6_LDS-CNL-GR_Merged_ML.las",
+     "header": {
+      "STRT": [
+       "5310.3780",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4674.2604",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-2",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-398-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "28-Dec-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 40' 07.18\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 16' 32.26\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "21.799999",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 488164
+    },
+    {
+     "file": "Poseidon_2/wireline/ConocoPhillips_Poseidon-2_Suite2_Run7_AIT-ECS-LDL-CNL-GR_Merged_ML.las",
+     "header": {
+      "STRT": [
+       "5354.7264",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4611.9288",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon-2",
+       "WELL"
+      ],
+      "LOC": [
+       "Permit",
+       "WA-398-P                         :LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "28-Dec-2009",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13* 40' 07.18\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122* 16' 32.26\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "21.799999",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 1839484
+    }
+   ],
+   "segy_text_headers": [
+    {
+     "file": "Poseidon_2/VSP/CP_Poseidon2_corstk.sgy",
+     "lines": [
+      "C6 SRD: MEAN SEA LEVEL  VSP LOG DATUM: DF  DF : 21.8M  GL: -496.6M",
+      "C7 WELL DEVIATION: MAX 5 DEG",
+      "C18 (4) Survey Geometry and SRD"
+     ]
+    }
+   ],
+   "surveys": [],
+   "files_present": true
+  },
+  "Poseidon North 1": {
+   "nopta": {
+    "lat": -13.5735625,
+    "lon": 122.3401544,
+    "x": 428611.9,
+    "y": 8499338.3,
+    "il": 3524.8,
+    "xl": 2400.0,
+    "uwi": "ENO0576140",
+    "title": "WA-315-P",
+    "operator": "ConocoPhillips (Browse Basin) Pty Ltd"
+   },
+   "las_headers": [
+    {
+     "file": "Poseidon_North_1/LWD/COP_Nth1_Poseidon Nth1_VISION Service_RM_508.34-5287.00mMD_I.las",
+     "header": {
+      "STRT": [
+       "508.20000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5287.05000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon North-1",
+       "WELL NAME"
+      ],
+      "DATE": [
+       "05/20/2014",
+       "LOG DATE(Composite Date for Composite LAP) (MM/DD/YYYY)"
+      ],
+      "UWI": [
+       "13AWA0049",
+       "UNIQUE WELL ID"
+      ],
+      "LOC": [
+       "Browse Basin",
+       "FIELD LOCATION"
+      ],
+      "LATI": [
+       "13 34' 24.825\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 20' 24.556\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.09",
+       "Elevation of Depth Reference (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "-999.25",
+       "Elevation of Kelly Bushing Above Permanent Datum"
+      ],
+      "EDF": [
+       "22.09",
+       "Elevation of Drill Floor Above Permanent Datum"
+      ],
+      "EGL": [
+       "-486.25",
+       "Elevation of Ground Level Above Permanent Datum"
+      ]
+     },
+     "bytes": 9726641
+    },
+    {
+     "file": "Poseidon_North_1/LWD/COP_Nth1_Poseidon Nth1_VISION Service_RM_508.34-5287.00mMD_N.las",
+     "header": {
+      "STRT": [
+       "508.20000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5287.05000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon North-1",
+       "WELL NAME"
+      ],
+      "DATE": [
+       "05/20/2014",
+       "LOG DATE(Composite Date for Composite LAP) (MM/DD/YYYY)"
+      ],
+      "UWI": [
+       "13AWA0049",
+       "UNIQUE WELL ID"
+      ],
+      "LOC": [
+       "Browse Basin",
+       "FIELD LOCATION"
+      ],
+      "LATI": [
+       "13 34' 24.825\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 20' 24.556\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.09",
+       "Elevation of Depth Reference (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "-999.25",
+       "Elevation of Kelly Bushing Above Permanent Datum"
+      ],
+      "EDF": [
+       "22.09",
+       "Elevation of Drill Floor Above Permanent Datum"
+      ],
+      "EGL": [
+       "-486.25",
+       "Elevation of Ground Level Above Permanent Datum"
+      ]
+     },
+     "bytes": 9726641
+    },
+    {
+     "file": "Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD.las",
+     "header": {
+      "STRT": [
+       "3749.65000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5287.67000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon North-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "31-July-2014",
+       "DATE"
+      ],
+      "UWI": [
+       "13AWA0049",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.340157",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.573563",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.09",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "0.00",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-486.25",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.09",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 305635
+    },
+    {
+     "file": "Poseidon_North_1/LWD/COP_PoseidonNorth-1_SV_85in_3820-5258mMD_processed.las",
+     "header": {
+      "STRT": [
+       "3749.65000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5287.67000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon North-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "31-July-2014",
+       "DATE"
+      ],
+      "UWI": [
+       "13AWA0049",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.340157",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.573563",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.09",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "0.00",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-486.25",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.09",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 305635
+    },
+    {
+     "file": "Poseidon_North_1/wireline/COP_Poseidon North-1_SSCAN_L0_PnS_SLB.las",
+     "header": {
+      "STRT": [
+       "3680.00300",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5254.90400",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Poseidon North-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "Poseidon North-1",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.340279",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.573611",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.00",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "0.00",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-486.00",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.00",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 891918
+    }
+   ],
+   "segy_text_headers": [],
+   "surveys": [
+    {
+     "file": "Poseidon_North_1/survey/COP_Nth1_Definitive Survey Report_TD 5287m.xlsx",
+     "bytes": 45259,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    }
+   ],
+   "files_present": true,
+   "skipped_large": [
+    "Poseidon_North_1/wireline/COP_WL_Poseidon_North-1_S1R1_ConPr_R1L2Up_MainPass_SC.las"
+   ]
+  },
+  "Proteus 1": {
+   "nopta": {
+    "lat": -13.7380208,
+    "lon": 122.3354508,
+    "x": 428152.8,
+    "y": 8481148.0,
+    "il": 2765.9,
+    "xl": 1492.8,
+    "uwi": "ENO0569533",
+    "title": "WA-398-P",
+    "operator": "ConocoPhillips (Browse Basin) Pty Ltd"
+   },
+   "las_headers": [
+    {
+     "file": "Proteus_1/LWD/ConocoPhillips_Proteus1_Final.las",
+     "header": {
+      "STRT": [
+       "380.23800",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4739.64000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1",
+       "WELL NAME"
+      ],
+      "DATE": [
+       "03/23/2013",
+       "LOG DATE(Composite Date for Composite LAP) (MM/DD/YYYY)"
+      ],
+      "UWI": [
+       "10AWA0101",
+       "UNIQUE WELL ID"
+      ],
+      "LOC": [
+       "Browse basin",
+       "FIELD LOCATION"
+      ],
+      "LATI": [
+       "13 44' 16.875\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 20' 7.623\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "21.80000",
+       "Elevation of Depth Reference (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "-999.25",
+       "Elevation of Kelly Bushing Above Permanent Datum"
+      ],
+      "EDF": [
+       "21.80000",
+       "Elevation of Drill Floor Above Permanent Datum"
+      ],
+      "EGL": [
+       "-470.00000",
+       "Elevation of Ground Level Above Permanent Datum"
+      ]
+     },
+     "bytes": 5013435
+    },
+    {
+     "file": "Proteus_1/LWD/ConocoPhillips_Proteus1_ST1_Fina.las",
+     "header": {
+      "STRT": [
+       "380.10000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4940.40000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST-1",
+       "WELL NAME"
+      ],
+      "DATE": [
+       "05/20/2013",
+       "LOG DATE(Composite Date for Composite LAP) (MM/DD/YYYY)"
+      ],
+      "UWI": [
+       "13AWA0058",
+       "UNIQUE WELL ID"
+      ],
+      "LOC": [
+       "Browse basin",
+       "FIELD LOCATION"
+      ],
+      "LATI": [
+       "13 44' 16.875\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 20' 7.623\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "21.80000",
+       "Elevation of Depth Reference (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "-999.25",
+       "Elevation of Kelly Bushing Above Permanent Datum"
+      ],
+      "EDF": [
+       "21.80000",
+       "Elevation of Drill Floor Above Permanent Datum"
+      ],
+      "EGL": [
+       "-470.00000",
+       "Elevation of Ground Level Above Permanent Datum"
+      ]
+     },
+     "bytes": 9678273
+    },
+    {
+     "file": "Proteus_1/LWD/ConocoPhillips_Proteus1_ST2_Final.las",
+     "header": {
+      "STRT": [
+       "489.96600",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5249.87520",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST-2",
+       "WELL NAME"
+      ],
+      "DATE": [
+       "08/31/2013",
+       "LOG DATE(Composite Date for Composite LAP) (MM/DD/YYYY)"
+      ],
+      "UWI": [
+       "13AWA0080",
+       "UNIQUE WELL ID"
+      ],
+      "LOC": [
+       "Browse basin",
+       "FIELD LOCATION"
+      ],
+      "LATI": [
+       "13 44' 16.875\" S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 20' 7.623\" E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "21.80000",
+       "Elevation of Depth Reference (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "-999.25",
+       "Elevation of Kelly Bushing Above Permanent Datum"
+      ],
+      "EDF": [
+       "21.80000",
+       "Elevation of Drill Floor Above Permanent Datum"
+      ],
+      "EGL": [
+       "-470.00000",
+       "Elevation of Ground Level Above Permanent Datum"
+      ]
+     },
+     "bytes": 10348738
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_logs_depth_MD.las",
+     "header": {
+      "STRT": [
+       "493.01400",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5249.72300",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST2",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "26-Aug-2013",
+       "DATE"
+      ],
+      "UWI": [
+       "Proteus-1 ST2",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.335449",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.738021",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.10",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EGL": [
+       "-470.00",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.10",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 7058095
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_logs_depth_TVDSS.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5249.72300",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST2",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "26-Aug-2013",
+       "DATE"
+      ],
+      "UWI": [
+       "Proteus-1 ST2",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.335449",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.738021",
+       "Well Surface Location"
+      ],
+      "APD": [
+       "22.10",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EGL": [
+       "-470.00",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "22.10",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 5377523
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "3.98900",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST2",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "26-Aug-2013",
+       "DATE"
+      ],
+      "UWI": [
+       "Proteus-1 ST2",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.335449",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.738021",
+       "Well Surface Location"
+      ]
+     },
+     "bytes": 793306
+    },
+    {
+     "file": "Proteus_1/VSP/COP_Proteus-1ST2_synthetics.las",
+     "header": {
+      "STRT": [
+       "0.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5.00000",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST2",
+       "WELL"
+      ],
+      "LOC": [
+       "-",
+       "LOCATION"
+      ],
+      "DATE": [
+       "26-Aug-2013",
+       "DATE"
+      ],
+      "UWI": [
+       "Proteus-1 ST2",
+       "UNIQUE WELL UWI"
+      ],
+      "LONG": [
+       "122.335449",
+       "Well Surface Location"
+      ],
+      "LATI": [
+       "-13.738021",
+       "Well Surface Location"
+      ]
+     },
+     "bytes": 1344445
+    },
+    {
+     "file": "Proteus_1/wireline/COP_Proteus-1ST2_CH_QSLT_PnS_Processed_PTS.las",
+     "header": {
+      "STRT": [
+       "4481.00000",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4962.90600",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST2",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "Proteus-1 ST2",
+       "UNIQUE WELL UWI"
+      ],
+      "APD": [
+       "870.08",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "870.08",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-18523.62",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "870.08",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 141821
+    },
+    {
+     "file": "Proteus_1/wireline/COP_Proteus-1ST2_OH_QSLT_PnS_Processed_PTS.las",
+     "header": {
+      "STRT": [
+       "4810.50600",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "5087.72200",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "ConocoPhillips Australia",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Proteus-1 ST2",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "",
+       "DATE"
+      ],
+      "UWI": [
+       "Proteus-1 ST2",
+       "UNIQUE WELL UWI"
+      ],
+      "APD": [
+       "870.08",
+       "Elevation of Working Datum (LMF) Above Permanent Datum"
+      ],
+      "EKB": [
+       "870.08",
+       "Elevation of Kelly Bushing Above Mean Sea Level"
+      ],
+      "EGL": [
+       "-18523.62",
+       "Elevation of Ground Level Above Mean Sea Level"
+      ],
+      "EDF": [
+       "870.08",
+       "Elevation of Derrick Floor Above Mean Sea Level"
+      ]
+     },
+     "bytes": 159410
+    }
+   ],
+   "segy_text_headers": [],
+   "surveys": [
+    {
+     "file": "Proteus_1/survey/Proteus Surveys.xlsx",
+     "bytes": 88747,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    },
+    {
+     "file": "Proteus_1/survey/Proteus-1 ST2_Definitive Survey Report_TD 5250m.xlsx",
+     "bytes": 48546,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    }
+   ],
+   "files_present": true
+  },
+  "Torosa 1": {
+   "nopta": {
+    "lat": -13.8672306,
+    "lon": 122.0693306,
+    "x": 399434.9,
+    "y": 8466761.5,
+    "il": 1193.6,
+    "xl": 2512.9,
+    "uwi": "ENO0407785",
+    "title": "WA-30-R",
+    "operator": "Woodside Browse Pty. Ltd."
+   },
+   "las_headers": [
+    {
+     "file": "Torosa_1/LWD/Torosa-1_REC_DDS_550-4685mMD.las",
+     "header": {
+      "STRT": [
+       "550.00",
+       "START"
+      ],
+      "STOP": [
+       "4685.00",
+       "STOP"
+      ],
+      "COMP": [
+       "Woodside Energy Ltd",
+       "Company"
+      ],
+      "WELL": [
+       "Torosa-1",
+       "Well Name"
+      ],
+      "LOC": [
+       "WA-30-R",
+       "Field Location"
+      ],
+      "LATI": [
+       "13 52' 02.03\" S",
+       "Latitude"
+      ],
+      "LONG": [
+       "122 04' 09.59\" E",
+       "Longitude"
+      ],
+      "UWI": [
+       "",
+       "Unique Well ID"
+      ],
+      "EDF": [
+       "22.9",
+       "Elevation of DF"
+      ],
+      "EGL": [
+       "",
+       "Elevation Ground lv"
+      ],
+      "APD": [
+       "22.9",
+       "Above Perm. Datum"
+      ],
+      "DATE": [
+       "15/12/06",
+       "DATE"
+      ]
+     },
+     "bytes": 5571224
+    },
+    {
+     "file": "Torosa_1/LWD/Torosa-1_REC_DGR-EWR-NUKE-BAT_550-4685mMD.las",
+     "header": {
+      "STRT": [
+       "550.00",
+       "START"
+      ],
+      "STOP": [
+       "4685.00",
+       "STOP"
+      ],
+      "COMP": [
+       "Woodside Energy Ltd",
+       "Company"
+      ],
+      "WELL": [
+       "Torosa-1",
+       "Well Name"
+      ],
+      "LOC": [
+       "WA-30-R",
+       "Field Location"
+      ],
+      "LATI": [
+       "13 52' 02.03\" S",
+       "Latitude"
+      ],
+      "LONG": [
+       "122 04' 09.59\" E",
+       "Longitude"
+      ],
+      "UWI": [
+       "",
+       "Unique Well ID"
+      ],
+      "EDF": [
+       "22.9",
+       "Elevation of DF"
+      ],
+      "EGL": [
+       "",
+       "Elevation Ground lv"
+      ],
+      "APD": [
+       "22.9",
+       "Above Perm. Datum"
+      ],
+      "DATE": [
+       "15/12/06",
+       "DATE"
+      ]
+     },
+     "bytes": 10246168
+    },
+    {
+     "file": "Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+     "header": {
+      "STRT": [
+       "20.7900",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "4665.7896",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "WOODSIDE ENERGY LTD.",
+       "COMPANY"
+      ],
+      "WELL": [
+       "TOROSA-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "24/08 2007",
+       "LOG DATE"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ]
+     },
+     "bytes": 3446624
+    },
+    {
+     "file": "Torosa_1/VSP/TZV_TIME_SYNTHETICS_1.LAS",
+     "header": {
+      "STRT": [
+       "0.0000",
+       "START TIME"
+      ],
+      "STOP": [
+       "4000.0000",
+       "STOP TIME"
+      ],
+      "COMP": [
+       "WOODSIDE ENERGY LTD.",
+       "COMPANY"
+      ],
+      "WELL": [
+       "TOROSA-1",
+       "WELL"
+      ],
+      "LOC": [
+       "",
+       "LOCATION"
+      ],
+      "DATE": [
+       "24/08 2007",
+       "LOG DATE"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ]
+     },
+     "bytes": 510646
+    },
+    {
+     "file": "Torosa_1/wireline/Torosa-1_Nan Hai IV_Suite 1 Run 1_ Main Log_HRLA_TLD_MCFL_CNL_4680m-3526m.las",
+     "header": {
+      "STRT": [
+       "4681.5756",
+       "START DEPTH"
+      ],
+      "STOP": [
+       "3460.3944",
+       "STOP DEPTH"
+      ],
+      "COMP": [
+       "Woodside Energy Ltd.",
+       "COMPANY"
+      ],
+      "WELL": [
+       "Torosa-1",
+       "WELL"
+      ],
+      "LOC": [
+       "Browse Basin",
+       "LOCATION"
+      ],
+      "UWI": [
+       "",
+       "UNIQUE WELL ID"
+      ],
+      "DATE": [
+       "15-Dec-2006",
+       "LOG DATE {DD-MMM-YYYY}"
+      ],
+      "LATI": [
+       "13 52' 02.03S",
+       "LATITUDE"
+      ],
+      "LONG": [
+       "122 04' 09.59\"E",
+       "LONGITUDE"
+      ],
+      "APD": [
+       "22.899998",
+       "Elevation of Depth Reference (LMF) above Permanent Datum"
+      ]
+     },
+     "bytes": 3123731
+    }
+   ],
+   "segy_text_headers": [
+    {
+     "file": "Torosa_1/VSP/VSPZO_COMPUTED_DCU_ZPH_90.SEGY",
+     "lines": []
+    }
+   ],
+   "surveys": [
+    {
+     "file": "Torosa_1/survey/ENO407785_Torosa_1_Surveys_4685mMD.txt",
+     "bytes": 15103,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    },
+    {
+     "file": "Torosa_1/survey/Inclination_Survey.txt",
+     "bytes": 2616,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    },
+    {
+     "file": "Torosa_1/survey/Torosa-1_Surveys_4685mMD.txt",
+     "bytes": 11791,
+     "parsed": false,
+     "note": "deviation to be read explicitly in the freeze stage"
+    }
+   ],
+   "files_present": true
+  },
+  "Zephyros 1": {
+   "nopta": {
+    "lat": -13.7452025,
+    "lon": 122.12301083,
+    "x": 405186.5,
+    "y": 8480280.3,
+    "il": 1943.1,
+    "xl": 2855.6,
+    "uwi": "ENO0568184",
+    "title": "WA-398-P",
+    "operator": "ConocoPhillips (Browse Basin) Pty Ltd"
+   },
+   "las_headers": [],
+   "segy_text_headers": [],
+   "surveys": [],
+   "files_present": false
+  }
+ },
+ "transcribed_from_reports": {
+  "Pharos 1": {
+   "SRD": "MSL",
+   "DF_above_MSL_m": 22.1,
+   "seafloor_below_MSL_m": 482.1,
+   "source": "VSP corridor stack SEG-Y text header (Schlumberger, 16-Jul-2014)"
+  },
+  "Kronos 1": {
+   "SRD": "MSL",
+   "RT_above_MSL_m": 21.8,
+   "SRD_datum_velocity_mps": 1524,
+   "source": "CP_Kronos1_Time_to_Depth_Report.xls header"
+  },
+  "Poseidon 1": {
+   "SRD": "AHD",
+   "DF_above_SRD_m": 26.4,
+   "reference_velocity_mps": 1524,
+   "source": "WCR Vol 2 Appendix 8 (Schlumberger VSP/GEO report), Table 33"
+  },
+  "Poseidon North 1": {
+   "RT_above_MSL_m": 22.0,
+   "water_depth_m": 486,
+   "RT_to_mudline_m": 508,
+   "VSP": "none in the basic WCR (checkshots there are BHA verticality shots)",
+   "source": "Pos North1_Basic WCR rev0.pdf p.16"
+  },
+  "Torosa 1": {
+   "TVD_reference": "MSL",
+   "TIME_reference": "MSL (checkshot-calibrated LAS)",
+   "source": "TZV_DEPTH_CS_CALIBRATED_LOGS.LAS curve descriptions"
+  }
+ },
+ "note": "every datum used later must trace to one of the entries above; wells without a stated SRD/DF pair are carried as 'unresolved' into the alignment budget",
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v03_wells_datums.py",
+   "sha256": "d17ecf91bc37770c119a0d362b586e96b830d698b053ad8bdc43c8a8164b2fae"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T20:51:21Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/wells_positions.json",
+    "bytes": 7532,
+    "mtime_utc": "2026-09-16T19:27:43Z",
+    "sha256": "1fb3d53d26cb0449409164a3849b5f898fedb1eaad416a2d2160907a312e7d67"
+   }
+  ],
+  "config": {}
+ }
+}

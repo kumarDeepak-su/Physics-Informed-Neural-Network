@@ -1,0 +1,417 @@
+{
+ "item": "(6) tie per well: declared time-depth, v05 zero-phase wavelet, declared polarity, +-lag search, two nulls",
+ "wells": {
+  "Boreas 1": {
+   "status": "no delivered impedance in time",
+   "seismic_block": "near_stack_Boreas_1.npy"
+  },
+  "Crown 1": {
+   "status": "no delivered impedance in time",
+   "seismic_block": "near_stack_Crown_1.npy"
+  },
+  "Kronos 1": {
+   "seismic_block": "near_stack_Kronos_1.npy",
+   "impedance_source": "wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+   "window_s": [
+    2.112,
+    3.376
+   ],
+   "rows": 285,
+   "r_at_zero_lag": 0.04336833613215052,
+   "best_lag_ms": 8.0,
+   "best_lag_subsample_ms": 7.320116793337268,
+   "r_best": 0.4302127545909809,
+   "lag_curve": [
+    [
+     -12.0,
+     -0.038457380959049756
+    ],
+    [
+     -8.0,
+     -0.09835333639664505
+    ],
+    [
+     -4.0,
+     -0.131058877355842
+    ],
+    [
+     0.0,
+     0.04336833613215052
+    ],
+    [
+     4.0,
+     0.33064155464428485
+    ],
+    [
+     8.0,
+     0.4302127545909809
+    ],
+    [
+     12.0,
+     0.22807974033711623
+    ]
+   ],
+   "null_circular": {
+    "p": 0.0,
+    "q95": 0.17584900011776128,
+    "mean": 0.08521743904654047
+   },
+   "null_phase_random": {
+    "p": 0.0,
+    "q95": 0.22070333821871632,
+    "mean": 0.11165066425198981
+   },
+   "polarity_applied": -1,
+   "note": "5x5-bin mean trace; zero-phase statistical wavelet from v05; no phase fit"
+  },
+  "Pharos 1": {
+   "seismic_block": "near_stack_Pharos_1.npy",
+   "impedance_source": "wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+   "window_s": [
+    2.684,
+    3.352
+   ],
+   "rows": 136,
+   "r_at_zero_lag": 0.3973607754989562,
+   "best_lag_ms": 4.0,
+   "best_lag_subsample_ms": 2.0055944571891513,
+   "r_best": 0.3976511760346545,
+   "lag_curve": [
+    [
+     -12.0,
+     -0.16912895012734505
+    ],
+    [
+     -8.0,
+     -0.09024525035225113
+    ],
+    [
+     -4.0,
+     0.15649750263367368
+    ],
+    [
+     0.0,
+     0.3973607754989562
+    ],
+    [
+     4.0,
+     0.3976511760346545
+    ],
+    [
+     8.0,
+     0.1903071084675859
+    ],
+    [
+     12.0,
+     0.0028379555379277
+    ]
+   ],
+   "null_circular": {
+    "p": 0.022,
+    "q95": 0.27927003874714273,
+    "mean": 0.13487179180607375
+   },
+   "null_phase_random": {
+    "p": 0.0,
+    "q95": 0.30592020707727036,
+    "mean": 0.14638030956096554
+   },
+   "polarity_applied": -1,
+   "note": "5x5-bin mean trace; zero-phase statistical wavelet from v05; no phase fit"
+  },
+  "Poseidon 1": {
+   "seismic_block": "near_stack_Poseidon_1.npy",
+   "impedance_source": "wells/Poseidon_1/reports/Poseidon1_VSP_Table33_time_depth.csv",
+   "window_s": [
+    3.032,
+    3.228
+   ],
+   "rows": 18,
+   "r_at_zero_lag": -0.17550789542179623,
+   "best_lag_ms": -12.0,
+   "best_lag_subsample_ms": -12.0,
+   "r_best": 0.21252484416844525,
+   "lag_curve": [
+    [
+     -12.0,
+     0.21252484416844525
+    ],
+    [
+     -8.0,
+     -0.011892401025498031
+    ],
+    [
+     -4.0,
+     -0.12675423012925982
+    ],
+    [
+     0.0,
+     -0.17550789542179623
+    ],
+    [
+     4.0,
+     -0.12278557729389813
+    ],
+    [
+     8.0,
+     0.030480476691195253
+    ],
+    [
+     12.0,
+     0.05409333926311674
+    ]
+   ],
+   "null_circular": {
+    "p": 0.702,
+    "q95": 0.6658362567648435,
+    "mean": 0.31963853072906884
+   },
+   "null_phase_random": {
+    "p": 0.666,
+    "q95": 0.5135542344039808,
+    "mean": 0.27640023751256976
+   },
+   "polarity_applied": -1,
+   "note": "5x5-bin mean trace; zero-phase statistical wavelet from v05; no phase fit"
+  },
+  "Poseidon 2": {
+   "seismic_block": "near_stack_Poseidon_2.npy",
+   "impedance_source": "wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+   "window_s": [
+    1.988,
+    3.384
+   ],
+   "rows": 318,
+   "r_at_zero_lag": 0.2052842795083279,
+   "best_lag_ms": -4.0,
+   "best_lag_subsample_ms": -3.782509841979412,
+   "r_best": 0.2920571639171812,
+   "lag_curve": [
+    [
+     -12.0,
+     0.03799482066396877
+    ],
+    [
+     -8.0,
+     0.18410936322172072
+    ],
+    [
+     -4.0,
+     0.2920571639171812
+    ],
+    [
+     0.0,
+     0.2052842795083279
+    ],
+    [
+     4.0,
+     -0.007975996283123128
+    ],
+    [
+     8.0,
+     -0.13810882113508255
+    ],
+    [
+     12.0,
+     -0.1327342471640404
+    ]
+   ],
+   "null_circular": {
+    "p": 0.0,
+    "q95": 0.1639135003425846,
+    "mean": 0.08265294715176116
+   },
+   "null_phase_random": {
+    "p": 0.0,
+    "q95": 0.20676641821105307,
+    "mean": 0.10858839714418947
+   },
+   "polarity_applied": -1,
+   "note": "5x5-bin mean trace; zero-phase statistical wavelet from v05; no phase fit"
+  },
+  "Poseidon North 1": {
+   "status": "no delivered impedance in time",
+   "seismic_block": "near_stack_Poseidon_North_1.npy"
+  },
+  "Proteus 1": {
+   "seismic_block": "near_stack_Proteus_1.npy",
+   "impedance_source": "wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+   "window_s": [
+    2.084,
+    3.352
+   ],
+   "rows": 286,
+   "r_at_zero_lag": 0.6727119958458833,
+   "best_lag_ms": 0.0,
+   "best_lag_subsample_ms": -0.6785547996093009,
+   "r_best": 0.6727119958458833,
+   "lag_curve": [
+    [
+     -12.0,
+     -0.2631166183318426
+    ],
+    [
+     -8.0,
+     0.06829756165511548
+    ],
+    [
+     -4.0,
+     0.5207300425803503
+    ],
+    [
+     0.0,
+     0.6727119958458833
+    ],
+    [
+     4.0,
+     0.36464625823298125
+    ],
+    [
+     8.0,
+     -0.08578525160865812
+    ],
+    [
+     12.0,
+     -0.32026891626725845
+    ]
+   ],
+   "null_circular": {
+    "p": 0.0,
+    "q95": 0.21141015584596323,
+    "mean": 0.09897480510446255
+   },
+   "null_phase_random": {
+    "p": 0.0,
+    "q95": 0.2617231545403257,
+    "mean": 0.1338865700205442
+   },
+   "polarity_applied": -1,
+   "note": "5x5-bin mean trace; zero-phase statistical wavelet from v05; no phase fit"
+  },
+  "Torosa 1": {
+   "seismic_block": "near_stack_Torosa_1.npy",
+   "impedance_source": "wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+   "window_s": [
+    2.456,
+    2.996
+   ],
+   "rows": 104,
+   "r_at_zero_lag": -0.2906338801006287,
+   "best_lag_ms": 8.0,
+   "best_lag_subsample_ms": 9.993874697657235,
+   "r_best": 0.5689690094681565,
+   "lag_curve": [
+    [
+     -12.0,
+     0.03334183664370758
+    ],
+    [
+     -8.0,
+     -0.18692464494134975
+    ],
+    [
+     -4.0,
+     -0.40543430106640266
+    ],
+    [
+     0.0,
+     -0.2906338801006287
+    ],
+    [
+     4.0,
+     0.16501106576367655
+    ],
+    [
+     8.0,
+     0.5689690094681565
+    ],
+    [
+     12.0,
+     0.5683494696161919
+    ]
+   ],
+   "null_circular": {
+    "p": 0.0,
+    "q95": 0.3193421648752724,
+    "mean": 0.16050643804747727
+   },
+   "null_phase_random": {
+    "p": 0.0,
+    "q95": 0.3139048496016726,
+    "mean": 0.171566810989643
+   },
+   "polarity_applied": -1,
+   "note": "5x5-bin mean trace; zero-phase statistical wavelet from v05; no phase fit"
+  },
+  "Zephyros 1": {
+   "status": "no delivered impedance in time",
+   "seismic_block": "near_stack_Zephyros_1.npy"
+  }
+ },
+ "config": {
+  "lag_ms": 12.0,
+  "n_null": 500,
+  "half": 2
+ },
+ "disclosure": "all wells are tied here; the frozen protocol must treat every tie statistic as disclosed",
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v06_ties.py",
+   "sha256": "2ff7d034d82cf4c425195c8c855ed96b155e9b3bbf7066b6d26222922379d6d9"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T21:15:32Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+    "bytes": 851161,
+    "mtime_utc": "2018-01-29T06:18:55Z",
+    "sha256": "5d5e64ff0ae21d48448d34e383d946032fcd5689393442e390cdcf5feee433c2"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+    "bytes": 837760,
+    "mtime_utc": "2018-02-26T11:40:33Z",
+    "sha256": "b04fbe5951f185fd259822f65b8d8f6a1741fc141261d50a161ac5f02bc8a2de"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Poseidon_1/reports/Poseidon1_VSP_Table33_time_depth.csv",
+    "bytes": 24063,
+    "mtime_utc": "2026-09-16T20:24:14Z",
+    "sha256": "ee53a466b59b01dbc20a52561b43f4f98ddd7d295a18d7af0123a366b1194400"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+    "bytes": 812688,
+    "mtime_utc": "2026-09-16T20:05:38Z",
+    "sha256": "3d0bf6f79c6862805ba6dc88b3541d17ed90e4ca6afeeb4d928225d0aa0d4649"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+    "bytes": 793306,
+    "mtime_utc": "2026-09-16T20:20:47Z",
+    "sha256": "399737213a350b6db65eacc6de9437a6d7989ecec7c5eebcb66a6d16708b4a92"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+    "bytes": 3446624,
+    "mtime_utc": "2026-09-16T20:20:03Z",
+    "sha256": "7ae6ae68186de2a75dc3f72acd7b2541989623463320c6176c5cd51fe6b1e98d"
+   }
+  ],
+  "config": {
+   "lag_ms": 12.0,
+   "n_null": 500,
+   "half": 2
+  }
+ }
+}

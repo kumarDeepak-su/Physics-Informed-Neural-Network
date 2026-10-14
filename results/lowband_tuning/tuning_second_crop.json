@@ -1,0 +1,562 @@
+[
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.60326165665377,
+  "sec": 67.550217628479
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.91175505573116,
+  "sec": 5.115090847015381
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.75701653048402,
+  "sec": 4.767183780670166
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.373485878271396,
+  "sec": 5.092719078063965
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.586660367847095,
+  "sec": 4.697583198547363
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.83060297030138,
+  "sec": 5.08547043800354
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.72302128063012,
+  "sec": 4.705432653427124
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 35.0161919266276,
+  "sec": 5.080651521682739
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.570365922031925,
+  "sec": 4.980629920959473
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.85911636855315,
+  "sec": 5.244701623916626
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.695346725689234,
+  "sec": 4.859828233718872
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.337905527679176,
+  "sec": 5.24376368522644
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.57953454634484,
+  "sec": 4.871984481811523
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.86557967253153,
+  "sec": 5.24410605430603
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.704173153647886,
+  "sec": 4.870930910110474
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.43228297329373,
+  "sec": 5.245468854904175
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.58260802529674,
+  "sec": 4.869660377502441
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.8315772822326,
+  "sec": 5.2426698207855225
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.59874806631745,
+  "sec": 4.86477518081665
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.40132060780577,
+  "sec": 5.238945722579956
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.590132685995854,
+  "sec": 4.865033864974976
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.85629791749264,
+  "sec": 5.241893768310547
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.628361322498705,
+  "sec": 4.871235132217407
+ },
+ {
+  "prior": "rw",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.49056855463526,
+  "sec": 5.240546464920044
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.570060974597446,
+  "sec": 4.868123769760132
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.79023406626688,
+  "sec": 5.240023851394653
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.49601250447178,
+  "sec": 4.863708257675171
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.46402228015521,
+  "sec": 5.243781566619873
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.602330672671215,
+  "sec": 4.871331691741943
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.824888317266485,
+  "sec": 5.244007110595703
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.49154140175059,
+  "sec": 4.962592601776123
+ },
+ {
+  "prior": "rw",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.46965377455656,
+  "sec": 5.2422332763671875
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.555852807323376,
+  "sec": 4.871274471282959
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.83901084000125,
+  "sec": 5.246669292449951
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.70049056378243,
+  "sec": 4.873544454574585
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.98499228734802,
+  "sec": 5.24172830581665
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.561535418807395,
+  "sec": 4.869162321090698
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.80929191310216,
+  "sec": 5.246338129043579
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.71362242727886,
+  "sec": 4.870205402374268
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 35.01261546455905,
+  "sec": 5.247158765792847
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.562576517251934,
+  "sec": 4.871121644973755
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.81550691190299,
+  "sec": 5.244143962860107
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.71666724456342,
+  "sec": 4.870697259902954
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.99921013016064,
+  "sec": 5.246320486068726
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.56348358170425,
+  "sec": 4.871894121170044
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.81021116738711,
+  "sec": 5.249987840652466
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.72106331616604,
+  "sec": 4.876603603363037
+ },
+ {
+  "prior": "tv",
+  "lowband": 1.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 35.024464116820425,
+  "sec": 5.245859384536743
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.541879645024544,
+  "sec": 4.869992733001709
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.809602394520105,
+  "sec": 5.241262674331665
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.707377477281135,
+  "sec": 4.869191646575928
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.992314231766464,
+  "sec": 5.242769002914429
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.57959955000084,
+  "sec": 4.874513149261475
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376177,
+  "snr": 34.79417016166573,
+  "sec": 5.2464635372161865
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.7364979879915,
+  "sec": 4.868927001953125
+ },
+ {
+  "prior": "tv",
+  "lowband": 3.0,
+  "sigma": 24.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.981866566817715,
+  "sec": 5.24031138420105
+ }
+]

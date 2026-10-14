@@ -1,0 +1,203 @@
+{
+  "item": "Poseidon field data prepared for the TGRS revision (lines, logs, wavelets, calibration)",
+  "created_utc": "2026-10-10T05:31:00+00:00",
+  "raw_root": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/Poseidon3D",
+  "window_s": [
+    1.5,
+    4.0
+  ],
+  "dt_s": 0.004,
+  "nt": 625,
+  "half_pad": 64,
+  "wavelet_taps": 129,
+  "polarity": "data compared with the negated unit-peak zero-phase wavelet (SEG reverse, declared)",
+  "lowpass_sigma_samples": 16.0,
+  "lowpass_cutoff_hz": 2.927978517644962,
+  "edge_exclusion_s": 0.064,
+  "wells": {
+    "Kronos 1": {
+      "block": "near_stack_Kronos_1.npy",
+      "inline": 2410,
+      "crossline": 2670,
+      "inline_line_traces": 512,
+      "crossline_line_traces": 384,
+      "well_trace_inline": 246,
+      "well_trace_crossline": 147,
+      "log_rows": [
+        153,
+        470
+      ],
+      "log_window_s": [
+        2.112,
+        3.3800000000000003
+      ],
+      "tie_rows": 285,
+      "r_zero_lag": 0.028784782154487744,
+      "data_rms_tie": 12664.71305164055,
+      "syn_rms_tie": 0.028599832236058546,
+      "gain_well": 442824.7322259791,
+      "tie_lag_subsample_ms": 7.320116793337268,
+      "log_source": "wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+      "ai_range_kg_m2_s": [
+        7628511.20990334,
+        16933768.947145298
+      ]
+    },
+    "Pharos 1": {
+      "block": "near_stack_Pharos_1.npy",
+      "inline": 3255,
+      "crossline": 1392,
+      "inline_line_traces": 512,
+      "crossline_line_traces": 384,
+      "well_trace_inline": 248,
+      "well_trace_crossline": 224,
+      "log_rows": [
+        296,
+        465
+      ],
+      "log_window_s": [
+        2.684,
+        3.36
+      ],
+      "tie_rows": 137,
+      "r_zero_lag": 0.3804705976873813,
+      "data_rms_tie": 7750.730650600347,
+      "syn_rms_tie": 0.022348847903132796,
+      "gain_well": 346806.7206056681,
+      "tie_lag_subsample_ms": 2.0055944571891513,
+      "log_source": "wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+      "ai_range_kg_m2_s": [
+        7285011.8435183335,
+        14971255.066809598
+      ]
+    },
+    "Poseidon 2": {
+      "block": "near_stack_Poseidon_2.npy",
+      "inline": 2856,
+      "crossline": 2284,
+      "inline_line_traces": 512,
+      "crossline_line_traces": 384,
+      "well_trace_inline": 244,
+      "well_trace_crossline": 209,
+      "log_rows": [
+        122,
+        473
+      ],
+      "log_window_s": [
+        1.988,
+        3.392
+      ],
+      "tie_rows": 319,
+      "r_zero_lag": 0.24497816969305372,
+      "data_rms_tie": 14952.654669645366,
+      "syn_rms_tie": 0.036930750478954756,
+      "gain_well": 404883.58551408915,
+      "tie_lag_subsample_ms": -3.782509841979412,
+      "log_source": "wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+      "ai_range_kg_m2_s": [
+        7490420.5235067215,
+        16267181.060610007
+      ]
+    },
+    "Proteus 1": {
+      "block": "near_stack_Proteus_1.npy",
+      "inline": 2766,
+      "crossline": 1493,
+      "inline_line_traces": 512,
+      "crossline_line_traces": 384,
+      "well_trace_inline": 221,
+      "well_trace_crossline": 247,
+      "log_rows": [
+        146,
+        464
+      ],
+      "log_window_s": [
+        2.084,
+        3.3560000000000003
+      ],
+      "tie_rows": 286,
+      "r_zero_lag": 0.7238263194236217,
+      "data_rms_tie": 18375.64313114461,
+      "syn_rms_tie": 0.038585348310416843,
+      "gain_well": 476233.69843168574,
+      "tie_lag_subsample_ms": -0.6785547996093009,
+      "log_source": "wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+      "ai_range_kg_m2_s": [
+        6902860.023806901,
+        14763081.73338686
+      ]
+    },
+    "Torosa 1": {
+      "block": "near_stack_Torosa_1.npy",
+      "inline": 1194,
+      "crossline": 2513,
+      "inline_line_traces": 512,
+      "crossline_line_traces": 384,
+      "well_trace_inline": 217,
+      "well_trace_crossline": 211,
+      "log_rows": [
+        239,
+        375
+      ],
+      "log_window_s": [
+        2.456,
+        3.0
+      ],
+      "tie_rows": 104,
+      "r_zero_lag": -0.3324903175318666,
+      "data_rms_tie": 15652.80364445801,
+      "syn_rms_tie": 0.05369744282021604,
+      "gain_well": 291499.98253855464,
+      "tie_lag_subsample_ms": 9.993874697657235,
+      "log_source": "wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+      "ai_range_kg_m2_s": [
+        6264841.443485479,
+        15965244.492902627
+      ]
+    }
+  },
+  "inputs_sha256": {
+    "seismic/near_stack_blocks_record.json": "e1775cff80c9adcee5fb1e625c5a981fb5b6eb0c9e945d87d6f61e32b3c48ddd",
+    "verify/evidence/v04_time_depth.json": "723893897eebefb741fa0e7884b6eb7ec67cc558b079c50d7ffec69ddff950c8",
+    "verify/evidence/v05_seismic_band.json": "d7c499f90be892da49ad744290fc8cbbe31f494e859f3bfc25233f77726d9659",
+    "verify/evidence/v06_ties.json": "9243b7d1a98954451f171318967c62bb04b4cae429ef792946b121c677707c10",
+    "seismic/near_stack_Kronos_1.npy": "83363859fd048ccb0b42f93db92235d9a60de9421ad2dd5710a75e62ba5823db",
+    "seismic/near_stack_Kronos_1_headers.npz": "12629a5e1e7f6c1aca25a8694305b1c7a05db269cb6e33b92be5bc44809f7781",
+    "wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las": "5d5e64ff0ae21d48448d34e383d946032fcd5689393442e390cdcf5feee433c2",
+    "seismic/near_stack_Pharos_1.npy": "c030aad90e9850cb9f22a85c7f7a76818f4a686e30f04eee69034ae53029fdb2",
+    "seismic/near_stack_Pharos_1_headers.npz": "f5b97480aefa4c9d263d278571d23d14d31caa2642a3c0f610786ea8043f39f5",
+    "wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las": "b04fbe5951f185fd259822f65b8d8f6a1741fc141261d50a161ac5f02bc8a2de",
+    "seismic/near_stack_Poseidon_2.npy": "7b6649c4f6f8f50ed0bc6a17a10f710d628683de67391fd94923dbf58b3a30ba",
+    "seismic/near_stack_Poseidon_2_headers.npz": "63c2b256a9120be17876f3c4ac6791e6221ba4c33cbfd93d4ae4ef283352f6e7",
+    "wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las": "3d0bf6f79c6862805ba6dc88b3541d17ed90e4ca6afeeb4d928225d0aa0d4649",
+    "seismic/near_stack_Proteus_1.npy": "a57b0c14154be85f9a54c9770b352ea5ebeda52c21cbd29cd2c14ab813687f70",
+    "seismic/near_stack_Proteus_1_headers.npz": "6f52846f92ff1865b82edba7e4e211ce9a63f01e1283a3cb3f633ca59defdc59",
+    "wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las": "399737213a350b6db65eacc6de9437a6d7989ecec7c5eebcb66a6d16708b4a92",
+    "seismic/near_stack_Torosa_1.npy": "e91eca6d20c85837cd8b0612daaec7f9c7ec314d2f1d86f85fd1b13617517966",
+    "seismic/near_stack_Torosa_1_headers.npz": "3b682e3fcf7d153f9384c6a59dfeff08d2df426e2fe7392b711bb05a3f66a975",
+    "wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS": "7ae6ae68186de2a75dc3f72acd7b2541989623463320c6176c5cd51fe6b1e98d"
+  },
+  "outputs_sha256": {
+    "lines/Kronos_1_inline.npz": "57dda4682c4a76a9a6e51fd6287760fa3c431790c91f2b164494461cc2261b8b",
+    "lines/Kronos_1_crossline.npz": "9e2243463542afc1defca430235e2d9e3fabd1c2f8c6eebb07b2715478f63f74",
+    "wavelets/Kronos_1.npy": "b24c41bbd1229b3b3aec39b06efe3b9ce8b8ca9ab1f642ce234171c3d88aa70f",
+    "wells/Kronos_1.npz": "cec1ce8053d47cca304361047c6947772d6fee085a750be7e59ad9d40472a48a",
+    "lines/Pharos_1_inline.npz": "d54c433a6f9ad6a4f017350dc0bd5ba4667a1f903d60dcb5eb42480a29107bd7",
+    "lines/Pharos_1_crossline.npz": "5dee8b5c8a552e667b21fd5bf6e4e1ee8cc213f0381a19a5c875ea169481766e",
+    "wavelets/Pharos_1.npy": "c64a0f865f199dec57082f3dc6834d4f2159f6ecc411b06f932f43a84084aabb",
+    "wells/Pharos_1.npz": "dd83dce2decae7042f7afb12ac9163c71e01bfc1bfa7fdc319266e578eba56e1",
+    "lines/Poseidon_2_inline.npz": "ec484e84a109677b9773da9d2de1382d15e4838851345b6f6c9ace66d99caf39",
+    "lines/Poseidon_2_crossline.npz": "2d6568f226828e78f2fc7b196fb5c217fe712fb141013beafb9a7416a7aa085f",
+    "wavelets/Poseidon_2.npy": "125231e85152748db393075132a779c0aaeca259d134ea975876f8a24298c208",
+    "wells/Poseidon_2.npz": "e8c4a968c76043109a5369e5639dbc5fc50cb8a90239c5dec4639799fd76a4a5",
+    "lines/Proteus_1_inline.npz": "e8afeb3da4761db3771d47e24e9b2fe9a9806fa3ffd8485e8b920083a1d28632",
+    "lines/Proteus_1_crossline.npz": "5ea6890d80bed40c343c6b57a0b4375d9fac0822a0540f348d08afca60f97b6f",
+    "wavelets/Proteus_1.npy": "51a2772834f7fa90da88165399269c165542a213ddf86c6d6d3d0e9ee5e7a53c",
+    "wells/Proteus_1.npz": "6f8a44c556de2e1eca4e72ea29847b5e7cea81c61bfae5ea33704e20cb59544e",
+    "lines/Torosa_1_inline.npz": "da46ba8ff6c78ae8e66b3dae3596f3434e045b287f49aec80ea82a1afc2f712a",
+    "lines/Torosa_1_crossline.npz": "517b1939ac10dd076ebc9fdb3773abb7bb95b39d787407c5649dc151ad2ec0ea",
+    "wavelets/Torosa_1.npy": "cd76417fff5149f074d740d25fdc9b6c79a18a804130c959f1b8bfcd143b11d2",
+    "wells/Torosa_1.npz": "b0fd8bfaa16f067f6c38d05feb70160bdff746968c235efddda13aa0c1b48392"
+  },
+  "script_sha256": "a505c0b55e8241248b77f0521d16975d8588e49603919151d6dd689ef46883a4"
+}

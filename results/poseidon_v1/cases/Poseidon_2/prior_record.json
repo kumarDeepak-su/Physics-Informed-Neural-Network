@@ -1,0 +1,186 @@
+{
+  "case": "Poseidon 2",
+  "calibration_wells": [
+    "Proteus 1",
+    "Pharos 1",
+    "Kronos 1",
+    "Torosa 1"
+  ],
+  "gains": {
+    "Proteus 1": 517114.91847545205,
+    "Pharos 1": 358390.87632836116,
+    "Kronos 1": 442165.5010690681,
+    "Torosa 1": 286263.6901278986
+  },
+  "gain_case": 391357.60993917554,
+  "params": {
+    "mu": 5.402686637373749e-06,
+    "alpha": 5.402686637373748e-05,
+    "lambda_": 0.00010805373274747496,
+    "epsilon": 0.001,
+    "max_iter": 200,
+    "tol": 1e-06,
+    "tv": {
+      "mu_x": 0.0005402686637373748,
+      "rho": 0.0021610746549494994,
+      "max_iter": 40,
+      "vert_inner": 10,
+      "tol": 1e-06
+    },
+    "s_n": 1.0805373274747496
+  },
+  "starting_model_rows": [
+    146,
+    470
+  ],
+  "wavelet": "survey_unit_peak.npy (negated)",
+  "n_jobs": 16,
+  "protocol_sha256": "c20a889de0925c4332e1bea434c267f234d63788b01a3b7840f75019a1bdf3e4",
+  "software": {
+    "python": "3.11.16",
+    "numpy": "2.4.6",
+    "platform": "Linux-5.14.0-687.42.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "torch": "2.10.0+cu126"
+  },
+  "lines": {
+    "Proteus_1_inline": {
+      "well": "Proteus 1",
+      "kind": "inline",
+      "evaluation": false,
+      "nx": 512,
+      "admm_seconds": 6.914632797241211,
+      "admm_iterations_mean": 122.66015625,
+      "admm_at_limit": 18,
+      "tv_seconds": 39.40686249732971,
+      "tv_outer_iterations": 40,
+      "sha256": "31bce327487ea48ba3d96f80abccc10d651d284f92a598743ed430041a683a09"
+    },
+    "Proteus_1_crossline": {
+      "well": "Proteus 1",
+      "kind": "crossline",
+      "evaluation": false,
+      "nx": 384,
+      "admm_seconds": 6.953819274902344,
+      "admm_iterations_mean": 123.70052083333333,
+      "admm_at_limit": 17,
+      "tv_seconds": 36.77626085281372,
+      "tv_outer_iterations": 40,
+      "sha256": "e8a02ddc20a8d91d2fe9926193b8bd9b1c4695fd38a7ce7e1c04fe51768c84b9"
+    },
+    "Pharos_1_inline": {
+      "well": "Pharos 1",
+      "kind": "inline",
+      "evaluation": false,
+      "nx": 512,
+      "admm_seconds": 6.700362205505371,
+      "admm_iterations_mean": 118.63671875,
+      "admm_at_limit": 17,
+      "tv_seconds": 38.85229682922363,
+      "tv_outer_iterations": 40,
+      "sha256": "02d0d8ee5e90910d643039d1fec18179289284273a11d8bdf3898b31530f1488"
+    },
+    "Pharos_1_crossline": {
+      "well": "Pharos 1",
+      "kind": "crossline",
+      "evaluation": false,
+      "nx": 384,
+      "admm_seconds": 7.053959608078003,
+      "admm_iterations_mean": 123.98697916666667,
+      "admm_at_limit": 14,
+      "tv_seconds": 37.125786781311035,
+      "tv_outer_iterations": 40,
+      "sha256": "0438a4b7a12b7ce0f17e7a6d85a0433313fb31abae9261bd51e25cc676712445"
+    },
+    "Poseidon_2_inline": {
+      "well": "Poseidon 2",
+      "kind": "inline",
+      "evaluation": true,
+      "nx": 512,
+      "admm_seconds": 7.1761558055877686,
+      "admm_iterations_mean": 123.509765625,
+      "admm_at_limit": 25,
+      "tv_seconds": 39.07283878326416,
+      "tv_outer_iterations": 40,
+      "sha256": "4cdf740c52f13ff7acd4d24cc96f9c5c6dd7fed9cec65b309df46b083be66d52"
+    },
+    "Poseidon_2_crossline": {
+      "well": "Poseidon 2",
+      "kind": "crossline",
+      "evaluation": true,
+      "nx": 384,
+      "admm_seconds": 7.218548059463501,
+      "admm_iterations_mean": 122.6796875,
+      "admm_at_limit": 13,
+      "tv_seconds": 37.16191864013672,
+      "tv_outer_iterations": 40,
+      "sha256": "11203587b15a9070bf2c16703e73a9c4cc5dbf49725a3f54651ac798e9b5fc87"
+    },
+    "Kronos_1_inline": {
+      "well": "Kronos 1",
+      "kind": "inline",
+      "evaluation": false,
+      "nx": 512,
+      "admm_seconds": 7.2630674839019775,
+      "admm_iterations_mean": 126.556640625,
+      "admm_at_limit": 25,
+      "tv_seconds": 38.58473587036133,
+      "tv_outer_iterations": 40,
+      "sha256": "6f0330ea28d931b43245d8c24e52a6f2de2d17e8abc6e77d5b32dde7f33eb80e"
+    },
+    "Kronos_1_crossline": {
+      "well": "Kronos 1",
+      "kind": "crossline",
+      "evaluation": false,
+      "nx": 384,
+      "admm_seconds": 7.345876932144165,
+      "admm_iterations_mean": 128.59375,
+      "admm_at_limit": 20,
+      "tv_seconds": 36.95354866981506,
+      "tv_outer_iterations": 40,
+      "sha256": "34f0a4fe201d8eb0aebba59aae108083e3dcb052b3a48728cb4027780dc5a332"
+    },
+    "Torosa_1_inline": {
+      "well": "Torosa 1",
+      "kind": "inline",
+      "evaluation": false,
+      "nx": 512,
+      "admm_seconds": 7.210098028182983,
+      "admm_iterations_mean": 128.20703125,
+      "admm_at_limit": 28,
+      "tv_seconds": 40.98243427276611,
+      "tv_outer_iterations": 40,
+      "sha256": "034b7a357ce7eabaa80eabd4e7911981e18cf8c57d4d1f62901d3617d203f206"
+    },
+    "Torosa_1_crossline": {
+      "well": "Torosa 1",
+      "kind": "crossline",
+      "evaluation": false,
+      "nx": 384,
+      "admm_seconds": 6.87295937538147,
+      "admm_iterations_mean": 123.09375,
+      "admm_at_limit": 13,
+      "tv_seconds": 36.67675495147705,
+      "tv_outer_iterations": 40,
+      "sha256": "4d7d01f575ae5f3facffe1ec548a08d6ed8966b3051611c168c66a77c8408f12"
+    }
+  },
+  "started_utc": "2026-10-10T06:03:18+00:00",
+  "ledger": {
+    "field/poseidon/prepared/wavelets/survey_unit_peak.npy": "7066c1273d882c372ee030106aa12eec95a1bd870741ad22002af05ab5ccfd9a",
+    "field/poseidon/prepared/wells/Proteus_1.npz": "6f8a44c556de2e1eca4e72ea29847b5e7cea81c61bfae5ea33704e20cb59544e",
+    "field/poseidon/prepared/lines/Proteus_1_inline.npz": "e8afeb3da4761db3771d47e24e9b2fe9a9806fa3ffd8485e8b920083a1d28632",
+    "field/poseidon/prepared/wells/Pharos_1.npz": "dd83dce2decae7042f7afb12ac9163c71e01bfc1bfa7fdc319266e578eba56e1",
+    "field/poseidon/prepared/lines/Pharos_1_inline.npz": "d54c433a6f9ad6a4f017350dc0bd5ba4667a1f903d60dcb5eb42480a29107bd7",
+    "field/poseidon/prepared/wells/Kronos_1.npz": "cec1ce8053d47cca304361047c6947772d6fee085a750be7e59ad9d40472a48a",
+    "field/poseidon/prepared/lines/Kronos_1_inline.npz": "57dda4682c4a76a9a6e51fd6287760fa3c431790c91f2b164494461cc2261b8b",
+    "field/poseidon/prepared/wells/Torosa_1.npz": "b0fd8bfaa16f067f6c38d05feb70160bdff746968c235efddda13aa0c1b48392",
+    "field/poseidon/prepared/lines/Torosa_1_inline.npz": "da46ba8ff6c78ae8e66b3dae3596f3434e045b287f49aec80ea82a1afc2f712a",
+    "field/poseidon/prepared/lines/Proteus_1_crossline.npz": "5ea6890d80bed40c343c6b57a0b4375d9fac0822a0540f348d08afca60f97b6f",
+    "field/poseidon/prepared/lines/Pharos_1_crossline.npz": "5dee8b5c8a552e667b21fd5bf6e4e1ee8cc213f0381a19a5c875ea169481766e",
+    "field/poseidon/prepared/lines/Poseidon_2_inline.npz": "ec484e84a109677b9773da9d2de1382d15e4838851345b6f6c9ace66d99caf39",
+    "field/poseidon/prepared/lines/Poseidon_2_crossline.npz": "2d6568f226828e78f2fc7b196fb5c217fe712fb141013beafb9a7416a7aa085f",
+    "field/poseidon/prepared/lines/Kronos_1_crossline.npz": "9e2243463542afc1defca430235e2d9e3fabd1c2f8c6eebb07b2715478f63f74",
+    "field/poseidon/prepared/lines/Torosa_1_crossline.npz": "517b1939ac10dd076ebc9fdb3773abb7bb95b39d787407c5649dc151ad2ec0ea"
+  },
+  "finished_utc": "2026-10-10T06:10:51+00:00"
+}

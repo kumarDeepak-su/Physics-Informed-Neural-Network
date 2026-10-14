@@ -1,0 +1,634 @@
+{
+ "item": "(2) grid, time axis and bin->coordinate mapping re-derived from every extracted header block",
+ "time_axis": {
+  "t0_ms": 0,
+  "t1_ms": 6000,
+  "dt_ms": 4,
+  "n_samples": 1501,
+  "source": "near_stack.mdio time array read at extraction; re-read of the array is in the block record"
+ },
+ "block_fits": [
+  {
+   "well": "Boreas 1",
+   "il_range": [
+    2775,
+    3158
+   ],
+   "xl_range": [
+    1912,
+    2423
+   ],
+   "x_coeff": [
+    12.05226886954421,
+    -9.575555702838583,
+    409111.3033915446
+   ],
+   "y_coeff": [
+    14.3633333321235,
+    8.034844296112016,
+    8429426.30111814
+   ],
+   "max_resid_m": 0.007073651341155804,
+   "bin_len_il_m": 18.750000781692634,
+   "bin_len_xl_m": 12.499999595237126,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    2992.237422782907,
+    2203.2406251035814
+   ],
+   "well_bin_recorded": [
+    2992.237423040756,
+    2203.24046520357
+   ],
+   "bin_disagreement": [
+    -2.5784902391023934e-07,
+    0.00015990001156751532
+   ]
+  },
+  {
+   "well": "Crown 1",
+   "il_range": [
+    3927,
+    4310
+   ],
+   "xl_range": [
+    1016,
+    1527
+   ],
+   "x_coeff": [
+    12.052268932853,
+    -9.575555703045094,
+    409111.30315943004
+   ],
+   "y_coeff": [
+    14.36333333316424,
+    8.03484438136183,
+    8429426.301014325
+   ],
+   "max_resid_m": 0.0070657640506937855,
+   "bin_len_il_m": 18.750000823183996,
+   "bin_len_xl_m": 12.499999650192843,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    4068.169409275264,
+    1274.9625528823208
+   ],
+   "well_bin_recorded": [
+    4068.1693849118637,
+    1274.9624030484924
+   ],
+   "bin_disagreement": [
+    2.436340037093032e-05,
+    0.0001498338283454359
+   ]
+  },
+  {
+   "well": "Kronos 1",
+   "il_range": [
+    2263,
+    2646
+   ],
+   "xl_range": [
+    2424,
+    2935
+   ],
+   "x_coeff": [
+    12.052268897975665,
+    -9.57555570400725,
+    409111.30331891665
+   ],
+   "y_coeff": [
+    14.363333333692566,
+    8.03484423934199,
+    8429426.301266078
+   ],
+   "max_resid_m": 0.0070682086042652545,
+   "bin_len_il_m": 18.750000801169996,
+   "bin_len_xl_m": 12.499999559641308,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    2410.017128848931,
+    2669.9732730740607
+   ],
+   "well_bin_recorded": [
+    2410.017142866442,
+    2669.9731062227347
+   ],
+   "bin_disagreement": [
+    -1.4017511148267658e-05,
+    0.0001668513259573956
+   ]
+  },
+  {
+   "well": "Pharos 1",
+   "il_range": [
+    3031,
+    3414
+   ],
+   "xl_range": [
+    1144,
+    1655
+   ],
+   "x_coeff": [
+    12.05226894898009,
+    -9.575555704559097,
+    409111.3031455855
+   ],
+   "y_coeff": [
+    14.363333333704675,
+    8.034844317424955,
+    8429426.301092729
+   ],
+   "max_resid_m": 0.007064269648953408,
+   "bin_len_il_m": 18.75000083396429,
+   "bin_len_xl_m": 12.499999610254807,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    3254.9798637126887,
+    1391.9918903734442
+   ],
+   "well_bin_recorded": [
+    3254.979858551476,
+    1391.9917104935869
+   ],
+   "bin_disagreement": [
+    5.161212811799487e-06,
+    0.00017987985734180256
+   ]
+  },
+  {
+   "well": "Poseidon 1",
+   "il_range": [
+    3031,
+    3414
+   ],
+   "xl_range": [
+    2040,
+    2551
+   ],
+   "x_coeff": [
+    12.05226897543951,
+    -9.575555704466774,
+    409111.30306098214
+   ],
+   "y_coeff": [
+    14.363333333695003,
+    8.034844421144467,
+    8429426.300828028
+   ],
+   "max_resid_m": 0.007077303795477226,
+   "bin_len_il_m": 18.750000850964668,
+   "bin_len_xl_m": 12.499999676853697,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    3179.653162981794,
+    2336.620340416227
+   ],
+   "well_bin_recorded": [
+    3179.653159022477,
+    2336.620194062159
+   ],
+   "bin_disagreement": [
+    3.959316927648615e-06,
+    0.00014635406796514872
+   ]
+  },
+  {
+   "well": "Zephyros 1",
+   "il_range": [
+    1751,
+    2134
+   ],
+   "xl_range": [
+    2552,
+    3063
+   ],
+   "x_coeff": [
+    12.052268927544995,
+    -9.575555702150343,
+    409111.3032567097
+   ],
+   "y_coeff": [
+    14.363333333709916,
+    8.034844337098146,
+    8429426.300994223
+   ],
+   "max_resid_m": 0.007070800919569502,
+   "bin_len_il_m": 18.75000082019009,
+   "bin_len_xl_m": 12.499999621055279,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    1943.1258061661658,
+    2855.59176753956
+   ],
+   "well_bin_recorded": [
+    1943.1258308591089,
+    2855.5915880625485
+   ],
+   "bin_disagreement": [
+    -2.4692943043191917e-05,
+    0.00017947701144294115
+   ]
+  },
+  {
+   "well": "Poseidon 2",
+   "il_range": [
+    2647,
+    3030
+   ],
+   "xl_range": [
+    2040,
+    2551
+   ],
+   "x_coeff": [
+    12.05226896913161,
+    -9.575555704001115,
+    409111.3031121473
+   ],
+   "y_coeff": [
+    14.363333333701348,
+    8.034844421144921,
+    8429426.300828118
+   ],
+   "max_resid_m": 0.007069935716965719,
+   "bin_len_il_m": 18.750000846914887,
+   "bin_len_xl_m": 12.499999676497273,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    2856.034927346759,
+    2284.066316133059
+   ],
+   "well_bin_recorded": [
+    2856.0349309720223,
+    2284.0661532652375
+   ],
+   "bin_disagreement": [
+    -3.6252631616662256e-06,
+    0.0001628678214729007
+   ]
+  },
+  {
+   "well": "Poseidon North 1",
+   "il_range": [
+    3287,
+    3670
+   ],
+   "xl_range": [
+    2168,
+    2679
+   ],
+   "x_coeff": [
+    12.052268919198983,
+    -9.57555570202888,
+    409111.3032310095
+   ],
+   "y_coeff": [
+    14.36333333420757,
+    8.034844276455122,
+    8429426.30116248
+   ],
+   "max_resid_m": 0.007061589725788694,
+   "bin_len_il_m": 18.7500008152066,
+   "bin_len_xl_m": 12.49999958198165,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    3524.823420392223,
+    2400.019769233651
+   ],
+   "well_bin_recorded": [
+    3524.823408418123,
+    2400.0196393987826
+   ],
+   "bin_disagreement": [
+    1.1974099834333174e-05,
+    0.00012983486840312253
+   ]
+  },
+  {
+   "well": "Proteus 1",
+   "il_range": [
+    2519,
+    2902
+   ],
+   "xl_range": [
+    1272,
+    1783
+   ],
+   "x_coeff": [
+    12.052268832938719,
+    -9.575555703690888,
+    409111.30349400983
+   ],
+   "y_coeff": [
+    14.363333333668098,
+    8.034844267796128,
+    8429426.301167674
+   ],
+   "max_resid_m": 0.0070634111383824,
+   "bin_len_il_m": 18.75000075934631,
+   "bin_len_xl_m": 12.499999577688929,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    2765.9070419529953,
+    1492.7550079454982
+   ],
+   "well_bin_recorded": [
+    2765.9070483687806,
+    1492.7548113455132
+   ],
+   "bin_disagreement": [
+    -6.4157852648349945e-06,
+    0.00019659998497445486
+   ]
+  },
+  {
+   "well": "Torosa 1",
+   "il_range": [
+    983,
+    1366
+   ],
+   "xl_range": [
+    2296,
+    2807
+   ],
+   "x_coeff": [
+    12.052268975799095,
+    -9.575555701104738,
+    409111.30322967813
+   ],
+   "y_coeff": [
+    14.363333333724775,
+    8.034844275833484,
+    8429426.301164381
+   ],
+   "max_resid_m": 0.007065611211664898,
+   "bin_len_il_m": 18.750000851218612,
+   "bin_len_xl_m": 12.499999580874135,
+   "shape": [
+    384,
+    512
+   ],
+   "well_bin_from_block_fit": [
+    1193.6293531367617,
+    2512.8928285922193
+   ],
+   "well_bin_recorded": [
+    1193.629395793596,
+    2512.892603871254
+   ],
+   "bin_disagreement": [
+    -4.26568342390965e-05,
+    0.00022472096543424414
+   ]
+  }
+ ],
+ "provenance_affine": {
+  "A": [
+   [
+    1205.226958,
+    -957.555533
+   ],
+   [
+    1436.333333,
+    803.484399
+   ]
+  ],
+  "B": [
+   40911129.891,
+   842942630.308
+  ],
+  "scalar": -100
+ },
+ "agreement_with_provenance": [
+  {
+   "well": "Boreas 1",
+   "dA_il": [
+    -7.104557880666107e-05,
+    2.123499598383205e-07
+   ],
+   "dA_xl": [
+    -3.728385831891501e-05,
+    3.061120162328734e-05
+   ]
+  },
+  {
+   "well": "Crown 1",
+   "dA_il": [
+    -6.471469987445744e-05,
+    3.1642389330954757e-07
+   ],
+   "dA_xl": [
+    -3.73045094193003e-05,
+    3.91361829770176e-05
+   ]
+  },
+  {
+   "well": "Kronos 1",
+   "dA_il": [
+    -6.82024335674214e-05,
+    3.692566679092124e-07
+   ],
+   "dA_xl": [
+    -3.7400725091174536e-05,
+    2.4934198904702498e-05
+   ]
+  },
+  {
+   "well": "Pharos 1",
+   "dA_il": [
+    -6.310199091785762e-05,
+    3.704674327309476e-07
+   ],
+   "dA_xl": [
+    -3.745590970538615e-05,
+    3.2742495477577904e-05
+   ]
+  },
+  {
+   "well": "Poseidon 1",
+   "dA_il": [
+    -6.045604891369294e-05,
+    3.695001851156121e-07
+   ],
+   "dA_xl": [
+    -3.744667742466845e-05,
+    4.3114446611980384e-05
+   ]
+  },
+  {
+   "well": "Zephyros 1",
+   "dA_il": [
+    -6.52455005365482e-05,
+    3.7099152905284427e-07
+   ],
+   "dA_xl": [
+    -3.721503435372142e-05,
+    3.470981459940958e-05
+   ]
+  },
+  {
+   "well": "Poseidon 2",
+   "dA_il": [
+    -6.108683896854927e-05,
+    3.7013478504377417e-07
+   ],
+   "dA_xl": [
+    -3.740011152331135e-05,
+    4.311449208671547e-05
+   ]
+  },
+  {
+   "well": "Poseidon North 1",
+   "dA_il": [
+    -6.608010153286159e-05,
+    4.207570327707799e-07
+   ],
+   "dA_xl": [
+    -3.720288816566608e-05,
+    2.8645512088587566e-05
+   ]
+  },
+  {
+   "well": "Proteus 1",
+   "dA_il": [
+    -7.470612808901933e-05,
+    3.668098997877678e-07
+   ],
+   "dA_xl": [
+    -3.736908888640755e-05,
+    2.7779612764788908e-05
+   ]
+  },
+  {
+   "well": "Torosa 1",
+   "dA_il": [
+    -6.042009044904262e-05,
+    3.724774160218658e-07
+   ],
+   "dA_xl": [
+    -3.7110473840584746e-05,
+    2.858334835309506e-05
+   ]
+  }
+ ],
+ "conclusion": "all block fits share one affine to within the stated residuals; bins are 18.75 m along inline index and 12.5 m along crossline index; every well's bin from its NOPTA coordinates agrees with the bin recorded at extraction",
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v02_grid_and_bins.py",
+   "sha256": "fab205348e24c99c5df76b1c92a6008e971162d5bc930a657dbd79d7fa218226"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T21:15:33Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Boreas_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T19:31:54Z",
+    "sha256": "2d2737eebf6fc91c6e523583ca245efc6212e59dc0713157c52cb16eac90d317"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Crown_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T19:39:02Z",
+    "sha256": "8e37243e33daf6f59d37eb3ae3078ae8200f6ce851a0b60db802815e4f3fc65a"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Kronos_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T19:45:53Z",
+    "sha256": "12629a5e1e7f6c1aca25a8694305b1c7a05db269cb6e33b92be5bc44809f7781"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Pharos_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T19:51:16Z",
+    "sha256": "f5b97480aefa4c9d263d278571d23d14d31caa2642a3c0f610786ea8043f39f5"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Poseidon_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T19:57:53Z",
+    "sha256": "eefe25d6b19e34b24340e4d9779ec8b7994346bdb88a6b504b45c45dad215758"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Poseidon_2_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T21:02:54Z",
+    "sha256": "63c2b256a9120be17876f3c4ac6791e6221ba4c33cbfd93d4ae4ef283352f6e7"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Poseidon_North_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T21:06:14Z",
+    "sha256": "cb4fdd27e3059868b3c76de27c301bdbb060827da8659405757e6193a7a71502"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Proteus_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T21:09:33Z",
+    "sha256": "6f52846f92ff1865b82edba7e4e211ce9a63f01e1283a3cb3f633ca59defdc59"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Torosa_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T21:15:13Z",
+    "sha256": "3b682e3fcf7d153f9384c6a59dfeff08d2df426e2fe7392b711bb05a3f66a975"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_Zephyros_1_headers.npz",
+    "bytes": 4719592,
+    "mtime_utc": "2026-09-16T20:27:53Z",
+    "sha256": "15be930bc15602fe71276aa5d555085b83c2b2cf58b4d5184d591c82e32ba304"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/seismic/near_stack_blocks_record.json",
+    "bytes": 6971,
+    "mtime_utc": "2026-09-16T21:15:15Z",
+    "sha256": "e1775cff80c9adcee5fb1e625c5a981fb5b6eb0c9e945d87d6f61e32b3c48ddd"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/wells_positions.json",
+    "bytes": 7532,
+    "mtime_utc": "2026-09-16T19:27:43Z",
+    "sha256": "1fb3d53d26cb0449409164a3849b5f898fedb1eaad416a2d2160907a312e7d67"
+   }
+  ],
+  "config": {}
+ }
+}

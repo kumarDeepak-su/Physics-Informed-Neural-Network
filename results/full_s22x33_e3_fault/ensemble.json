@@ -1,0 +1,362 @@
+{
+  "clean_wells5+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.56769757964523,
+      "crop_fault": 27.5359593123353,
+      "crop_second": 35.29624478965757
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 31.917115208961427,
+      "crop_fault": 27.165054015040987,
+      "crop_second": 34.96803399438085
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 32.25412123999446,
+      "crop_fault": 27.35742168796375,
+      "crop_second": 35.140869140575305
+    }
+  },
+  "clean_wells5": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.72865492568187,
+      "crop_fault": 31.305657028456643,
+      "crop_second": 34.77481045527158
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.936814569857056,
+      "crop_fault": 31.97603712453173,
+      "crop_second": 34.02406866542898
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 32.884841642342515,
+      "crop_fault": 31.668428397224474,
+      "crop_second": 34.489404250850775
+    }
+  },
+  "clean_none+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.09399090431638,
+      "crop_fault": 27.85837250236801,
+      "crop_second": 35.56113227264826
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 31.96797038535682,
+      "crop_fault": 27.838373692031322,
+      "crop_second": 35.52250118502086
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 32.045333910231626,
+      "crop_fault": 27.852121994899615,
+      "crop_second": 35.564259737931216
+    }
+  },
+  "clean_none": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.83563940755829,
+      "crop_fault": 31.999885482940602,
+      "crop_second": 34.00042342021416
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.680702811823586,
+      "crop_fault": 31.96716884705239,
+      "crop_second": 34.032087407627635
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 32.78144572587763,
+      "crop_fault": 32.00017979744452,
+      "crop_second": 34.034325818458974
+    }
+  },
+  "clean_dense+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 34.29879821869419,
+      "crop_fault": 29.82679427195756,
+      "crop_second": 35.86510099388647
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 39.274459368154155,
+      "crop_fault": 33.80312945255147,
+      "crop_second": 40.325023110514984
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 37.09454213258135,
+      "crop_fault": 31.70535234913082,
+      "crop_second": 38.27046811911427
+    }
+  },
+  "clean_dense": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 38.364384732283135,
+      "crop_fault": 34.86152336120655,
+      "crop_second": 39.61403756204615
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 37.02281612797228,
+      "crop_fault": 33.96594950870623,
+      "crop_second": 37.80570659448087
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 37.75080833968428,
+      "crop_fault": 34.446361265015646,
+      "crop_second": 38.791507479369514
+    }
+  },
+  "clean_wells2+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.04852802992716,
+      "crop_fault": 27.325203012229615,
+      "crop_second": 35.109109468209006
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 31.966395951354073,
+      "crop_fault": 27.230242911747837,
+      "crop_second": 35.09604149926096
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 32.012988427226034,
+      "crop_fault": 27.278746620935557,
+      "crop_second": 35.114750452877985
+    }
+  },
+  "clean_wells10+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 33.92428931735223,
+      "crop_fault": 28.556525485568727,
+      "crop_second": 35.71506742193232
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.57791243577395,
+      "crop_fault": 27.848866189491748,
+      "crop_second": 35.840566686666904
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 33.60255446633692,
+      "crop_fault": 28.312365686150002,
+      "crop_second": 36.16979575378303
+    }
+  },
+  "clean_wells20+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 33.707514949972264,
+      "crop_fault": 28.886202782054255,
+      "crop_second": 35.54744076145233
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 34.15909332014509,
+      "crop_fault": 29.634594167780506,
+      "crop_second": 36.097663781947034
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 34.03538991783696,
+      "crop_fault": 29.29628464895799,
+      "crop_second": 35.89283575844219
+    }
+  },
+  "noisy_wells5+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 37.55366432409195,
+      "crop_fault": 32.12548007231402,
+      "crop_second": 40.98821134918106
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 37.513367659075016,
+      "crop_fault": 32.02402931852954,
+      "crop_second": 41.60063188998024
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 37.74141664851495,
+      "crop_fault": 32.13640223439176,
+      "crop_second": 41.54824831152872
+    }
+  },
+  "noisy_wells5": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 32.87846860250309,
+      "crop_fault": 29.806893501194534,
+      "crop_second": 34.42593909187623
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 33.58462290687129,
+      "crop_fault": 30.195619454346684,
+      "crop_second": 35.4667983259503
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 33.42905510026249,
+      "crop_fault": 30.110629827494453,
+      "crop_second": 35.21342683404745
+    }
+  },
+  "noisy_none+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 33.629422080132095,
+      "crop_fault": 30.062238259773608,
+      "crop_second": 38.48358809060639
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 33.03676593699099,
+      "crop_fault": 29.56342333278632,
+      "crop_second": 38.26748369132312
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 33.374316405339826,
+      "crop_fault": 29.85054882123368,
+      "crop_second": 38.40232274981322
+    }
+  },
+  "noisy_none": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 31.42834593525462,
+      "crop_fault": 28.571698819243274,
+      "crop_second": 33.17640858436969
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 31.832008317175195,
+      "crop_fault": 28.63688671155956,
+      "crop_second": 34.56347357619843
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 31.783456626719683,
+      "crop_fault": 28.706635228592706,
+      "crop_second": 33.98796209689924
+    }
+  },
+  "noisy_dense+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 42.44229210942077,
+      "crop_fault": 38.750839479169734,
+      "crop_second": 47.78082226757657
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 42.798464275913545,
+      "crop_fault": 39.256963035309376,
+      "crop_second": 48.087333356795455
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 42.68392678091651,
+      "crop_fault": 39.06915987348507,
+      "crop_second": 48.066970072914394
+    }
+  },
+  "noisy_dense": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 41.63044227549544,
+      "crop_fault": 37.015594453335446,
+      "crop_second": 44.37974813840644
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 39.75320973426216,
+      "crop_fault": 35.37314219574459,
+      "crop_second": 42.43617659107021
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 40.85054858600789,
+      "crop_fault": 36.2738828751752,
+      "crop_second": 43.639554417987966
+    }
+  },
+  "noisy_wells2+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 37.41095972419181,
+      "crop_fault": 32.528777438234385,
+      "crop_second": 40.47288580629329
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 37.12953528558231,
+      "crop_fault": 32.12180086517445,
+      "crop_second": 40.86082532025003
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 37.39567674292635,
+      "crop_fault": 32.381661531705106,
+      "crop_second": 40.82718915250364
+    }
+  },
+  "noisy_wells10+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 38.36546668045535,
+      "crop_fault": 33.33034287682099,
+      "crop_second": 41.51022120048105
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 38.6516729920157,
+      "crop_fault": 33.182889381962276,
+      "crop_second": 42.27049158711753
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 38.710718473195854,
+      "crop_fault": 33.30963584704314,
+      "crop_second": 42.04953800810568
+    }
+  },
+  "noisy_wells20+tv": {
+    "unet_seed_ensemble": {
+      "seeds": 5,
+      "whole": 38.84284669036411,
+      "crop_fault": 34.7756488362413,
+      "crop_second": 42.01146363370658
+    },
+    "rescnn_seed_ensemble": {
+      "seeds": 5,
+      "whole": 39.84062004754403,
+      "crop_fault": 35.08746266835747,
+      "crop_second": 43.142243153662996
+    },
+    "architecture_ensemble": {
+      "seeds": 10,
+      "whole": 39.56183156171079,
+      "crop_fault": 35.001427707389944,
+      "crop_second": 42.84757826220351
+    }
+  }
+}

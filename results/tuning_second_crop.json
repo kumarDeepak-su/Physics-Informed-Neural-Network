@@ -1,0 +1,132 @@
+[
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.66287270775912,
+  "sec": 20.078354120254517
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 40.7428400420565,
+  "sec": 25.322041749954224
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 35.060823565893315,
+  "sec": 17.09281015396118
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 35.54851979422037,
+  "sec": 17.00979495048523
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.59185157376178,
+  "snr": 34.61231763895886,
+  "sec": 16.866725206375122
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.59185157376178,
+  "snr": 39.121760176426776,
+  "sec": 17.059951066970825
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.75262300089847,
+  "snr": 34.79473556842959,
+  "sec": 17.01974606513977
+ },
+ {
+  "prior": "tv",
+  "lowband": 0.0,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.75262300089847,
+  "snr": 38.73681911042085,
+  "sec": 16.93663787841797
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.61772748504884,
+  "sec": 17.142178058624268
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "clean",
+  "sup": "wells",
+  "prior_snr": 34.6281721539513,
+  "snr": 36.87635443407556,
+  "sec": 16.129968881607056
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "none",
+  "prior_snr": 34.40744384435114,
+  "snr": 34.8745423954323,
+  "sec": 16.964967966079712
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 12.0,
+  "data": "noisy",
+  "sup": "wells",
+  "prior_snr": 34.40744384435114,
+  "snr": 35.22550177358971,
+  "sec": 16.130934953689575
+ },
+ {
+  "prior": "rw",
+  "lowband": 0.3,
+  "sigma": 24.0,
+  "data": "clean",
+  "sup": "none",
+  "prior_snr": 34.6281721539513,
+  "snr": 34.61956563413453,
+  "sec": 17.731104612350464
+ }
+]

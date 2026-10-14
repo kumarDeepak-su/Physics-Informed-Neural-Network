@@ -1,0 +1,338 @@
+{
+ "item": "(4) time-depth control per well, joint density+sonic window in TWT, effective samples",
+ "band_hz": [
+  8.0,
+  45.0
+ ],
+ "wells": {
+  "Boreas 1": {
+   "time_depth_source": null,
+   "kind": "no delivered time-depth in the files on disk",
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Boreas1Decim.LAS",
+    "md_range_m": [
+     4012.5,
+     5174.5
+    ],
+    "n": 2280,
+    "sonic_curve": "DTCO",
+    "density_curve": "RHOB"
+   }
+  },
+  "Crown 1": {
+   "time_depth_source": null,
+   "kind": "no delivered time-depth in the files on disk",
+   "spliced_depth_window": null
+  },
+  "Kronos 1": {
+   "time_depth_source": "wells/Kronos_1/VSP/CP_Kronos1_Time_to_Depth_Report.xls",
+   "kind": "tz(+0 ms column) SRD=MSL",
+   "levels": 338,
+   "tvd_range_m": [
+    0.0,
+    5262.1
+   ],
+   "twt_range_s": [
+    0.0,
+    3.37
+   ],
+   "monotonic": true,
+   "time_domain_logs": "wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+   "joint_rhob_dt_window_s": [
+    2.112,
+    3.378,
+    1267
+   ],
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Kronos1Decim.LAS",
+    "md_range_m": [
+     4706.0,
+     5307.0
+    ],
+    "n": 1164,
+    "sonic_curve": "DTCO",
+    "density_curve": "RHOB"
+   },
+   "spliced_window_mapped_to_twt_s": [
+    3.1184000000000003,
+    3.37
+   ],
+   "T_s": 1.266,
+   "n_eff_band": 93.684
+  },
+  "Pharos 1": {
+   "time_depth_source": "wells/Pharos_1/VSP/COP-Pharos-1_QC_VSP_TimeDepthListing.xlsx",
+   "kind": "xlsx TimeDepthListing (TVD from SRD=MSL, TWT TVD-corrected)",
+   "levels": 196,
+   "tvd_range_m": [
+    448.02,
+    5187.09
+   ],
+   "twt_range_s": [
+    0.589682,
+    3.355089
+   ],
+   "monotonic": true,
+   "time_domain_logs": "wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+   "joint_rhob_dt_window_s": [
+    2.684,
+    3.355,
+    672
+   ],
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Pharos1Decim.LAS",
+    "md_range_m": [
+     4038.5,
+     5177.5
+    ],
+    "n": 2225,
+    "sonic_curve": "DTC",
+    "density_curve": "RHOB"
+   },
+   "spliced_window_mapped_to_twt_s": [
+    2.709924096153846,
+    3.35142425
+   ],
+   "T_s": 0.6709999999999998,
+   "n_eff_band": 49.65399999999999
+  },
+  "Poseidon 1": {
+   "time_depth_source": "wells/Poseidon_1/reports/Poseidon1_VSP_Table33_time_depth.csv",
+   "kind": "WCR Vol 2 Table 33 (depth below SRD=AHD, 2 x vertical transit time)",
+   "levels": 146,
+   "tvd_range_m": [
+    494.0,
+    4924.5
+   ],
+   "twt_range_s": [
+    0.6516,
+    3.2312
+   ],
+   "monotonic": true,
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Poseidon1Decim.LAS",
+    "md_range_m": [
+     4552.5,
+     4974.0
+    ],
+    "n": 817,
+    "sonic_curve": "DTCO",
+    "density_curve": "HROM"
+   },
+   "spliced_window_mapped_to_twt_s": [
+    3.0349010947168016,
+    3.2312
+   ],
+   "T_s": 0.19629890528319827,
+   "n_eff_band": 14.526118990956672
+  },
+  "Poseidon 2": {
+   "time_depth_source": "wells/Poseidon_2/VSP/CP_Poseidon2_Well_Seismic_Report.xls",
+   "kind": "levels(TVD-SRD, 2 x vertical one-way time)",
+   "levels": 245,
+   "tvd_range_m": [
+    1267.8,
+    5195.0
+   ],
+   "twt_range_s": [
+    1.3622,
+    3.3324
+   ],
+   "monotonic": true,
+   "time_domain_logs": "wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+   "joint_rhob_dt_window_s": [
+    1.987,
+    3.387,
+    1401
+   ],
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Poseidon2Decim.LAS",
+    "md_range_m": [
+     4105.5,
+     5297.0
+    ],
+    "n": 2367,
+    "sonic_curve": "DTCO",
+    "density_curve": "RHOB"
+   },
+   "spliced_window_mapped_to_twt_s": [
+    2.762664,
+    3.3324
+   ],
+   "T_s": 1.4,
+   "n_eff_band": 103.6
+  },
+  "Poseidon North 1": {
+   "time_depth_source": null,
+   "kind": "no delivered time-depth in the files on disk",
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/PoseidonNorth1Decim.LAS",
+    "md_range_m": [
+     3782.0,
+     4931.5
+    ],
+    "n": 2300,
+    "sonic_curve": "DTCO",
+    "density_curve": "RHOB"
+   }
+  },
+  "Proteus 1": {
+   "time_depth_source": "wells/Proteus_1/VSP/COP_Proteus-1ST2_A1_Well_Seismic_Report_Final.xls",
+   "kind": "levels(TVD-SRD, 2 x vertical one-way time)",
+   "levels": 232,
+   "tvd_range_m": [
+    479.6,
+    5238.9
+   ],
+   "twt_range_s": [
+    0.601,
+    3.3516
+   ],
+   "monotonic": true,
+   "time_domain_logs": "wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+   "joint_rhob_dt_window_s": [
+    2.082,
+    3.353,
+    1272
+   ],
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Proteus1Decim.LAS",
+    "md_range_m": [
+     4922.0,
+     5244.0
+    ],
+    "n": 645,
+    "sonic_curve": "DTCO",
+    "density_curve": "RHOB"
+   },
+   "spliced_window_mapped_to_twt_s": [
+    3.217264052287582,
+    3.3516
+   ],
+   "T_s": 1.2710000000000004,
+   "n_eff_band": 94.05400000000003
+  },
+  "Torosa 1": {
+   "time_depth_source": "wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+   "kind": "checkshot-calibrated LAS (TVD from MSL, TWT from MSL)",
+   "levels": 30437,
+   "tvd_range_m": [
+    0.0,
+    4635.1315
+   ],
+   "twt_range_s": [
+    0.0,
+    2.9982683000000003
+   ],
+   "monotonic": true,
+   "spliced_depth_window": {
+    "file": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Spliced_occam/Torosa1LDecim.LAS",
+    "md_range_m": [
+     3589.0,
+     4645.5
+    ],
+    "n": 1027,
+    "sonic_curve": "DTS",
+    "density_curve": "RHOZ"
+   },
+   "spliced_window_mapped_to_twt_s": [
+    2.472447852527906,
+    2.9982683000000003
+   ],
+   "T_s": 0.5258204474720944,
+   "n_eff_band": 38.910713112934985
+  },
+  "Zephyros 1": {
+   "time_depth_source": null,
+   "kind": "no delivered time-depth in the files on disk",
+   "spliced_depth_window": null
+  }
+ },
+ "pooled_n_eff": 394.42883210389164,
+ "note": "BAND is provisional until v05 measures the near-stack wavelet; the spliced (Occam) windows are a cross-check, not the primary source",
+ "run": {
+  "script": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/v04_time_depth.py",
+   "sha256": "4c2cac6da5b97c37aef2e24ef60e8ad53ed6a193e528edfd7844b24bb9d1f241"
+  },
+  "vlib": {
+   "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/DATA_POST_STACK/POSEIDON_FIELD_INVERSION/verify/scripts/vlib.py",
+   "sha256": "b23a07ca2946ba77f3806cb407f5223b675df0c617fc90481fc478856b544500"
+  },
+  "run_utc": "2026-09-16T20:36:28Z",
+  "python": "3.14.3",
+  "numpy": "2.5.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/deepakkumar/.venvs/deepfwi/bin/python",
+  "release_root_used": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D",
+  "release_root_note": "Poseidon3D raw folder (AWS near-stack blocks, NOPIMS/Drive well files, ConocoPhillips reports), read-only",
+  "inputs": [
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Logs_time.las",
+    "bytes": 851161,
+    "mtime_utc": "2018-01-29T06:18:55Z",
+    "sha256": "5d5e64ff0ae21d48448d34e383d946032fcd5689393442e390cdcf5feee433c2"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Kronos_1/VSP/CP_Kronos1_Time_to_Depth_Report.xls",
+    "bytes": 89088,
+    "mtime_utc": "2026-09-16T20:02:23Z",
+    "sha256": "1a16aa4109aa091396beaf5271a1c722b916900573283063e5d17f55e6167c34"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Pharos_1/VSP/COP-Pharos-1_QC_VSP_TimeDepthListing.xlsx",
+    "bytes": 25923,
+    "mtime_utc": "2021-03-12T08:07:51Z",
+    "sha256": "2ea3275f28e84901bd5fa8c7d2be8c1cb00052cca584f62f3e80004ec519edeb"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Pharos_1/VSP/COP_Pharos-1_logs_time.las",
+    "bytes": 837760,
+    "mtime_utc": "2018-02-26T11:40:33Z",
+    "sha256": "b04fbe5951f185fd259822f65b8d8f6a1741fc141261d50a161ac5f02bc8a2de"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Poseidon_1/reports/Poseidon1_VSP_Table33_time_depth.csv",
+    "bytes": 24063,
+    "mtime_utc": "2026-09-16T20:24:14Z",
+    "sha256": "ee53a466b59b01dbc20a52561b43f4f98ddd7d295a18d7af0123a366b1194400"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_Well_Seismic_Report.xls",
+    "bytes": 111104,
+    "mtime_utc": "2026-09-16T20:06:00Z",
+    "sha256": "6db9c2e31f0e62e3dd72cbcdf6ff0288b618701e58af02c796cb62fb0b7c19a7"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Poseidon_2/VSP/CP_Poseidon2_logs_time.las",
+    "bytes": 812688,
+    "mtime_utc": "2026-09-16T20:05:38Z",
+    "sha256": "3d0bf6f79c6862805ba6dc88b3541d17ed90e4ca6afeeb4d928225d0aa0d4649"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_A1_Well_Seismic_Report_Final.xls",
+    "bytes": 98816,
+    "mtime_utc": "2026-09-16T20:19:56Z",
+    "sha256": "8f81b4edcf5dd6aaea00bfea36f5124dde6fc64775a8592ce9315dfbfb1f1f77"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Proteus_1/VSP/COP_Proteus-1ST2_logs_time.las",
+    "bytes": 793306,
+    "mtime_utc": "2026-09-16T20:20:47Z",
+    "sha256": "399737213a350b6db65eacc6de9437a6d7989ecec7c5eebcb66a6d16708b4a92"
+   },
+   {
+    "path": "/Users/deepakkumar/Desktop/ONGOING_RESEARCH/MARMOUSI/Reweighted_L1_Sparse/2D_ADMM_PINN_MANUSCRIPT/Poseidon3D/wells/Torosa_1/VSP/TZV_DEPTH_CS_CALIBRATED_LOGS.LAS",
+    "bytes": 3446624,
+    "mtime_utc": "2026-09-16T20:20:03Z",
+    "sha256": "7ae6ae68186de2a75dc3f72acd7b2541989623463320c6176c5cd51fe6b1e98d"
+   }
+  ],
+  "config": {
+   "band_hz": [
+    8.0,
+    45.0
+   ]
+  }
+ }
+}
